@@ -19,7 +19,7 @@ To view any CAT information.
 
 - Click on the search result to view the full details of the CAT. 
 
-:::tip Info
+:::tip Trading Tip
 
 From this CAT details page, the user can trade that particular CAT in any of the three CAT trading websites. 
 
@@ -29,14 +29,15 @@ From this CAT details page, the user can trade that particular CAT in any of the
 
 ## Update CAT details from here
 
-CAT details can be update from the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens) in the future.
-If any CAT doesnot have any details, the CAT owner can update the CAT by clicking on the `Update Token` button 
-displayed alongside their CAT
-
+CAT details can be update from the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens).
+If any CAT doesnot have any details, the CAT owner can update the CAT by clicking on the `Update CAT` button 
+displayed alongside their CAT. After clicking `Update CAT` button, the user need to undergo [these steps](../spacescan.io-tutorial/updatecatinfo.md) for updating the CAT.  
 
 :::tip HINT
 
-Once the user clicks on the `update token` button, User will be redirected to login page or update cat token page 
+Once the user clicks on the `update CAT` button, User will be redirected to login page or update cat token page 
 based on thier account login information. 
 
 :::
+
+![Top Tokens CAT details](/img/updatecatinfodetails/update_token_tokenpage.png)

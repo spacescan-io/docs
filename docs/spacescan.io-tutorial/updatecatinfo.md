@@ -62,3 +62,13 @@ Once the CAT details are updayed successfully.
 - CAT details that are updated will be visible under the [Top Tokens page](https://www.spacescan.io/xch/cat1/topTokens) page after 10 minuntes. 
 
 - User can search their CAT details by providing their asset ID in the search box present in the [Top Tokens page](https://www.spacescan.io/xch/cat1/topTokens)
+
+Please wait 
+for 10 mins before checking the cat info and also don't update the same information again. This will reduce your 
+total update limit (**Max-limit:** 5 times/cat user)
+
+:::tip TIP
+
+Each cat update will take 10 mins to see the changes cat summary page.
+Please wait for 10 mins before checking the cat info and don't update the same information again during this time period. This will reduce your total CAT update limit (**Max-limit:** 5 times/cat user)
+:::
