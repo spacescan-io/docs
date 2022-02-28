@@ -7,19 +7,22 @@ sidebar_position: 1
 **CAT API** is a rest API by which individual CAT information can be fetched based on
 the cat `asset id`.
 
-- This API is still under a growing stage, so please try to use this API respectfully. 
+- This API is still under a developing stage, so please try to use this API cautiously . 
 
-- New features or change in attributes will happen in the future. Hence, make sure the scheme 
+- New features or change in attributes will happen in the future. Hence, make sure the schema 
 before using the response. 
-
-- Please reference [spacescan.io](https://www.spacescan.io/) and this API, if this API is used for building any 
-product or feature.
 
 - We are happy to help with more features and parametes under this API. Please contact the spacescan.io team at [discord](https://discord.com/invite/Bb4sj3Bg9P), [twitter](https://twitter.com/spacescan_io) or at `spacescan.io@gmail.com` for any suggestions or bugs. 
 
+:::info Info
+
+We would appreciate your effort on linking back to [spacescan.io](https://www.spacescan.io/) and this API, if this API is used for building any product or feature on top of it.
+
+:::
+
 ## CAT info API endpoint
 
-The API endpoint to hit for the individual cat information response `https://api2.spacescan.io/v0.1/xch/cat/assetid`.
+The API endpoint to hit for the individual cat information response `https://api2.spacescan.io/v0.1/xch/cat/{assetid}`.
 
 - This `assetid` in the endpoint needs to be replaced with the assetid that the user needs information about. 
 
@@ -54,18 +57,20 @@ The API endpoint to hit for the individual cat information response `https://api
 
 :::info Info
 
-Whenever there is a change in the version, the endpoint for this API will change. This change will be updated here in the docs. 
+- Whenever there is a change in the version, the endpoint for this API will change. This change will be updated here in the docs. 
+- The last three old versions will always be supported along with the new version. We would provide two weeks 
+notice prior to the old version decommission date.
 
 :::
 
 ## Details about each response attribute
 
-Each attributes inside the response denotes contains different information. 
+Each attributes inside the response denotes different information about the CAT. 
 
-- `status` denotes whether the API call is made successfully or not. `SUCCESS` symbolize the call is made success, `FAILURE` symbolize the call is not success. 
+- `status` denotes whether the API call is made successfully or not. `SUCCESS` symbolize the call is success, `FAILURE` symbolize the call is not success. 
  
-- `cat` object contains the details about the CAT asset id provided. 
+- `cat` object contains the details about the CAT asset id provided in the endpoint. 
 
 ![CAT Response](/img/updatecatinfodetails/postman_cat_response.png)
 
-- This CAT information will have some more details when compared to the [CATS API](../for-developers/cats_api.md) v1 alpha
+- This CAT information from this API, will have some more details when compared to the [CATS API](../for-developers/cats_api.md) v1 alpha
