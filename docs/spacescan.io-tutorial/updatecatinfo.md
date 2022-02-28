@@ -11,7 +11,7 @@ CAT information can be updated by clicking the [Add Token](https://www.spacescan
 This page will redirect to the update cat page, if the user is logged in to the spacescan explorer else 
 it will redirect the user to the login page. 
 
-## Log in to spacescan,io
+## Log in to spacescan.io
  
 For logging into spacescan.io website, user needs a valid e-mail id and password. 
 we will send a verfication code to the provided email-id. 
@@ -63,12 +63,10 @@ Once the CAT details are updayed successfully.
 
 - User can search their CAT details by providing their asset ID in the search box present in the [Top Tokens page](https://www.spacescan.io/xch/cat1/topTokens)
 
-Please wait 
-for 10 mins before checking the cat info and also don't update the same information again. This will reduce your 
-total update limit (**Max-limit:** 5 times/cat user)
-
 :::tip TIP
 
-Each cat update will take 10 mins to see the changes cat summary page.
-Please wait for 10 mins before checking the cat info and don't update the same information again during this time period. This will reduce your total CAT update limit (**Max-limit:** 5 times/cat user)
+For better performance and results, There is a caching mechanism spacescan follow.  
+Each cat update will take 1 hour to see the changes in cat summary page.
+Please wait for 1 hour before checking the cat info and don't update the same information again during this time period. This will reduce your total CAT update limit (**Max-limit:** 5 times/cat owner)
+
 :::

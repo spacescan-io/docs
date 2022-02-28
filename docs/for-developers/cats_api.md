@@ -4,26 +4,30 @@ sidebar_position: 1
 
 # CATS API (v1 alpha)
 
-**CATS API** is a rest API by which group of CAT information can be fetched based on
+**CATS API** is a rest API, by which group of CAT information can be fetched based on
 few params. 
 
-- This API is still under a growing stage, so please try to use this API respectfully. 
+- This API is still under a developing stage, so please try to use this API cautiously . 
 
-- New features or change in attributes will happen in the future. Hence, make sure the scheme 
+- New features or change in attributes will happen in the future. Hence, make sure the schema 
 before using the response. 
-
-- Please reference [spacescan.io](https://www.spacescan.io/) and this API, if this API is used for building
-product or feature.
 
 - We are happy to help with more features and parametes under this API. Please contact the spacescan.io team at [discord](https://discord.com/invite/Bb4sj3Bg9P), [twitter](https://twitter.com/spacescan_io) or at `spacescan.io@gmail.com` for any suggestions or bugs. 
 
+:::info Info
+
+We would appreciate your effort on linking back to [spacescan.io](https://www.spacescan.io/) and this API, if this API is used for building any product or feature on top of it.
+
+:::
+
 ## CATS info API endpoint
 
-The API endpoint to hit for the individual cat information response `https://api2.spacescan.io/v0.1/xch/cats`.
+The API endpoint to hit for the cats summary information response `https://api2.spacescan.io/v0.1/xch/cats`.
 
-- version `v0.1` denotes the alpha version of the API. `xch/cats` denotes the CAT present in the chia blockchain. 
+- version `v0.1` denotes the alpha version of the API. `xch/cats` denotes the CATs present in the chia blockchain. 
 
-- When the Rest Endpoint is called without any params, the response would have the all time top 100 tokens  
+- When the Rest Endpoint is called without any params, the response would have the all time top 100 tokens information.
+this all time top tokens is calculated based on the total number of transactions happened.   
 
 ```jsx title="CATS reponse for param count = 3"
 {
@@ -88,6 +92,13 @@ The API endpoint to hit for the individual cat information response `https://api
     }
 }
 ```
+:::info Info
+
+- Whenever there is a change in the version, the endpoint for this API will change. This change will be updated here in the docs. 
+- The last three old versions will always be supported along with the new version. We would provide two weeks 
+notice prior to the old version decommission date.
+
+:::
 
 ## Various params for customized response
 
