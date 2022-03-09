@@ -75,9 +75,9 @@ Each attributes inside the response denotes different information about the CAT.
 
 ![CAT x_auth_token](/img/updatecatinfodetails/Token_Api.png)
 
-- Set the header `x_auth_id` key with the value taken from the [spacescan.io](https://www.spacescan.io/) user profile info `API Key`
+- Set the header `x-auth-id` key with the value taken from the [spacescan.io](https://www.spacescan.io/) user profile info `API Key`
 
-- This header `x_auth_id` is used for the user validation, and this would be a mandatory header in the future.
+- This header `x-auth-id` is used for the user validation, and this would be a mandatory header in the future.
 
 ![CAT x_auth_id](/img/updatecatinfodetails/token_id.png)
 
