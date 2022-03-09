@@ -73,6 +73,14 @@ Each attributes inside the response denotes different information about the CAT.
 
 ![CAT Response](/img/updatecatinfodetails/postman_cat_response.png)
 
+![CAT x_auth_token](/img/updatecatinfodetails/Token_Api.png)
+
+- Set the header `x-auth-id` key with the value taken from the [spacescan.io](https://www.spacescan.io/) user profile info `API Key`
+
+- This header `x-auth-id` is used for the user validation, and this would be a mandatory header in the future.
+
+![CAT x_auth_id](/img/updatecatinfodetails/token_id.png)
+
 | Name      | DataType | Description    |
 | :---        |    :----:   |          :--- |
 | `asset_id`      | `String`       | Unique ID used fr tracking every CAT   |

@@ -117,6 +117,7 @@ This `count` has a maximum for about 100 and minimum of 1. The user cannot get d
 
 - This param `page` can be used with the param `count`. hence, the count of CAT displaying in the page can be filtered by this param. 
 
+
 :::info Default
 
 When calling the API with param `page` and without any `count` param, then the count will be defaulted to 100. In the same way, when calling the API with param `count` and without any `page` param, then the page will be defaulted to 1. 
@@ -128,6 +129,15 @@ When calling the API with param `page` and without any `count` param, then the c
 - `search` params is used for searching the cat information based on the asset name. The API endpoint needs to be added with the `search` param with the string that user need to search. 
 
 - The `summary` object has the page number attribute. Each page number contains 100 CAT information.
+
+![CAT x_auth_token](/img/updatecatinfodetails/Token_Api.png)
+
+- Set the header `x-auth-id` key with the value taken from the [spacescan.io](https://www.spacescan.io/) user profile info `API Key`
+
+- This header `x-auth-id` is used for the user validation, and this would be a mandatory header in the future.
+
+![CAT x_auth_id](/img/updatecatinfodetails/token_id.png)
+
 
 | Name      | DataType | Description    |
 | :---        |    :----:   |          :--- |
