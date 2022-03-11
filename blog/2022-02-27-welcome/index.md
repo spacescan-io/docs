@@ -2,7 +2,7 @@
 slug: welcome
 title: Welcome
 tags: [Chia, spacescan, explorer]
-authors: [ajayZorro]
+authors: [natsabari]
 ---
 
 [Spacescan.io](https://www.spacescan.io/) is an initiative mainly developed for the chia community to explore the chia blockchain. Spacescan is an easy accessible blockchain explorer and analytics platform with indepth details about the chia blockchain. Spacescan is developed by three friends, who works on weekends and started this out of passion and frustration 
