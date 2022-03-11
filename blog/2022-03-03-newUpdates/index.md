@@ -5,8 +5,7 @@ tags: [Chia, spacescan, explorer, charts]
 authors: [jagRudh]
 ---
 
-[Spacescan.io](https://www.spacescan.io/) is an initiative mainly developed for the chia community to explore the chia blockchain. Spacescan is an easy accessible blockchain explorer and analytics platform with indepth details about the chia blockchain. Spacescan is developed by three friends, who works on weekends and started this out of passion and frustration 
-with the current explorers. Spacescan is now under rapid development and undergo frequent updates.  
+[Spacescan.io](https://www.spacescan.io/) is an initiative mainly developed for the chia community to explore the chia blockchain. Spacescan is an easy accessible blockchain explorer and analytics platform with indepth details about the chia blockchain.
 
 As per user request, spacescan added new chart exclusively for mempool cost and removed combined mempool fees and mempool min fees together. 
 Hence, users can view the fees and min fees in a chart together and can view the mempool cost chart seperately. 
