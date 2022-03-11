@@ -8,7 +8,7 @@ authors: [ajayZorro]
 
  Spacescan will provide the students with the knowledge on how to build softwares in a professional working environment. Interns will learn blockchain, Crypto- transactions, Artificial Intelligence and Machine Learning on large datasets. Students working with spacescan will be making a huge impact to the chia community and thousands of spacscan users. 
 
-Spacesan provides different tasks, projects and meaningful mentorship to the students, so that they can learn new stuffs out of their academics. For interns, we exclusively host a hybrid model, where the interns will not join the daily meeting or call, but will be part of the daily tasks and spacescan updates. Tasks will be allocated in the spacescan github portal, Interns can pick and work on the tasks that they like to work on. 
+Spacesan provides different tasks, projects and meaningful mentorship to the students, so that they can learn new stuffs out of their academics. For interns, we exclusively host a hybrid model, where the interns will not join the daily meeting or call, but will be part of the daily tasks and spacescan updates. Tasks will be allocated in the spacescan [github portal](https://github.com/spacescan-io), Interns can pick and work on the tasks that they like to work on. 
 
 ## Apply here 
 
