@@ -2,7 +2,7 @@
 slug: Mempool Cost and Documentation added
 title: Mempool Cost and Documentation added
 tags: [Chia, spacescan, explorer, charts]
-authors: [ajayZorro]
+authors: [jagRudh]
 ---
 
 [Spacescan.io](https://www.spacescan.io/) is an initiative mainly developed for the chia community to explore the chia blockchain. Spacescan is an easy accessible blockchain explorer and analytics platform with indepth details about the chia blockchain. Spacescan is developed by three friends, who works on weekends and started this out of passion and frustration 
