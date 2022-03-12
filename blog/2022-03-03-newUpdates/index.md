@@ -1,7 +1,7 @@
 ---
-slug: Mempool Cost and Documentation added
-title: Mempool Cost and Documentation added
-tags: [Chia, spacescan, explorer, charts]
+slug: Mempool_Cost_trend
+title: Mempool Cost trend
+tags: [Chia, spacescan, explorer, charts, announcements]
 authors: [jagRudh]
 ---
 
