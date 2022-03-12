@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/spacescan-logo.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Spacescan.io', // Usually your GitHub org/user name.
+  projectName: 'Spacescan.io', // Usually your repo name.
 
   presets: [
     [
@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'Spacescan.io',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Spacescan.io',
           src: 'img/spacescan-logo.png',
         },
         items: [
@@ -79,16 +79,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/Bb4sj3Bg9P',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/spacescan_io',
               },
             ],
           },
@@ -101,12 +97,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/spacescan-io',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Spacescan.io`,
       },
       prism: {
         theme: lightCodeTheme,
