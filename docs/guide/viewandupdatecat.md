@@ -31,7 +31,7 @@ From this CAT details page, the user can trade that particular CAT in any of the
 
 CAT details can be update from the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens).
 If any CAT doesnot have any details, the CAT owner can update the CAT by clicking on the `Update CAT` button 
-displayed alongside their CAT. After clicking `Update CAT` button, the user need to undergo [these steps](../spacescan.io-tutorial/updatecatinfo.md) for updating the CAT.  
+displayed alongside their CAT. After clicking `Update CAT` button, the user need to undergo [these steps](../guide/updatecatinfo.md) for updating the CAT.  
 
 :::tip HINT
 
