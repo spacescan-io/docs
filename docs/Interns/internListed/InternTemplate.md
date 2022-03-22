@@ -10,9 +10,8 @@ I am Nandha Kumar pursuing III year, ELectronics and Communication Engineering i
 
 Familiar with  Programmming languages like Python, C, C++ and Java. Have good Programming Skills and Communication skills. Proficient in Python ,JavaScript and C. Experience in Data Science and Data Analysis. Learned Basics of Blockchain.
 
-# About Chia
-
-Chia is based on Blockchain Technology, like bitcoin it is a another type of cryptocurrency. It is one type of leading cryptocurrency.
+# My experience in Chia
+Chia is upcoming cryptocurrency based on Blockchain Technology, hope to learn more about Chia
 
 # Want to learn
 
