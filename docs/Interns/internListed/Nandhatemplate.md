@@ -12,9 +12,7 @@ Familiar with  Programmming languages like Python, C, C++ and Java. Have good Pr
 
 # About Chia
 
-Chia is a new cryptocurrency based on an Open-Source Blockchain Technology. Unlike "Proof-of-Work", Chia mining is based on the amount of hard-disk storage space devoted to it rather than processing power. It is Designed to offer Smart Transaction Platform has the potential to improve Global financial and Payments Systems.
-
-Created by Bram Cohen, the inventor o the BitTorrent Protocol, Chia uses a new version of "Nakamoto Consensus" Algorithm that gave birth to the Blockchain Technology. According to Chia Network, the company Develops and maintains the Chia Blockchain, the new Cryptocurrency will make digital tokens "More Decentralized, More Secure and Easier to Use". 
+Chia is based on Blockchain Technology, like bitcoin it is a another type of cryptocurrency. It is one type of leading cryptocurrency.
 
 # Want to learn
 
