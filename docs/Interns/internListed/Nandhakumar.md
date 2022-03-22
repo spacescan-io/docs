@@ -15,4 +15,4 @@ Chia is upcoming cryptocurrency based on Blockchain Technology, hope to learn mo
 
 # Want to learn
 
-Want to Gain more knowledge in NodeJs and ReactJs. Get experience in Docusaurus by hands on practise. Make my career grow towards a Best path. Get more Hands on training on new technology and Blackchain. Done some projects in Data Science. Improve my Communication skills and Get work with my team.
+Want to Gain more knowledge in NodeJs and ReactJs. Get experience in Docusaurus by hands on practise. Make my career grow towards a Best path. Get more Hands on training on new technology and Blackchain. Done some projects in Data Science. Improve my Communication skills and Get work with my team. 
