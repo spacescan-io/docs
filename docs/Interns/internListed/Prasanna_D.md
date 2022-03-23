@@ -25,7 +25,7 @@ API's-.Net Frameworks
 Luna-DarQ-V-Kubernetes-.Net core-CyberSecurity
 Blockchain-Fin Tech-NFT-Web 3.O
 
-I want to taste cup of Tech everyday!!! Small Missions in my Big Search off!!!
+I want to taste cup of Tech everyday!! Small Missions in my Big Search off!!
 
 
 
