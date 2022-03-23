@@ -2,13 +2,19 @@
 sidebar_position: 3
 ---
 
-# Nandha Kumar G
+# Nandha Kumar 
 
 # About Me
 
 I am Nandha Kumar pursuing III year, ELectronics and Communication Engineering in NPR College Of Engineering and Technology, Natham. Strong knowledge in the NOdeJs and ReactJs. Ability to Develop Machine Learning and Deep Learning Model and ability to Deploy the Model in the Website. Developed AI Based Chatbot to solve queries. 
 
 Familiar with  Programmming languages like Python, C, C++ and Java. Have good Programming Skills and Communication skills. Proficient in Python ,JavaScript and C. Experience in Data Science and Data Analysis. Learned Basics of Blockchain.
+
+:::tip To know more about me
+
+[Linkedin]https://www.linkedin.com/in/nandha-kumar-g-b40038229/
+[Github]https://github.com/nandhakumar2002
+:::
 
 # My experience in Chia
 Chia is upcoming cryptocurrency based on Blockchain Technology, hope to learn more about Chia
