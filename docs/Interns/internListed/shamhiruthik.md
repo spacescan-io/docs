@@ -18,10 +18,6 @@ To see My NFTs [Opeansea](https://opensea.io/HueBirds)
 
 :::
 
-
-## About Chia
-I know that Chia is an Growing Platform in Blockchain where they are building an smart transaction platform and making it more powerful,sustainable platform.I knew that chia network is currently having the marketcap value of $230,056,314 and I believe it will grow further.And I also knew that Chia Network was founded by the creator of BitTorrent, Bram Cohen. 
-
 ## My experience in Chia
 I know that Chia is an Growing Platform in Blockchain where they are building an smart transaction platform and making it more powerful,sustainable platform.I knew that chia network is currently having the marketcap value of $230,056,314 and I believe it will grow further.And I also knew that Chia Network was founded by the creator of BitTorrent, Bram Cohen.
 
