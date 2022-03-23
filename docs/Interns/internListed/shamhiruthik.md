@@ -18,8 +18,13 @@ To see My NFTs [Opeansea](https://opensea.io/HueBirds)
 
 :::
 
+
+## About Chia
+I know that Chia is an Growing Platform in Blockchain where they are building an smart transaction platform and making it more powerful,sustainable platform.I knew that chia network is currently having the marketcap value of $230,056,314 and I believe it will grow further.And I also knew that Chia Network was founded by the creator of BitTorrent, Bram Cohen. 
+
 ## My experience in Chia
 I know that Chia is an Growing Platform in Blockchain where they are building an smart transaction platform and making it more powerful,sustainable platform.I knew that chia network is currently having the marketcap value of $230,056,314 and I believe it will grow further.And I also knew that Chia Network was founded by the creator of BitTorrent, Bram Cohen.
+
  
 ## What I'm expecting in this Intern-2022 PROGRAM
 I believe this Intern provides me an opportunity to get more knwoledge in ReactJs,Git, & to Intereact with Blockchain Experts.And more importantly this intern provides me an opportunity to buildup Myself.At the End of this program ;I hope i will have Strong Knowledge in Chia,Reactjs,Blockchain,Tokens and etc., I'm More excited to looking forward to this program. 
