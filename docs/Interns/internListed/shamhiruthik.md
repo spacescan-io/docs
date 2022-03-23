@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Sham Hiruthik - INDIA
+# Sham Hiruthik
 ## About Me
 Hi Guys!I'm Sham Hiruthik R Pursuing Electronics and Communication Engineering as a pre-final year student at NPR COLLEGE OF ENGINEERING & TECHNOLOGY.I'm an Aspiring Data Scientist who is passionate about drowning in the Ocean of Data.Strong Knowledge in Python,C,Data Analytics,Data Science,Blockchain and NFTs;Familier with NodeJs,ReactJS,Solidity and more interested in Exploring Databases and Datasets.Proficient in C,C++.Currently Developing an Discord-BOT Using Python.Proudly,drowning in my passion with my self-rule "𝘚𝘵𝘳𝘪𝘬𝘦 𝘵𝘩𝘦 𝘐𝘳𝘰𝘯 𝘸𝘩𝘪𝘭𝘦 𝘪𝘵'𝘴 𝘩𝘰𝘵".
 
