@@ -12,8 +12,8 @@ Familiar with  Programmming languages like Python, C, C++ and Java. Have good Pr
 
 :::tip To know more about me
 
-[Linkedin]https://www.linkedin.com/in/nandha-kumar-g-b40038229/
-[Github]https://github.com/nandhakumar2002
+[Linkedin],(https://www.linkedin.com/in/nandha-kumar-g-b40038229/)
+[Github],(https://github.com/nandhakumar2002)
 :::
 
 # My experience in Chia
