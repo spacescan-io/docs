@@ -12,7 +12,6 @@ Tips to know more about me
 
 [YouTube](https://www.youtube.com/channel/UCbhnTR20ifwVL7vINXs02cA) <br/>
 [Website](https://ibu-ux.web.app/) <br/>
-[LinkedIn](www.linkedin.com/in/mohamedibrahim8270) <br/>
 [GitHub](https://github.com/mohamed8270) <br/>
 
 
