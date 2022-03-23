@@ -10,7 +10,6 @@ Mohamed Ibrahim, I am currently pursuing Electronics and Communication Engineeri
 
 - [YouTube](https://www.youtube.com/channel/UCbhnTR20ifwVL7vINXs02cA)
 - [Website](https://ibu-ux.web.app/)
-- [LinkedIn](www.linkedin.com/in/mohamedibrahim8270)
 - [GitHub](https://github.com/mohamed8270)
 
 
