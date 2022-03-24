@@ -8,12 +8,13 @@ sidebar_position: 3
 
 Mohamed Ibrahim, I am currently pursuing Electronics and Communication Engineering in NPR colleges of Engineering and Technology. I am a freelancer in digital product design and also a part-time YouTuber. Focusing on crafting user experiences and design systems for software, web, and mobile products. I'm passionate about applying consumer psychology for an interaction science-backed approach. Excited to make mobile apps thus gained some knowledge in Flutter, Dart. Multitasking on Non-invasive Glucometer project and home automation
 
-Tips to know more about me
+:::tip Tips to know more about me
 
-- [YouTube](https://www.youtube.com/channel/UCbhnTR20ifwVL7vINXs02cA) <br/>
-- [Website](https://ibu-ux.web.app/) <br/>
-- [GitHub](https://github.com/mohamed8270) <br/>
+- ## [YouTube](https://www.youtube.com/channel/UCbhnTR20ifwVL7vINXs02cA) <br/>
+- ## [Website](https://ibu-ux.web.app/) <br/>
+- ## [GitHub](https://github.com/mohamed8270) <br/>
 
+:::
 
 ## About Chia
 
