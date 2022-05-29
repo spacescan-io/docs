@@ -1,7 +1,7 @@
 ---
 slug: weekly_update_1
 title: Weekly update - 1
-tags: [Chia, spacescan, explorer, charts]
+tags: [Chia, spacescan, explorer, NFT, CAT, Exchange]
 authors: [natsabari]
 ---
 :::info For feedback
@@ -14,6 +14,8 @@ Hope you would like these Weekly updates and Join in our journey to build awesom
 
 ## Completed
 ### 1. NFT0 support in Testnet 10
+> Developer - [JagRudh](https://twitter.com/JagRudhChia)
+
 Chia has recently released its [vision for NFT](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html) with [developer guide to mint](https://docs.chia.net/docs/15resources/nft_dev_guide/) the NFT using the command line.
 
 Chia released the NFT0 standard which is the draft testnet version of the full NFT1 version planned to be released soon. This NFT0 is recommended to be minted only in Testnet 10 and a lot of community NFT projects are testing this feature. Within a week of standard release we have added Chia NFT support for testnet 10.
@@ -31,7 +33,9 @@ Step 2.  Click NFT menu at top to view Chia NFT minted on Testnet 10
 
 ![Click NFT](./TN_NFT.png)
 
+
 ### 2. Dixie Integration for CAT trading
+> Developer - [NK](https://twitter.com/nandhakumar1033)
 
 Most loved Dexie exchange integration with CAT is up now!
 you can directly click on Dexie icon from CAT summary page to land on Dixie page to Trade CATs!
