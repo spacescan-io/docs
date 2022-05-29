@@ -57,7 +57,7 @@ you can directly click on Dexie icon from CAT summary page to land on Dixie page
 ### 2. Improve Stability of parser engine
 - We have re-written our parser engine for the third time to bring more stability in our sync process and to support new type of wallets like CAT, NFT, DID and RL. There are multiple bug reports in our discord channel on the difference of wallet balance. We would continue working on hardening our parser engine to provide stable wallet balance.
 
-### 3. Enhanced Seach box
+### 3. Enhanced Search box
 - Now spacescan supports multiple wallet types like xch, CAT and NFT. so we need to enhance our search box to support these new asset types.
 
 Note:
