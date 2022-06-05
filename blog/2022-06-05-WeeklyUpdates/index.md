@@ -39,7 +39,7 @@ https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98c
 ### 1. Chia NFT 1 support
 - We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™
     - Top menu to view Stats, Ranks, explore and Transfers of NFT in both testnet 10 and Mainnet
-    - Trade integration with NFT market places like Dexie.space and Mintgarden.io
+    - Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io
     - Ability to view NFT based on collections 
     - Enhance top search option to support NFT
     - Create NFT API for community developers to build tools
