@@ -5,16 +5,13 @@ tags: [Chia, spacescan, explorer, NFT, CAT, Exchange]
 authors: [natsabari]
 ---
 :::info For feedback
-Spacescan.io is built on your feedback and suggestions. We want to provide continuous updates to the community and get feedback, so we can build the features which the community needs.
-Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia!
-
-[Discord](https://discord.gg/Bb4sj3Bg9P) [Twitter](https://twitter.com/spacescan_io) 
+Spacescan.io is built on your feedbacks and suggestions. Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia -> 
+[Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) 
 
 :::
-
 ## Completed
 ### 1. Chia NFT support enhancements in Testnet 10
-We have enhanced support for NFT with below informations inorder to support the Chia NFT 1 standard.
+We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.
 - collection  name
 - description
 - properties 
@@ -22,7 +19,7 @@ We have enhanced support for NFT with below informations inorder to support the 
 
 Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.
  
-You can visit the Testnet chia NFT page here to check out new NFT properties,
+You can visit the Testnet chia NFT page of [Crew of Eight](https://twitter.com/CrewOfEight_) to check out new NFT enhancements,
 https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98ctks3t5udeulstyr0jv
 
 ![properties](./properties_1.png)
