@@ -48,6 +48,7 @@ https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98c
     - Support for other NFT types like audio, video and other image hosting services 
     - Enhancing the assets load time by storing images in spacescan.io
     - DID based authenticity mark to avoid impersonation scams in NFT
+    - Rarity calculator 
 
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
