@@ -10,7 +10,7 @@ Spacescan.io is built on your feedbacks and suggestions. Hope you would like the
 
 :::
 ## Completed
-### 1. Chia NFT support enhancements in Testnet 10
+### 1. Chia NFT enhancements
 We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.
 - collection  name
 - description
