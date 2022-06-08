@@ -60,5 +60,6 @@ https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98c
     - Price info integration from [Dexie](https://dexie.space/markets) and [hash.green](https://hash.green/dex/XCH-USDS)
     - DID based authenticity mark to avoid impersonation scams in CAT
     - Fix the issues in CAT API and make it stable with new routes
+    - Identify create functionality scams
 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
