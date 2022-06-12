@@ -5,23 +5,21 @@ tags: [Chia, spacescan, explorer, NFT, CAT, Exchange]
 authors: [natsabari]
 ---
 :::info For feedback
-Spacescan.io is built on your feedbacks and suggestions. Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia -> 
-[Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) 
+Spacescan.io is built on your feedbacks and suggestions. Now, We are at a point that needs your support to continue our journey. Please send XCH/CAT towards our dev funds in [support us page](https://www.spacescan.io/xch/support-us).   Join in our journey to build awesome tools for Chia ->
+[Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io)
 
 :::
 ## Completed
-### 1. Chia NFT enhancements
+### 1. Chia NFT 1 enhancements
 We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.
-- collection  name
-- description
-- properties 
-- IPFS hosted image support
+- Group Chia NFT by collection name
+- Support NFT 1 in Testnet 10
+
+Check out the NFT collections in Testnet 10 :link: https://www.spacescan.io/txch10/nft/collections
+
+![properties](./nft_collections.png)
 
 Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.
- 
-You can visit the Testnet chia NFT page of [Crew of Eight](https://twitter.com/CrewOfEight_) to check out new NFT enhancements,
-https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98ctks3t5udeulstyr0jv
-
 
 :::info Read more
  [Chia vision for NFT](https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html) and Chia has nice  [developer guide to mint](https://docs.chia.net/docs/15resources/nft_dev_guide/) the NFT using the command line.
@@ -29,20 +27,23 @@ https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98c
 
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
-### 2. Improved Stability of parser engine
-- We have re-written our parser engine for the third time to bring more stability in our sync process and to support future wallets like NFT, DID and RL. There are multiple bug reports in our discord channel on the difference of wallet balance. We have fixed most of those changes and it would bring stable balances across our supported wallet types.
+### 2. Added support us page to accept donations for dev funds
+- We are at a point that needs our community support so we can continuously build tools and avoid plastering with a lot of ads.
+We have added a support us page with an option to accept funds with Goby wallet.
+Please support us with XCH and CAT tokens towards our dev funds.
 
-> Developer - [Sabari](https://twitter.com/chiatothemoon)
+https://www.spacescan.io/xch/support-us
+
+> Developer - [NK](https://twitter.com/nandhakumar1033)
 
 ## In progress
 ### 1. Chia NFT 1 support
 - We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™
-    - Top menu to view Stats, Ranks, explore and Transfers of NFT in both testnet 10 and Mainnet
+    - Top menu to view Stats, Ranks and Transfers of NFT in both testnet 10 and Mainnet
     - Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io
-    - Ability to view NFT based on collections 
     - Enhance top search option to support NFT
     - Create NFT API for community developers to build tools
-    - Support for other NFT types like audio, video and other image hosting services 
+    - Support for other NFT types like base64 encoded images
     - Enhancing the assets load time by storing images in spacescan.io
     - DID based authenticity mark to avoid impersonation scams in NFT
     - Rarity calculator 
