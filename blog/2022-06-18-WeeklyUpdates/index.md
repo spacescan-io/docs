@@ -45,6 +45,8 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 :::note Developer
  [Ajay](https://twitter.com/JagRudhChia) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
 :::
+### 4. Enhance CAT features
+- Enhance public API with time frame for Netspace and price
 
 ## In progress
 ### 1. Chia NFT 1 support
