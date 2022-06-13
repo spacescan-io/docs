@@ -25,6 +25,7 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 
 :::note Developer
 - [JagRudh](https://twitter.com/JagRudhChia) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
+- [Sham](https://twitter.com/shamhiruthik) received 0.25 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
 :::
 
 
