@@ -4,9 +4,9 @@ title: Weekly update - 4
 tags: [Chia, spacescan, explorer, NFT, CAT, Exchange]
 authors: [natsabari]
 ---
-:::info For feedback
+:::info Support us
 Spacescan.io is built on your feedbacks and suggestions. Now, We are at a point that needs your support to continue our journey. Please donate XCH/CAT towards our dev funds in [support us page](https://www.spacescan.io/xch/support-us).   Join in our journey to build awesome tools for Chia ->
-[Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io)
+[Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) [Github](https://github.com/spacescan-io)
 
 :::
 ## Completed
