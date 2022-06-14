@@ -24,8 +24,8 @@ Check out the NFT collections in Testnet 10 :link: https://www.spacescan.io/txch
 Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.
 
 :::note Developer
-- [JagRudh](https://twitter.com/JagRudhChia) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
-- [Sham](https://twitter.com/shamhiruthik) received 0.25 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
+- [JagRudh](https://twitter.com/JagRudhChia)
+- [Sham](https://twitter.com/shamhiruthik) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
 :::
 
 
@@ -34,7 +34,7 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 
 :::note Developer
 - [NK](https://twitter.com/nandhakumar1033) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
-- [JagRudh](https://twitter.com/JagRudhChia) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
+- [JagRudh](https://twitter.com/JagRudhChia)
 :::
 
 ### 3. Enhance CAT features
@@ -43,7 +43,7 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 - Fix the issues in CAT API and make it stable with new routes
 
 :::note Developer
- [Ajay](https://twitter.com/JagRudhChia) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
+ [Ajay](https://twitter.com/JagRudhChia)
 :::
 ### 4. Enhance CAT features
 - Enhance public API with time frame for Netspace and price
