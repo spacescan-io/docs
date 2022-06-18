@@ -26,7 +26,7 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 - [Sham](https://twitter.com/shamhiruthik) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
 :::
 
-### 2. Enhance CAT features
+### 2. Enhanced CAT features
 - Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10 
     - Integrated Price info from [Dexie](https://dexie.space/markets) and [hash.green](https://hash.green/dex/XCH-USDS)
 
@@ -66,20 +66,20 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 
-### 3. Enhance API 
+### 4. Enhance API 
 - Enhance public API with time frame for Netspace and price  
 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 
-### 4. Tools
+### 5. Tools
 - We are Addding support for Puzzle hash Converter for both Mainnet  and Testnet 10
 
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
 
 
-### 5. User Guide
+### 6. User Guide
 - Creating User Guide for various Chia features and functionalities 
 
 > Developer - [Sham](https://twitter.com/shamhiruthik)
