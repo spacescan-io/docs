@@ -8,6 +8,8 @@ authors: [sham]
 Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -> [support us page](https://www.spacescan.io/xch/support-us).   Join in our journey to build awesome tools for Chia ->
 [Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) [Github](https://github.com/spacescan-io)
 
+Dev fund details : 10.03 XCH - 0.5XCH = [9.53 XCH balance](https://www.spacescan.io/xch/address/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8)
+
 :::
 ## Completed
 ### 1. Chia NFT 1 enhancements
