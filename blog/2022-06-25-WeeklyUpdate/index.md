@@ -21,7 +21,6 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 
 :::note Developer
 - [JagRudh](https://twitter.com/JagRudhChia)
-- [Sham](https://twitter.com/shamhiruthik) received 0.5 XCH and Its sponsored by [Ultimate Farmers Club](https://twitter.com/TheHonestFarm)
 :::
 
 ### 2. Enhance CAT features
@@ -98,3 +97,8 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 - Devolping the coin page to view Parent Information, Sibling Information and Child Information
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
+
+### 8. Holders Ino
+- Addition of Unique Holders Address of CAT
+
+> Developer - [Sabari](https://twitter.com/nandhakumar1033)
