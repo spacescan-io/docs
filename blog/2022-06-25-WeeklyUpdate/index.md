@@ -10,29 +10,30 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 
 :::
 ## Completed
-### 1. Chia NFT 1 enhancements
-We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.
-    
-
-
-Check out the NFT collections in Testnet 10 :link: https://www.spacescan.io/txch10/nft/collections
-
-Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.
-
+### 1. Enhance Search box 
+- Enhancing search with option to search XCH, CAT and NFT with below attributes
+    - NFT ID
+    - NFT Name
+    - NFT Collection ID
+    - NFT Collection Name
+    - CAT Asset ID
+    - CAT Name
+    - CAT Symbol
+    - Address
+    - Header Hash
+    - Coin ID
+    - Blocks
+  
 :::note Developer
 - [JagRudh](https://twitter.com/JagRudhChia)
+- [NK](https://twitter.com/nandhakumar1033) received 0.5 XCH from Dev Fund
 :::
-### 2. Enhance Search box 
-- Enhancing search with option to search xch, CAT and NFT with below attributes
-    - NFT1
-    - Collection id
-    - NFT name
-    - NFT collection  name
-    - NFT traits
 
-  
-> Developer - [NK](https://twitter.com/nandhakumar1033) and [JagRudh](https://twitter.com/JagRudhChia)
 
+### 2. Timescale Extension
+- Extended Timescale for charts to view transactions for all.
+
+> Developer - [Sham](https://twitter.com/shamhiruthik)
 
 ### 3. Enhance CAT features
 - Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10 
@@ -43,18 +44,9 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 ### 4. Tools
-- We have Added support for Puzzle hash Converter for both Mainnet  and Testnet 10
-
+- We have Added support for Puzzle hash Converter for XCH, Txch, NFT and DID
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
-
-
-### 5. Timescale Extension
-- Extended Timescale for charts to view transactions for one year 
-
-> Developer - [Sham](https://twitter.com/shamhiruthik)
-
-
 
 
 ## In progress
@@ -62,10 +54,10 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 - We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™
     - Creation of Ranks and Transfers page for NFT in both Mainnet and Testnet
     - Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io
-    - Enhance top search option to support NFT
     - Enhancing the assets load time by storing images in spacescan.io
     - DID based authenticity mark to avoid impersonation scams in NFT
-    - Rarity calculator 
+    - Rarity calculator
+    - Ability to search NFT based on traits 
 
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
