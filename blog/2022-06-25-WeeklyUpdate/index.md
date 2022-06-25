@@ -12,42 +12,38 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 ## Completed
 ### 1. Enhance Search box 
 - Enhancing search with option to search XCH, CAT and NFT with below attributes
-    - NFT ID
-    - NFT Name
-    - NFT Collection ID
-    - NFT Collection Name
-    - CAT Asset ID
-    - CAT Name
-    - CAT Symbol
-    - Address
-    - Header Hash
-    - Coin ID
-    - Blocks
+    - NFT ID, Name, Collection ID and Collection Name
+    - CAT Asset ID, Name and Symbol
+    - Address, Header Hash, Coin ID and Blocks
   
+![search-cat](./search-cat.png)
+
 :::note Developer
 - [JagRudh](https://twitter.com/JagRudhChia)
 - [NK](https://twitter.com/nandhakumar1033) received 0.5 XCH from Dev Fund
 :::
 
-
 ### 2. Timescale Extension
 - Extended Timescale for charts to view transactions for all.
 
-> Developer - [Sham](https://twitter.com/shamhiruthik)
+![netspace](./netspace-all.png)
+:::note Developer
+- [Sham](https://twitter.com/shamhiruthik) received 0.25 XCH from Dev Fund
+:::
 
 ### 3. Enhance CAT features
 - Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10 
-    
-
-   
-
+![cat-ranks](./cat-ranks.png)
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 ### 4. Tools
-- We have Added support for Puzzle hash Converter for XCH, Txch, NFT and DID
+- We have Added support for Puzzle hash Converter for XCH, Txch, NFT and DID -> [Tools](https://www.spacescan.io/xch/tools/puzzlehashconvertor)
 
-> Developer - [NK](https://twitter.com/nandhakumar1033)
+![tools](./converter.png)
 
+:::note Developer
+- [NK](https://twitter.com/nandhakumar1033) received 0.25 XCH from Dev Fund
+:::
 
 ## In progress
 ### 1. Chia NFT 1 support
