@@ -11,7 +11,7 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 :::
 ## Completed
 ### 1. Enhance Search box 
-- Enhancing search with option to search XCH, CAT and NFT with below attributes
+- Improved search bar with ability to lookup search XCH, CAT and NFT with below attributes
     - NFT ID, Name, Collection ID and Collection Name
     - CAT Asset ID, Name and Symbol
     - Address, Header Hash, Coin ID and Blocks
@@ -24,7 +24,7 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 :::
 
 ### 2. Timescale Extension
-- Extended Timescale for charts to view transactions for all.
+- Extended Timescale for all charts to view data from the begining of mainnet launch.
 
 ![netspace](./netspace-all.png)
 :::note Developer
@@ -32,12 +32,12 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 :::
 
 ### 3. Enhance CAT features
-- Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10 
+- Enhanced top menu with Stats, Ranks, explore and transfers features for CAT
 ![cat-ranks](./cat-ranks.png)
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 ### 4. Tools
-- We have Added support for Puzzle hash Converter for XCH, Txch, NFT and DID -> [Tools](https://www.spacescan.io/xch/tools/puzzlehashconvertor)
+- Added support for Puzzle hash Converter for XCH, Txch, NFT and DID -> [Tools](https://www.spacescan.io/xch/tools/puzzlehashconvertor)
 
 ![tools](./converter.png)
 
@@ -57,8 +57,6 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
-
-
 ### 2. Enhance CAT features
 - We are working on below listed items for CAT1 standard to provide better discoverability of CATs
     - DID based authenticity mark to avoid impersonation scams in CAT
@@ -66,12 +64,10 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
   
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
-
 ### 3. Enhance API 
 - Enhance public API with time frame for Netspace and price  
 
 > Developer - [Ajay](https://twitter.com/)
-
 
 ### 4. User Guide
 - Creating User Guide for various Chia features and functionalities 
