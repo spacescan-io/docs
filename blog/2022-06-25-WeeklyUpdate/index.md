@@ -22,8 +22,19 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 :::note Developer
 - [JagRudh](https://twitter.com/JagRudhChia)
 :::
+### 2. Enhance Search box 
+- Enhancing search with option to search xch, CAT and NFT with below attributes
+    - NFT1
+    - Collection id
+    - NFT name
+    - NFT collection  name
+    - NFT traits
 
-### 2. Enhance CAT features
+  
+> Developer - [NK](https://twitter.com/nandhakumar1033) and [JagRudh](https://twitter.com/JagRudhChia)
+
+
+### 3. Enhance CAT features
 - Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10 
     
 
@@ -31,14 +42,14 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
-### 3. Tools
+### 4. Tools
 - We have Added support for Puzzle hash Converter for both Mainnet  and Testnet 10
 
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
 
 
-### 4. Timescale Extended
+### 5. Timescale Extension
 - Extended Timescale for charts to view transactions for one year 
 
 > Developer - [Sham](https://twitter.com/shamhiruthik)
@@ -58,18 +69,9 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
-### 2. Enhance Search box 
-- Enhancing search with option to search xch, CAT and NFT with below attributes
-    - NFT1
-    - Collection id
-    - NFT name
-    - NFT collection  name
-    - NFT traits
 
-  
-> Developer - [NK](https://twitter.com/nandhakumar1033) and [JagRudh](https://twitter.com/JagRudhChia)
 
-### 3. Enhance CAT features
+### 2. Enhance CAT features
 - We are working on below listed items for CAT1 standard to provide better discoverability of CATs
     - DID based authenticity mark to avoid impersonation scams in CAT
     - Fix the issues in CAT API and make it stable with new routes
@@ -77,28 +79,28 @@ Chia would release the finalized NFT 1 soon and our current implementation also 
 > Developer - [Ajay](https://twitter.com/JagRudhChia)
 
 
-### 4. Enhance API 
+### 3. Enhance API 
 - Enhance public API with time frame for Netspace and price  
 
-> Developer - [Ajay](https://twitter.com/JagRudhChia)
+> Developer - [Ajay](https://twitter.com/)
 
 
-### 5. User Guide
+### 4. User Guide
 - Creating User Guide for various Chia features and functionalities 
 
 > Developer - [Sham](https://twitter.com/shamhiruthik)
 
-### 6. Read Only Mobile App
+### 5. Read Only Mobile App
 - Creating Read Only Moile App to View Chia Tokens and Transactions
 
 > Developer - [Ibrahim](https://twitter.com/)
 
-### 7. Parent Information in Coins
-- Devolping the coin page to view Parent Information, Sibling Information and Child Information
+### 6. Coins Traceability
+- Ability to trace the Coins Parent,Child and Sibling information
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
 
-### 8. Holders Ino
-- Addition of Unique Holders Address of CAT
+### 7. CAT Holders Info
+- Provide  Unique Holders of CAT in CAT/summarypage
 
-> Developer - [Sabari](https://twitter.com/nandhakumar1033)
+> Developer - [AjayZorro](https://twitter.com/)
