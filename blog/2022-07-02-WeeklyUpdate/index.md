@@ -15,7 +15,12 @@ Due to long holidays expect slow responses from team!
 ### 1. CAT Holders Info
 - Added unique holders numbers and top CAT holders page
 
+[Chia Holiday 2021 Holders](https://www.spacescan.io/xch/cat1/509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f)
+
 ![cat-holders](./holders.png)
+
+[Chia Holiday 2021 Top Holders](https://www.spacescan.io/xch/cat1/holders/509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f)
+
 ![cat-top-holders](./cat_top_holders.png)
 Note:
 The navigation at the bottom have issues and will be fixed in next release.
