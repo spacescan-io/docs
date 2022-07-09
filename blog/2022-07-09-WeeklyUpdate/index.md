@@ -11,7 +11,7 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 
 ## Completed
 ### 1. Chia NFT 1 features
-#### Figting  the NFT scams
+#### Fighting  the NFT scams
 - DID based authenticity mark to avoid impersonation scams in NFT. Spacescan.io verifies the Minter DID and social handle which promotes the collection matches
 - Verified  collection will show at the top of collections page
 - Search bar will show only verified nfts/collections in search results
