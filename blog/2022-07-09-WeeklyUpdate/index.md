@@ -11,10 +11,10 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 
 ## Completed
 ### 1. Chia NFT 1 features
-#### Figthing the NFT scams
+#### Figting  the NFT scams
 - DID based authenticity mark to avoid impersonation scams in NFT. Spacescan.io verifies the Minter DID and social handle which promotes the collection matches
 - Verified  collection will show at the top of collections page
-- Search bar will show only verifed nfts/collections in search results
+- Search bar will show only verified nfts/collections in search results
 
   [Verified Chia friends](https://www.spacescan.io/xch/nft/collection/col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl)
 
@@ -43,7 +43,7 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 > Developer - [JagRudh](https://twitter.com/JagRudhChia)
 
 ### 2. XCH rich list
-- Jon from CHia links created a feature bounty in [github](https://github.com/spacescan-io/web/issues/54) with [3.14 XCH](https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191)
+- Jon from [chialinks.com](https://chialinks.com/) created a feature bounty in [github](https://github.com/spacescan-io/web/issues/54) with [3.14 XCH](https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191)
 > Developer - [Sham](https://twitter.com/shamhiruthik) / [NK](https://twitter.com/nandhakumar1033)
 ### 2. Enhance CAT features
 - We are working on below listed items for CAT1 standard to provide better discoverability of CATs
@@ -62,11 +62,11 @@ Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT t
 > Developer - [Sham](https://twitter.com/shamhiruthik)
 
 ### 5. Read Only Mobile App
-- Creating Read Only Moile App to View Chia Tokens and Transactions
+- Creating Read Only Mobile App to View Chia Tokens and Transactions
 
 > Developer - [Ibrahim](https://twitter.com/)
 
 ### 6. Coins Traceability
-- Ability to trace the Coins Parent,Child and Sibling information
+- Ability to trace the Coins Parent, Child and Sibling information
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
