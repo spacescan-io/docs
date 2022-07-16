@@ -11,7 +11,7 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 ## Completed
 ### 1. Chia NFT 1 features
 - Search bar will show only verified nfts based on name in search results
-- Check you NFT collections along with CAT and XCH balance for your address
+- Check your NFT collections along with CAT and XCH balance for your address
 
 https://www.spacescan.io/xch/address/xch12ev9hpaaeqvdk0p8gy9mmfz295cqxu439pjksftldq4lk7g320msxvwqcj
 ![NFT in Address](./NFT_in_address.png)
