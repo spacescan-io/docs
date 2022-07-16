@@ -5,7 +5,7 @@ tags: [Chia, spacescan, explorer, NFT, CAT, Exchange]
 authors: [natsabari]
 ---
 :::info Support us
-Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) [Github](https://github.com/spacescan-io). Show your love by sending XCH, NFT and CAT to dev funds [support us page](https://www.spacescan.io/xch/support-us).
+Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https://discord.gg/Bb4sj3Bg9P)  [Twitter](https://twitter.com/spacescan_io) [Github](https://github.com/spacescan-io). Show your love by sending XCH, NFT and CAT to dev fund [support us page](https://www.spacescan.io/xch/support-us).
 :::
 
 ## Completed
