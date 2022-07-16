@@ -19,8 +19,20 @@ https://www.spacescan.io/xch/address/xch12ev9hpaaeqvdk0p8gy9mmfz295cqxu439pjksft
 
 > Developer - [Ajay](https://twitter.com/AjayBenadict)
 
+- Offer Trade integration with NFT market [dexie.space](https://dexie.space/)
+
+https://www.spacescan.io/xch/nft/nft1k9c4cwmyctwzf57xzfaaghm20erdz23wzz3jsg0uwyft7qx5eeeqq4n93s
+
+![Dexie](./dexie_integration.png)
+
+> Developer - [JagRudh](https://twitter.com/JagRudhChia)
+
 ### 2. Coins Traceability
 - Ability to trace the Coins Parent, Child and Sibling information
+
+https://www.spacescan.io/xch/coin/0xf187ed71c3643a29fa52f0bbb6b25da09d5ad0f576fdcf5938307b2657841a2d
+
+![parent](./parent.png)
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
 
@@ -28,7 +40,6 @@ https://www.spacescan.io/xch/address/xch12ev9hpaaeqvdk0p8gy9mmfz295cqxu439pjksft
 ### 1. Chia NFT 1 support
 - We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™
     - Creation of Ranks for NFT in both Mainnet and Testnet
-    - Offer Trade integration with NFT market [dexie.space](https://dexie.space/)
     - Enhancing the assets load time by storing images in spacescan.io
     - Rarity calculator
     - Ability to search NFT based on traits 
