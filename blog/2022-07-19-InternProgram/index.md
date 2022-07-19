@@ -1,5 +1,5 @@
 ---
-slug: Intern Program-2022
+slug: intern_program_2022
 title: Internship Program-2022
 tags: [Chia, spacescan, explorer, charts]
 authors: [ajayZorro]
