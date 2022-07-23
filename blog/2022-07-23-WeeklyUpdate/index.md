@@ -10,16 +10,16 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 
 ## Completed
 ### 1. Chia NFT 1 features
- - Spacescan now host optimized image for all NFT to improve user experience. We noticed creators have issues in hosting images and  resulted in not so good experience for Mobile users. This would provide equal space for all creators and users.
+ - Spacescan now host optimized images for all NFT to improve user experience. We noticed creators have issues in hosting images and  resulted in not so good experience for Mobile users. This would provide equal space for all creators and users.
  - Shows NFT with valid hash match for preventing scam projects
  - Validates Meta json with CHIA [CHIP-0007 scehma](https://github.com/Chia-Network/chips/blob/metadata-schema/CHIPs/chip-will-riches-metadata.md)
 
   ![nft](./NFT.png)
 
-> Developer - [JagRudh](https://twitter.com/JagRudhChia) [natsabari](https://twitter.com/natsaba)
+> Developer - [JagRudh](https://twitter.com/JagRudhChia)/[natsabari](https://twitter.com/natsaba)
 
 ### 2. NFT coins
-- Enhancement in Coin page is done to show details like name, id, collections, description along with coin basic informations
+- Enhancement in Coin page is done to show details like name, id, collections, description along with coin basic information
 
  ![nft_coin](./nft_coin.png)
 > Developer - [Ajay](https://twitter.com/AjayBenadict)
