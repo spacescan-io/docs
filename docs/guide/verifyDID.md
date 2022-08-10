@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Verify DID 
 
-## Verify with Twitter
+## 1) Verify with Twitter
 
 Chia NFT have off chain meta data and it has option to provide twitter handle for the collection.
 This link of Minter DID and twitter handle from offchain meta data could be used to validate a collection authenticity  could be validated.
@@ -51,12 +51,12 @@ Replace the items in < > with the following:
 If you tweet again with changed &lt;URI&gt; Pic and/or &lt;URI Banner&gt; URIs, it will update your DID creator profile with the new images.
 :::
 
-## Verify with domain name
+## 2) Verify with domain name
 
 We have a bot which checks for DID info in your website domain added in meta data.
 This action happens only once when the NFT in a collection is processed. 
 So please ensure you would have DID in your domain TXT record.
-For example, if the website provided in meta is https://www.testdomains.com
+For example, if the website provided in meta is https://www.testdomain.com
 Then the bot will check for TXT in below domains/sub domains for DID info
 - www.testdomain.com
 - did.testdomain.com
