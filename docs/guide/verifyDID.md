@@ -7,7 +7,7 @@ sidebar_position: 1
 ## 1) Verify with Twitter
 
 Chia NFT have off chain meta data and it has option to provide twitter handle for the collection.
-This link of Minter DID and twitter handle from offchain meta data could be used to validate a collection authenticity.
+This link of Minter DID and twitter handle from off chain meta data could be used to validate a collection authenticity.
 
 The same link between Minter DID and twitter handle in meta data could be used to provide creator DID informations.
 You have full control of what spacescan shows for that DID and you can update it any time by sendingout a tweet.
@@ -63,7 +63,7 @@ Then the bot will check for TXT in below domains/sub domains for DID info
 - testdomains.com
 
 :::tip HINT
-If you have added yoru DID into domains after the collection mint process then please reach us in discord / twitter to manually trigger the verification for your NFT collection.
+If you have added your DID into domains after the collection mint process then please reach us in discord / twitter to manually trigger the verification for your NFT collection.
 :::
 
 > [roybotNFT](https://twitter.com/roybotNFT) created a guide for this process in our discord and its enlarged here.
