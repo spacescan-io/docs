@@ -27,11 +27,11 @@ banner:<URI Banner>
 
 将< >中的项目替换为以下内容。
 
-- <DID>: 这是NFTs创作者的DID
-- 收藏品链接 : 这是你的收藏品的spacecan.io URL
-- <Creator Name>: 这是你想作为NFT创作者使用的名称
-- <URI Pic>: 为你的DID创作者简介页面提供图片的URI
-- <URI Banner> : 横幅图片的URI，将出现在你的DID创作者简介页面上
+- &lt;DID&gt;: 这是NFTs创作者的DID
+- 收藏品链接: 这是你的收藏品的spacecan.io URL
+- &lt;Creator Name&gt;: 这是你想作为NFT创作者使用的名称
+- &lt;URI Pic&gt;: 为你的DID创作者简介页面提供图片的URI
+- &lt;URI Banner&gt;: 横幅图片的URI，将出现在你的DID创作者简介页面上
 
 #### 收藏与添加个人资料图标和横幅 [Link to DID](https://www.spacescan.io/xch/did/fe9bdb9a8e6825580d699faa6160fbd9d5d64a525ac49d174357d68ed0ae194e)
 
