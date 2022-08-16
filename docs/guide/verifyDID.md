@@ -7,7 +7,7 @@ sidebar_position: 1
 ## 1) Verify with Twitter
 
 Chia NFT have off chain meta data and it has option to provide twitter handle for the collection.
-This link of Minter DID and twitter handle from offchain meta data could be used to validate a collection authenticity.
+This link of Minter DID and twitter handle from off chain meta data could be used to validate a collection authenticity.
 
 The same link between Minter DID and twitter handle in meta data could be used to provide creator DID informations.
 You have full control of what spacescan shows for that DID and you can update it any time by sendingout a tweet.
