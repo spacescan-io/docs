@@ -12,7 +12,7 @@ CAT details can be viewed in the [top tokens page](https://www.spacescan.io/xch/
 
 To view any CAT information. 
 - Navigate to the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens)
-- The rank of each CAT can be seen in this page by various timeperiod (1 day/ 1 Week/ 1 month/ 1 year)
+- The rank of each CAT can be seen in this page by various time period (1 day/ 1 Week/ 1 month/ 1 year)
 - Search the asset ID of your desire in the search box and hit enter.
 
 ![Top Tokens Search box](/img/updatecatinfodetails/search-catinfo.png)
@@ -29,8 +29,8 @@ From this CAT details page, the user can trade that particular CAT in any of the
 
 ## Update CAT details from here
 
-CAT details can be update from the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens).
-If any CAT doesnot have any details, the CAT owner can update the CAT by clicking on the `Update CAT` button 
+CAT details can be updated from the [top tokens page](https://www.spacescan.io/xch/cat1/topTokens).
+If any CAT does not have any details, the CAT owner can update the CAT by clicking on the `Update CAT` button 
 displayed alongside their CAT. After clicking `Update CAT` button, the user need to undergo [these steps](../guide/updatecatinfo.md) for updating the CAT.  
 
 :::tip HINT
