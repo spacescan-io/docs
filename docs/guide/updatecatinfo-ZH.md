@@ -11,7 +11,7 @@ CAT信息可以通过点击标签导航栏内的 "添加标签 "下拉菜单进�
 
 ## 更新你的CAT
 
-每个CAT都有一个唯一的资产ID。这个资产ID用于更新CAT的信息。
+每个CAT都有一个唯一的Assets ID。这个Assets ID用于更新CAT的信息。
 
 - 提供你的Assets ID
 
