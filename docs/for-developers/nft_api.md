@@ -9,7 +9,7 @@ the nft `nft id`.
 
 - This API is still under a developing stage, so please try to use this API cautiously . 
 
-- New features or change in attributes will happen in the future. Hence, make sure the schema 
+- New features or change in attributes will happen in the future. Hence, make sure the scheme
 before using the response. 
 
 - We are happy to help with more features and parametes under this API. Please contact the spacescan.io team at [discord](https://discord.com/invite/Bb4sj3Bg9P), [twitter](https://twitter.com/spacescan_io) or at `spacescan.io@gmail.com` for any suggestions or bugs. 
@@ -102,7 +102,7 @@ Each attributes inside the response denotes different information about the NFT.
  
 - `nft` object contains the details about the NFT asset id provided in the endpoint.
 
-- Set the header `x-api-coin` key with the value `XCH` for mainnet and `TXCH` for tesetnet.
+- Set the header `x-api-coin` key with the value `XCH` for mainnet and `TXCH` for testnet.
 
 - This header `x-api-coin` is used for the user validation, and this would be a mandatory header.
 
@@ -187,7 +187,7 @@ Each attributes inside the response denotes different information about the NFT.
  
 - `nft` object contains the details about the NFT asset id provided in the endpoint.
 
-- Set the header `x-api-coin` key with the value `XCH` for mainnet and `TXCH` for tesetnet.
+- Set the header `x-api-coin` key with the value `XCH` for mainnet and `TXCH` for testnet.
 
 - This header `x-api-coin` is used for the user validation, and this would be a mandatory header.
 
