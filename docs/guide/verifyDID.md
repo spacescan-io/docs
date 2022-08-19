@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Verify DID 
+# Verify DID
 
 ## 1) Verify with Twitter
 
