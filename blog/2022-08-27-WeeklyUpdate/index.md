@@ -10,7 +10,7 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 :::
 ## Completed
 ### 1. Chia NFT enhancements
-- Ability to filter NFT based on traits- Now you can filter NFTS based on traits 
+- Ability to filter NFT based on traits
 
 ![traits](./traits_filter.png)
 
