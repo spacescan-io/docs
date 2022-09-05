@@ -12,11 +12,12 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 ### 1. New Insight Charts
 - NFT Mint-Trend chart is added.
 
+![minttrend](./nft_mint_trend.jpg)
 > Developer - [Sham](https://twitter.com/shamhiruthik)
 
-![minttrend](./nft_mint_trend.jpg)
-
 - Existing CAT charts are moved to insights.
+
+![cats](./cats.png)
 
 > Developer - [NK](https://twitter.com/nandhakumar1033)
 
