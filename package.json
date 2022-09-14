@@ -17,6 +17,7 @@
     "@docusaurus/core": "^2.0.0-beta.17",
     "@docusaurus/preset-classic": "^2.0.0-beta.17",
     "@mdx-js/react": "^1.6.21",
+    "bootstrap": "^5.2.1",
     "clsx": "^1.1.1",
     "docusaurus": "^0.0.2",
     "nvm": "^0.0.4",
