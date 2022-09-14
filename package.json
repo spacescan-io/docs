@@ -19,6 +19,8 @@
     "@mdx-js/react": "^1.6.21",
     "bootstrap": "^5.2.1",
     "clsx": "^1.1.1",
+    "docusaurus": "^0.0.2",
+    "nvm": "^0.0.4",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
