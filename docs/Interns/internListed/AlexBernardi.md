@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+
+
 # Alex Bernardi - United States
 ## About Me
 Hello everyone. My name is Alex Bernardi. I am finishing up by BA in Arabic regional studies. I attended the Defense Language Institute basic and intermediate Arabic course (levantine and MSA) as an airmen in the USAF. While overseas, I discovered firsthand the importance of using large data sets to increase our intelligence capabilities. It was at this moment I decided to switch from being a linguist to pursuing a masters in data science. Currently, I'm helping develop spacescan.io in reactJs, html, css, and node.js.
