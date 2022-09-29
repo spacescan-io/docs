@@ -10,7 +10,7 @@ Hello there! I'm Shree Varaa Mangai pursuing 3rd year Information Technology  at
 
 [Linkedin](https://www.linkedin.com/in/shreevaraamangai-v-213978213/)
 
-
+[github]-https://github.com/shreevm
 
 Discord - Shree#7928
 
