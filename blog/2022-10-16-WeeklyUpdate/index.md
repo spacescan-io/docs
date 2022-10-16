@@ -19,7 +19,7 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 ### 2. Nft collection details
 - Now the collections page has enhanced to provide trades, total volume , royality, high and low settled offers on chain.
 
- ![collection](./collection1.jpg)
+ ![collection](./collection.jpg)
 
   > Developer -[ajayZorro](https://twitter.com/@AjayBenadict)
 
@@ -27,7 +27,7 @@ Spacescan.io is built on your feedbacks and suggestions, Join us [Discord](https
 - To enhance readability lower denominated xch will be automatically shown in mojos.
  
 
-  ![mojo](./mojo.jpg)
+  ![mojo](./mojo_pic.jpg)
 
   > Developer - [aaron](https://twitter.com/flamingxod)
 
