@@ -2,54 +2,31 @@
 sidebar_position: 1
 ---
 
-# Mempool
+# **What is DID?**
 
-- A memory pool is simply a "waiting room" that holds the unconfirmed
-transactions.
-
-- One of the most prominent uses of the Mempool is to get pending
-transactions.
-
-- When a node receives a transaction, it will propagate the transaction to
-peer nodes until a farmer approves the transaction and adds it to a new
-block.
-
-- As the transaction move from mempool to the farmers, they are sorted and
-processed according to profitability.
+DID refers to a new type of identity that is completely controlled by the owner without any centralized third-party involvement, meaning that any information about your identity is completely in your own hands and no one can access it without your permission.
 
 
-## 1. Mem size
+## **DID in Chia**
 
-- It is the number of transactions in mempool to,that is to be processed.
+The DID is used to support on-chain identity proofing. The holder of a Chia DID can be any entity, such as an individual, a company, an electronic device, etc. The Chia DID can be associated with the holder's wallet, the NFT markets or other aspects of the Chia ecosystem. DIDs are stored on Chia's decentralized blockchain, which is also programmable, transferable, recoverable and discoverable. Anyone using the Chia blockchain can create a Chia DID to represent themselves or their organization.Every person, institutional organization should have full control over their identifier information. This includes data ownership, deciding what information about the identifier is shared and with whom. Unfortunately, we live in a world where personal information is often shared without the owner's knowledge or permission. Now Chia DID is trying to solve this issue.
 
-- A high mempool size indicates more network traffic which result in higher
-priority fees.
+Chia DID solves all of these shortcomings:
+No central certification authority is required to issue it, and Chia DIDs are not controlled by anyone other than their owners
+The owner has full control over the information contained in the identity, including any private information. This identity information cannot be shared without the owner's permission
 
-![memsize](./mem_size.png)
+The identity cannot be destroyed without the owner's permission
+They will not be destroyed as long as the Chia blockchain is functioning properly
+Chia DIDs are recognized by different companies or entities
 
-## 2. Mem fee 
 
-- It shows how much people paying for the transaction.
 
-- If mempool is not full, It will accept all transactions regardless of fees.
+## **How to verify DID on Spacescan.io?**
 
-![memfee](./MemFee.png)
+All creators who publish nft on Chia will need to verify their DID. Why is it important? 1) The validity of the creator's DID is verified through the blockchain, in other words whether the work is a counterfeit or not. 2) Whether the owner calls the NFT to another wallet of his own through a decentralized wallet to prevent tracking. The creator of the NFT on the Chia chain can choose to attach a DID (Decentralized ID) of his own, and the buyer can easily find and verify the history related to this NFT, including the author, the owner and the amount of the transaction, at any time.
 
-## 3. Min fee
 
-- It is the minimum relay fee for the mempool when the mempool gets too
-big.
 
-- When mempool becomes full it will start rejecting or it will not accept any
-more transactions.
+## **Verify with Twitter**[****](https://docs.spacescan.io/docs/guide/verifyDID#1-verify-with-twitter)
 
-![minfee](./MinFee.png)
-
-## 4. Addition  
-
-- It is the total number of mempool added to the queue.
-
-- After a new block added to the blockchain, all full nodes check out the coins
-that are spent and remove them from mempool.
-
-![addition](./Addition.png)
+https://docs.spacescan.io/docs/guide/verifyDID
