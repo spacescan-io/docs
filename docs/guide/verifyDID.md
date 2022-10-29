@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Verify DID 
+# Verify DID
 
 ## 1) Verify with Twitter
 
 Chia NFT have off chain meta data and it has option to provide twitter handle for the collection.
-This link of Minter DID and twitter handle from offchain meta data could be used to validate a collection authenticity.
+This link of Minter DID and twitter handle from off chain meta data could be used to validate a collection authenticity.
 
 The same link between Minter DID and twitter handle in meta data could be used to provide creator DID informations.
 You have full control of what spacescan shows for that DID and you can update it any time by sendingout a tweet.
@@ -33,13 +33,13 @@ banner:<URI Banner>
 
 Sample tweet - https://twitter.com/roybotNFT/status/1556833192920899584
 
-Replace the items in < > with the following:
+Replace the items in `< >` with the following:
 
--  &lt;DID&gt; : This is the DID of the creator of the NFTs
-- Collection Link : This is the spacescan.io URL to your collection
-- &lt;Creator Name&gt; : This is the name you want to use as the NFT creator
-- &lt;URI Pic&gt; : URI to pic icon for your DID creator profile page
-- &lt;URI Banner&gt; : URI to banner image that will appear on your DID creator profile page
+- `<DID>` : This is the DID of the creator of the NFTs
+- `<Collection Link>` : This is the spacescan.io URL to your collection
+- `<Creator Name>` : This is the name you want to use as the NFT creator
+- `<URI Pic>` : URI to pic icon for your DID creator profile page
+- `<URI Banner>` : URI to banner image that will appear on your DID creator profile page
 
 #### Collection with add profile icon and banner [Link to DID](https://www.spacescan.io/xch/did/fe9bdb9a8e6825580d699faa6160fbd9d5d64a525ac49d174357d68ed0ae194e)
 
@@ -48,7 +48,7 @@ Replace the items in < > with the following:
 #### DID creator name shown in collection page [Link to Collection](https://www.spacescan.io/xch/nft/collection/col129ph2rgr3r3f2znqe3x2xj7edhl7we0n3qzphsdf5q3hcr2gyfase5u9qg)
 ![Update](Creator-Name.jpg)
 :::tip HINT
-If you tweet again with changed &lt;URI&gt; Pic and/or &lt;URI Banner&gt; URIs, it will update your DID creator profile with the new images.
+If you tweet again with changed `<URI>` Pic and/or `<URI Banner>` URIs, it will update your DID creator profile with the new images.
 :::
 
 ## 2) Verify with domain name
@@ -63,8 +63,8 @@ Then the bot will check for TXT in below domains/sub domains for DID info
 - testdomains.com
 
 :::tip HINT
-If you have added yoru DID into domains after the collection mint process then please reach us in discord / twitter to manually trigger the verification for your NFT collection.
+If you have added your DID into domains after the collection mint process then please reach us in discord / twitter to manually trigger the verification for your NFT collection.
 :::
 
-> [roybotNFT](https://twitter.com/roybotNFT) created a guide for this process in our discord and its enlarged here.
+> [roybotNFT](https://twitter.com/roybotNFT) created a guide for this process in our discord and it's enlarged here.
 Thank you for this guide.

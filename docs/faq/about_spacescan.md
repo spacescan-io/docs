@@ -15,7 +15,7 @@ available for other crypto platforms other than chia.
 
 ### How spacescan is different from other explorer
 
-There are number of chia explorers that are live in assisting the chia community, but spacescan is the only explorer which has the block, coin, CAT, mempool, testnet10 and other exclusive features under a single website. Spacescan is an analytic tool with in-depth details and fucntionalities to understand the chia blockchain effectively. Spacescan.io is also providing API for other applications or products to develop on top of spacescan's API. Spacescan mainly target on providing the feature that user needs the most.
+There are number of chia explorers that are live in assisting the chia community, but spacescan is the only explorer which has the block, coin, CAT, mempool, testnet10 and other exclusive features under a single website. Spacescan is an analytic tool with in-depth details and functionalities to understand the chia blockchain effectively. Spacescan.io is also providing API for other applications or products to develop on top of spacescan's API. Spacescan mainly target on providing the feature that user needs the most.
 
 ### How can we suggest or request a new feature in spacescan.io
 
