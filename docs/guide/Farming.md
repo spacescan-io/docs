@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# **Farming**
+# Farming
 
-****Terminology****
+**Terminology**
 
 Mining is the exchange of labor and time for material resources, so it is a perfect analogy to the process in proof-of-work where miners are constantly using large amounts of power to compete for block rewards. chia decided to adopt a completely different terminology to better describe how the protocol works. Here are some terminology you should know.
 
@@ -25,7 +25,6 @@ Chia's farming is very different. On the one hand, farming uses commodity-level 
 
 **Power consumption of Farming**
 
-![img](/Users/RexGu/Desktop/S-ovwO4-z78S789OIejUzRwCbavPS3ZxrF8oxQn_Xi9tIuu7R8aqhYA_yvu-h4WE2wValXjVjOPUwK8CbdZewT3uyhSfVpvEuFPFGtvTh-9Jl5pvHafRejYS44iG4c4Jh_mC6arz4jutQqrocz9NJ0bYru8XNT1FmUShxEkKgtLZYdfEi3dGvfKOOQ.png)
 
 Source: Chiapower.org
 

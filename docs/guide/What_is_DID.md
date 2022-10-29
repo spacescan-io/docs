@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# **What is DID?**
+# What is DID?
 
 DID refers to a new type of identity that is completely controlled by the owner without any centralized third-party involvement, meaning that any information about your identity is completely in your own hands and no one can access it without your permission.
 
@@ -27,6 +27,6 @@ All creators who publish nft on Chia will need to verify their DID. Why is it im
 
 
 
-## **Verify with Twitter**[****](https://docs.spacescan.io/docs/guide/verifyDID#1-verify-with-twitter)
+## **Verify with Twitter**
 
 https://docs.spacescan.io/docs/guide/verifyDID
