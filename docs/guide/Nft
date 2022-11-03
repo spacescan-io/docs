@@ -1,0 +1,38 @@
+---
+sidebar_position: 1
+---
+
+# NFT
+
+## 1) What is an NFT?
+
+One of the major problems faced in this modern world is the security digital assets. 
+Consider your friend, who is a great artist. He wants to sell his unique collections of antique paintings through some digital media. People interested in those paintings, first verify about the authenticity and Provence of the work through blockchain. Sending NFT through blockchain can solve this problem.
+
+## NFT - Non-Fungible Token:
+
+A Non-Fungible Token is an non-divisible, unique asset. It secures certified token.
+Example: Movie tickets, your certificates, etc.
+As we discussed about non fungible token there comes the question about fungible token.
+A fungible token doesn’t have a unique value and are divisible. Has security concerns.
+Example: A $1bill in New York city has the same value as a $1bill in Miami.
+
+## How does the NFT work: 
+
+As mentioned above the NFT are digital information stored in blockchain. These digital assets can be entities or blockchain record details. There are various standards of NFT are present like erc721,etc. In chia we use NFT1 standard. Therefore, NFTs are unique data collection that can be verified, validated, transferred between the owners to ensure that the tokens doesn’t get duplicated.
+
+## Need for NFT:
+
+To increase the on-chain royalty of digital content writers, thereby increasing their profits and getting them publicized to wider audience. This will also be useful for people interested in trading using art in the form of NFTs. NFTs are not only used for making money, it is also used as a charity by various organizations for raising funds.
+
+## NFT in chia:
+Some of the unique features of chia NFTs are on- chain royalty, offers file support, updatable URLs etc.
+
+## NFTs in spacescan: 
+
+Spacescan nft has charts representing nft- mint trends, volume are shown.
+The top 5 transactions in last 24 hours are shown in home page.
+ A NFT collection page sample is given below..
+
+![Nft collections](./nftcollectionimage.png) 
+
