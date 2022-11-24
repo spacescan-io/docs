@@ -5,24 +5,27 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
-# Transactions
+# Coins
 
-## Get CAT(Chia Asset Token) info
+## Get Coin(Transaction) info by coin id
 
-Retrieves NFT collection info by `number` or `hash`
+Retrieves Coin(transaction) details by `coin id`
 
 ```
-https://api.spacescan.io/api/block/info
+https://api.spacescan.io/api/coin/info
     ?authkey=your_auth_key
-    &number=12345
+    &coin_id=12345
 ```
-> For testnet add param `network=TN10` in above query
-
 <Tabs>
   <TabItem value="Request" label="Request" default>
     <table border="0">
         <tr><th colspan="10">Params</th><th>Details</th></tr>
-        <tr><td colspan="10">number</td><td>The block number</td></tr>
+        <tr><td colspan="10">coin_id</td><td>The coin id of the transaction </td></tr>
+        <tr><td colspan="10">network</td><td>Its optional <br/>
+            Possible values:
+      mainnet|testnet10</td></tr>
+      <tr><td colspan="10">Version</td><td>Its optional <br/>
+      Defaults to 1</td></tr>
     </table>
   </TabItem>
   <TabItem value="Response" label="Response">
