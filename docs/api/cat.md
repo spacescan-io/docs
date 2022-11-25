@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves NFT collection info by `col_id`
 
 ```
-https://api.spacescan.io/api/cat/info
+https://api.spacescan.io/cat/info
     ?authkey=your_auth_key
     &asset_id=509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f
 ```
@@ -39,7 +39,7 @@ https://api.spacescan.io/api/cat/info
 Retrieves current holders address of CAT by `asset_id`
 
 ```
-https://api.spacescan.io/api/cat/holders
+https://api.spacescan.io/cat/holders
     ?authkey=your_auth_key
     &asset_id=col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl
 ```
@@ -67,7 +67,7 @@ https://api.spacescan.io/api/cat/holders
 Retrieves total CAT created and transactions details in chia block chain
 
 ```
-https://api.spacescan.io/api/stats/cats
+https://api.spacescan.io/stats/cats
     ?authkey=your_auth_key
 ```
 

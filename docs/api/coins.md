@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves Coin(transaction) details by `coin id`
 
 ```
-https://api.spacescan.io/api/coin/info
+https://api.spacescan.io/coin/info
     ?authkey=your_auth_key
     &coin_id=12345
 ```

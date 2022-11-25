@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves NFT collection info by `number` or `hash`
 
 ```
-https://api.spacescan.io/api/block/info
+https://api.spacescan.io/block/info
     ?authkey=your_auth_key
     &number=12345
 ```

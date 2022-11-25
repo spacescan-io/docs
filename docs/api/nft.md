@@ -6,13 +6,12 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
 # NFT
-
 ## Get NFT Collection info
 
 Retrieves NFT collection info by `col_id`
 
 ```
-https://api.spacescan.io/api/collection/info
+https://api.spacescan.io/collection/info
     ?authkey=your_auth_key
     &col_id=col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl
 ```
@@ -45,7 +44,7 @@ https://api.spacescan.io/api/collection/info
 Retrieves NFT details from a collection by `col_id`
 
 ```
-https://api.spacescan.io/api/collection/nfts
+https://api.spacescan.io/collection/nfts
     ?authkey=your_auth_key
     &col_id=col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl
 ```
@@ -78,7 +77,7 @@ https://api.spacescan.io/api/collection/nfts
 Retrieves current holders address and DID of a collection by `col_id`
 
 ```
-https://api.spacescan.io/api/collection/holders
+https://api.spacescan.io/collection/holders
     ?authkey=your_auth_key
     &col_id=col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl
 ```
@@ -111,7 +110,7 @@ https://api.spacescan.io/api/collection/holders
 Get NFT basic info by `nft_id`
 
 ```
-https://api.spacescan.io/api/nft/info
+https://api.spacescan.io/nft/info
     ?authkey=your_auth_key
     &nft_id=nft1qgw6j93ynlu5d5ufhrwsq9e8ptlz9u624t0wgyzefn9wk9f90f9sv4kdss
 ```
@@ -144,7 +143,7 @@ https://api.spacescan.io/api/nft/info
 Get NFT coin transactions details by `nft_id`
 
 ```
-https://api.spacescan.io/api/nft/transactions
+https://api.spacescan.io/nft/transactions
     ?authkey=your_auth_key
     &nft_id=nft1qgw6j93ynlu5d5ufhrwsq9e8ptlz9u624t0wgyzefn9wk9f90f9sv4kdss
 ```
@@ -177,7 +176,7 @@ https://api.spacescan.io/api/nft/transactions
 Retrieves NFT evenets details by `nft_id`
 
 ```
-https://api.spacescan.io/api/nft/transactions
+https://api.spacescan.io/nft/transactions
     ?authkey=your_auth_key
     &nft_id=nft1qgw6j93ynlu5d5ufhrwsq9e8ptlz9u624t0wgyzefn9wk9f90f9sv4kdss
 ```
@@ -210,7 +209,7 @@ https://api.spacescan.io/api/nft/transactions
 Retrieves NFT total minted count in chia block chain
 
 ```
-https://api.spacescan.io/api/stats/nfts
+https://api.spacescan.io/stats/nfts
     ?authkey=your_auth_key
 ```
 

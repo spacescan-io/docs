@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves NFT collection info by `col_id`
 
 ```
-https://api.spacescan.io/api/did/info
+https://api.spacescan.io/did/info
     ?authkey=your_auth_key
     &did=did:chia:1n7and8v9lxpfd8e0y2lqtdfhzm2mahsejn8qz0mwajj5670kfgpsenw9dc
 ```

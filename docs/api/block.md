@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves Chia blockchain Block info by `number` or `hash`
 
 ```
-https://api.spacescan.io/api/block/info
+https://api.spacescan.io/block/info
     ?authkey=your_auth_key
     &number=12345
 ```
@@ -48,7 +48,7 @@ https://api.spacescan.io/api/block/info
 Retrieves Chia blockc chain peak block
 
 ```
-https://api.spacescan.io/api/block/info
+https://api.spacescan.io/block/info
     ?authkey=your_auth_key
 ```
 <Tabs>

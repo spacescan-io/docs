@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves XCH balance for a `address`
 
 ```
-https://api.spacescan.io/api/address/xch-balance
+https://api.spacescan.io/address/xch-balance
     ?authkey=your_auth_key
     &address=xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8
 ```
@@ -45,7 +45,7 @@ https://api.spacescan.io/api/address/xch-balance
 Retrieves CAT balances for a `address`
 
 ```
-https://api.spacescan.io/api/address/cat-balance
+https://api.spacescan.io/address/cat-balance
     ?authkey=your_auth_key
     &address=xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8
 ```
@@ -78,7 +78,7 @@ https://api.spacescan.io/api/address/cat-balance
 Retrieves nft balances for a `address`
 
 ```
-https://api.spacescan.io/api/address/nft-balance
+https://api.spacescan.io/address/nft-balance
     ?authkey=your_auth_key
     &address=xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8
 ```
@@ -111,7 +111,7 @@ https://api.spacescan.io/api/address/nft-balance
 Retrieves list of transactions for a `address` and it return max of 1000 transactions
 
 ```
-https://api.spacescan.io/api/address/transactions
+https://api.spacescan.io/address/transactions
     ?authkey=your_auth_key
     &address=xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8
 ```

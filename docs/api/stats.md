@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves XCH in circulation
 
 ```
-https://api.spacescan.io/api/stats/total-supply
+https://api.spacescan.io/stats/total-supply
     ?authkey=your_auth_key
 ```
 
@@ -41,7 +41,7 @@ https://api.spacescan.io/api/stats/total-supply
 Retrieves XCH price in supplied currency
 
 ```
-https://api.spacescan.io/api/stats/price
+https://api.spacescan.io/stats/price
     ?authkey=your_auth_key
     &cur=USD
 ```
@@ -73,7 +73,7 @@ https://api.spacescan.io/api/stats/price
 Retrieves Chia blockchain netspace
 
 ```
-https://api.spacescan.io/api/stats/netspace
+https://api.spacescan.io/stats/netspace
     ?authkey=your_auth_key
     &metrics=Eib
 ```
