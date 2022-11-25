@@ -14,7 +14,7 @@ Retrieves Coin(transaction) details by `coin id`
 ```
 https://api.spacescan.io/coin/info
     ?authkey=your_auth_key
-    &coin_id=12345
+    &coin_id=0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789
 ```
 <Tabs>
   <TabItem value="Request" label="Request" default>

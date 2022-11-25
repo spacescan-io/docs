@@ -38,7 +38,7 @@ https://api.spacescan.io/cat/info
   </TabItem>
 </Tabs>
 
-## Get holders of CAT Collection 
+## Get CAT holders
 
 Retrieves current holders address of CAT by `asset_id`
 
@@ -69,7 +69,7 @@ https://api.spacescan.io/cat/holders
   </TabItem>
 </Tabs>
 
-## Get transactions details of a CAT 
+## Get CAT transactions
 
 Retrieves transactions details of CAT by `asset_id`
 

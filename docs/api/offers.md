@@ -32,10 +32,16 @@ https://api.spacescan.io/offers/list
       nft id|col id| cat id|xch</td></tr>
       <tr><td colspan="10">sort</td><td>Its optional <br/>
             Possible values:
-      low|high</td></tr>
+      asc|desc</td></tr>
+       <tr><td colspan="10">sort_by</td><td>Its optional <br/>
+            Possible values:
+      price|date</td></tr>
       <tr><td colspan="10">page</td><td>Its optional and each call return 100 offers <br/>
             Possible values:
       1 to 100</td></tr>
+      <tr><td colspan="10">page_size</td><td>Its optional <br/>
+            Possible values:
+      20 to 100</td></tr>
     </table>
   </TabItem>
   <TabItem value="Response" label="Response">
