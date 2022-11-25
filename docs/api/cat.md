@@ -9,7 +9,7 @@ import CodeBlock from '@theme/CodeBlock';
 
 ## Get CAT(Chia Asset Token) info
 
-Retrieves NFT collection info by `col_id`
+Retrieves NFT collection info by `asset_id`
 
 ```
 https://api.spacescan.io/cat/info

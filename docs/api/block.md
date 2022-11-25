@@ -48,7 +48,7 @@ https://api.spacescan.io/block/info
 Retrieves Chia blockc chain peak block
 
 ```
-https://api.spacescan.io/block/info
+https://api.spacescan.io/block/peak
     ?authkey=your_auth_key
 ```
 <Tabs>
