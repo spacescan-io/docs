@@ -67,7 +67,7 @@ const config = {
             label: 'Docs',
           },
           // {
-          //   to: 'api/intro',
+          //   to: 'api/get-started',
           //   position: 'left',
           //   label: 'API',
           // },
