@@ -4,18 +4,17 @@ sidebar_position: 1
 
 # Get strated
 
-[Spacescan.io](https://www.spacescan.io/) is Next generation chia blockchain explorer and analytics platform. 
-It is now under rapid development and undergo frequent updates. Spacescan started by three friends as hobby and a way to learn chia eco system. Now we are addicated and obsessed with Chia and its capabilities.  We are actively looking for talents to expand team and build best explorer for Chia. 
+[Spacescan.io](https://www.spacescan.io/) is leading chia blockchain explorer, Search, API, offer market place and analytics platform.
 
-We are software developers and architects with 15 years of experience in building financial software products for fortune 100 companies which serves millions of customers daily. We want to bring that scalability and up time to chia explorer.
+Spacescan developer API's are created to provide easy alternative to access the Chia blockchain data.
+Developers can quickly start building there ideas with REST API and Save a lot time from managing chia nodes or learning the RPC/CLI commands.
 
-Spacescan.io mainly focused on the community preference and builds features that are requested by the community.
-Just jump into our [discord](https://discord.gg/Bb4sj3Bg9P) or [github](https://github.com/spacescan-io/web/issues) to add your suggestions.
-Let us build better Explorer and Analytics platform together for worlds most decentralized block chain and it deserves a professional explorer. 
+Spacescan's APIs are provided as a community service and without any warranty. Data may change time to time because of P2P nature of blockchain. During any chain reorg or split data may wary and we always try to keep the data as reliable as possible.
 
-:::tip Say Hi!
-
- * [**Discord**](https://discord.gg/Bb4sj3Bg9P)
- * [**Twitter**](https://twitter.com/spacescan_io)
-
+:::info Info
+Source attribution as a backlink from your app is "Powered by spacescan.io APIs" is greatly appreciated.
 :::
+
+## 1) Create Account
+## 2) Choose API plan
+## 3) Make calls with authkey
