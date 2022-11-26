@@ -24,7 +24,6 @@ Spacescan works dedicatedly on implementing the suggestion that are provided by 
 ### How to update the CAT information
  
 CAT information that are displayed in spacescan website are exclusively collected or updated by the owner of the CAT. 
-You can follow [this docs](../docs/guide/updatecatinfo.md) for updating your own CAT.  
 
 :::info Info
 

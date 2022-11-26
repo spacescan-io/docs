@@ -47,6 +47,10 @@ const config = {
       },
     ],
   ],
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+  },
   themeConfig:
     ({
       navbar: {
@@ -76,6 +80,12 @@ const config = {
             type: 'dropdown',
             label: 'Community',
             position: 'right',
+            // dropdownItemsAfter: [
+            //   {
+            //     type: 'html',
+            //     value: '<hr style="margin: 0.3rem 0;">',
+            //   },
+            // ],
             items: [
               {
                 label: 'Twitter', // The link label
@@ -90,6 +100,15 @@ const config = {
               
               // ... more items
             ],
+          },{
+            type: 'localeDropdown',
+            position: 'right',
+            // dropdownItemsAfter: [
+            //   {
+            //     type: 'html',
+            //     value: '<hr style="margin: 0.3rem 0.3rem;">',
+            //   },
+            // ],
           },
         ],
       },
