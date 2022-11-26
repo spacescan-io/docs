@@ -10,8 +10,8 @@ const config = {
   tagline: 'Sapcescan- Chia explorer',
   url: 'https://docs.spacescan.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/spacescan-logo.png',
   organizationName: 'Spacescan.io', // Usually your GitHub org/user name.
   projectName: 'Spacescan.io', // Usually your repo name.
