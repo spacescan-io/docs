@@ -27,7 +27,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guide',
-      items: ['guide/verifyDID','guide/updatecatinfo','guide/verifyDID-ZH','guide/updatecatinfo-ZH'],
+      items: ['guide/verifyDID','guide/updatecatinfo'],
       collapsible: true,
       collapsed: false,
     },
