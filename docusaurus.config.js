@@ -18,17 +18,14 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      '@docusaurus/preset-classic',
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl: 'https://github.com/spacescan-io/docs',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -38,9 +35,19 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'api',
+        path: 'api',
+        routeBasePath: 'api',
+        sidebarPath: require.resolve('./apisidebars.js'),
+        // ... other options
+      },
+    ],
+  ],
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: 'Spacescan.io',
@@ -55,13 +62,41 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   to: 'api/intro',
+          //   position: 'left',
+          //   label: 'API',
+          // },
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://www.spacescan.io/',
             label: 'Spacescan.io',
             position: 'left',
+          },{
+            type: 'dropdown',
+            label: 'Community',
+            position: 'right',
+            items: [
+              {
+                label: 'Twitter', // The link label
+                href: 'https://twitter.com/spacescan_io', // The external URL
+    
+              },
+              {
+                label: 'Discord', // The link label
+                href: 'https://discord.gg/Bb4sj3Bg9P', // The external URL
+    
+              },
+              
+              // ... more items
+            ],
           },
         ],
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
       },
       footer: {
         style: 'dark',

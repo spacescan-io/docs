@@ -31,18 +31,6 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
     },
-    {
-      type: 'link',
-      label: 'Twitter', // The link label
-      href: 'https://twitter.com/spacescan_io', // The external URL
-      
-    },
-    {
-      type: 'link',
-      label: 'Discord', // The link label
-      href: 'https://discord.gg/Bb4sj3Bg9P', // The external URL
-      
-    },
   ],
    
 };
