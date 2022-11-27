@@ -12,7 +12,7 @@ import CodeBlock from '@theme/CodeBlock';
 Retrieves data store mirror based on data store id
 
 ```
-https://api.spacescan.io/dl/mirror
+https://api.spacescan.io/datalayer/mirror
     ?authkey=your_auth_key
     &store_id=
 ```
