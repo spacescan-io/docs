@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Get strated
+# Get started
 
 [Spacescan.io](https://www.spacescan.io/) is leading chia blockchain explorer, Search, API, offer market place and analytics platform.
 
