@@ -194,3 +194,37 @@ https://api.spacescan.io/address/transactions
   </CodeBlock>
   </TabItem>
 </Tabs>
+
+## Get xch address for .xch name
+
+Retrieve xch address for '.xch' name service from https://www.namesdao.org/
+
+```
+https://api.spacescan.io/address/name-lookup
+    ?authkey=your_auth_key
+    &name=spacescan.xch
+```
+
+<Tabs>
+  <TabItem value="Request" label="Request" default>
+    <table border="0">
+        <tr><th colspan="10">Params</th><th>Details</th></tr>
+        <tr><td colspan="10">name</td><td> The .xch name 
+        <br/>
+        Example:<br/> name=hoffmang.xch
+      </td></tr>
+      <tr><td colspan="10">network</td><td>Its optional <br/>
+      Possible values:
+      mainnet|testnet10</td></tr>
+      <tr><td colspan="10">Version</td><td>Its optional <br/>
+      Defaults to 1</td></tr>
+    </table>
+  </TabItem>
+  <TabItem value="Response" label="Response">
+  <CodeBlock language="jsx">
+  {`{
+    "status": "SUCCESS"
+}`}
+  </CodeBlock>
+  </TabItem>
+</Tabs>
