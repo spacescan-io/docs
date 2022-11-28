@@ -15,6 +15,10 @@ Spacescan's APIs are provided as a community service and without any warranty. D
 Source attribution as a backlink from your app is "Powered by spacescan.io APIs" is greatly appreciated.
 :::
 
+:::danger
+The APIs are still in very active development and this messge will be updated once its ready for consumption.
+:::
+
 ## 1) Create Account
 ## 2) Choose API plan
 ## 3) Make calls with authkey
