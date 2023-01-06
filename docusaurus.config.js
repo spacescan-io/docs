@@ -66,11 +66,11 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {
-            to: 'api/get-started',
-            position: 'left',
-            label: 'API',
-          },
+          // {
+          //   to: 'api/get-started',
+          //   position: 'left',
+          //   label: 'API',
+          // },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://www.spacescan.io/',
