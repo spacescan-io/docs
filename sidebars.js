@@ -27,7 +27,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guide',
-      items: ['guide/verifyDID','guide/updatecatinfo'],
+      items: ['guide/verifyDID','guide/updatecatinfo','guide/chia_tax'],
       collapsible: true,
       collapsed: false,
     },
