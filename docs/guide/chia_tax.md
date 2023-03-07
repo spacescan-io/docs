@@ -51,3 +51,36 @@ To generate your tax statement, please follow these steps:
     ![Chia tax report starts](tax_3.png)
 
     ![Chia tax report generated](tax_4.png)
+
+## 3) To pay in XCH using wallet connect, follow these steps:
+
+1. log in to spacescan using your email ID and Select the plan.
+
+    ![Chia tax step 1](plan_xch_1.png)
+
+2. A QR code will appear, Click on the "COPY TO CLIPBOARD" link at the bottom of the code.
+
+    ![Chia tax step 2](plan_xch_2.png)
+3. Open your Chia wallet and select the wallet connect option.
+
+    ![Chia tax step 3](plan_xch_3.png)
+4. Click "Add connection" to add Spacescan and paste the copied wallet connect string into the "Paste link" box and Click "Continue".
+
+    ![Chia tax step 4](plan_xch_4.png)
+5. Once connected, refresh the price plan page in Spacescan and click on the "Pay" option.
+
+    ![Chia tax step 5](plan_xch_5.png)
+6. Select the transaction fee and confirm payment.
+
+    ![Chia tax step 6](plan_xch_6.png)
+7. Approve the payment in your Chia wallet.
+
+    ![Chia tax step 6.1](plan_xch_6.1.png)
+8. Wait for confirmation from the blockchain, then click on "Done".
+
+    ![Chia tax step 7](plan_xch_7.png)
+9. The page will load with your purchased plan.
+
+    ![Chia tax step 8](plan_xch_8.png)
+
+    ![Chia tax step 9](plan_xch_9.png)
