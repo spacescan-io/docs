@@ -64,7 +64,7 @@ To generate your tax statement, please follow these steps:
 3. Open your Chia wallet and select the wallet connect option.
 
     ![Chia tax step 3](plan_xch_3.png)
-4. Click "Add connection" to add Spacescan and paste the copied wallet connect string into the "Paste link" box and Click "Continue".
+4. Click "Add connection" and paste the wallet connect string as shown below and Click "Continue".
 
     ![Chia tax step 4](plan_xch_4.png)
 5. Once connected, refresh the price plan page in Spacescan and click on the "Pay" option.
