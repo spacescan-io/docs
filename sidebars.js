@@ -31,6 +31,11 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
     },
+    {
+      type: 'doc',
+      label: 'Terms and Agreement',
+      id: 'terms_and_agreement',
+    },
   ],
    
 };
