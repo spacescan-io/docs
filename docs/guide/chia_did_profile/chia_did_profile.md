@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Manage DID profile
+# Chia DID profile
 
  We are excited to introduce the new Chia DID profile in Spacescan. This guide will walk you through the process of setting up a Chia DID profile using wallet connect. This process will enable the digital identity to be securely managed and shared with others on the Chia community. 
 

@@ -27,7 +27,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Guide',
-      items: ['guide/verifyDID','guide/updatecatinfo','guide/chia_tax','guide/did_profile/did_profile','guide/manage_address_profile/manage_address_profile'],
+      items: ['guide/verifyDID','guide/updatecatinfo','guide/chia_tax','guide/manage_address_profile/manage_address_profile','guide/chia_did_profile/chia_did_profile'],
       collapsible: true,
       collapsed: false,
     },
