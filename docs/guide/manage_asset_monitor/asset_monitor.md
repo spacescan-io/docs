@@ -7,7 +7,7 @@ sidebar_position: 7
  We are excited to introduce the new Chia wallet monitor in Spacescan. This guide will walk you through the process of setting up a Chia wallet monitor. Through this process the user can track their address/public key's transactions through E-Mail alerts and notification table which will displaying in spacescan. 
 
 
-** This feature still in Beta so expect some glitches. [Reach team here for support](https://www.spacescan.io/contactus) **
+** This feature still in Beta so expect some glitches. [Reach team here for support](https://www.spacescan.io/contact-us) **
 ### 1) Select the "Monitor wallet" menu and create new account 
 
 
@@ -60,7 +60,7 @@ Click kebab icon in the wallet then select "Details"
 
 Copy the public key from the pop up window 
 
-![Alt text](capture8.2.png)
+![Alt text](Capture8.2.png)
 
 ### 6)Upgraded plan and notification
 According to the user's upgraded plan, the number of public key/addresses can be add.The alerts will receive through the E-mail for the transactions happens in the monitoring public key/address.
