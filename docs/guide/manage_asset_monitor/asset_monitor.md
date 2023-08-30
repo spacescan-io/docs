@@ -60,7 +60,7 @@ Click kebab icon in the wallet then select "Details"
 
 Copy the public key from the pop up window 
 
-![Alt text](Capture8.2.png)
+![Alt text](Capture8.2.PNG)
 
 ### 6)Upgraded plan and notification
 According to the user's upgraded plan, the number of public key/addresses can be add.The alerts will receive through the E-mail for the transactions happens in the monitoring public key/address.
