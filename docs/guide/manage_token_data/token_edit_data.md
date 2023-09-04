@@ -2,17 +2,19 @@
 sidebar_position: 8
 ---
 
-# Manage Token Details
+# Manage Token
 
  We are excited to introduce the new Chia Token update feature in Spacescan. This guide will walk you through the process of how to update/edit the Token details.  
 
 
 ** This feature still in Beta so expect some glitches. [Reach team here for support](https://www.spacescan.io/contact-us) **
+
+Before import the Token ,the chia wallet should have minted token and that chia wallet should connected with spacescan.io 
 ### 1)  Reach the "Token" menu from the sidebar
 
 ![Alt text](Token1.PNG)
 
-### 2) Connect wallet to import the Token
+### 2)  Connect wallet to import the Token
 Connect the wallet before edit/update the Token.If wallet already connected ,please skip this step and reach to the next step
 
 ![Alt text](Token2.PNG)
@@ -31,6 +33,14 @@ After wallet connect,click the "Import Token"
 Enter the "Token ID" in the text box, which Token you want to import
 
 ![Alt text](Token6.PNG)
+
+Click import Token button,It showing pop up to confirm the message in the chia wallet.
+
+![Alt text](Token6.0.PNG)
+
+Go to the chia wallet and click confirm
+
+![Alt text](Token6.01.PNG)
 
 Now you can see the imported Token from your wallet
 
