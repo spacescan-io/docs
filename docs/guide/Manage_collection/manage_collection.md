@@ -2,7 +2,7 @@
 sidebar_position: 9
 ---
 
-# My collection
+# Manage Collection
 
 We are excited to introduce the new Chia "My collection" in Spacescan. This guide will walk you through the process of setting up a Chia My collection using wallet connect. This process will enable the user to customize their NFT collection to be securely managed and shared with others on the Chia community. 
 
