@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8743],{9520:e=>{e.exports=JSON.parse('{"permalink":"/zh/blog/tags/chia/page/2","page":2,"postsPerPage":10,"totalPages":3,"totalCount":24,"previousPage":"/zh/blog/tags/chia","nextPage":"/zh/blog/tags/chia/page/3","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

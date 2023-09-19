@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[6052],{9325:s=>{s.exports=JSON.parse('{"label":"spacescan","permalink":"/zh/blog/tags/spacescan","allTagsPath":"/zh/blog/tags","count":24}')}}]);

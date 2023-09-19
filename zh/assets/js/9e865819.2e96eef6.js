@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[2699],{6333:s=>{s.exports=JSON.parse('{"label":"NFT","permalink":"/zh/blog/tags/nft","allTagsPath":"/zh/blog/tags","count":19}')}}]);

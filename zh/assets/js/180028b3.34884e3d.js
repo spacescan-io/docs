@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[357],{5951:e=>{e.exports=JSON.parse('{"permalink":"/zh/blog/tags/nft","page":1,"postsPerPage":10,"totalPages":2,"totalCount":19,"nextPage":"/zh/blog/tags/nft/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);
