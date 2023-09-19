@@ -23,7 +23,7 @@ Connect the wallet before edit/update the Collection.If wallet already connected
 
 Click connect wallet.
 
-![Alt text](col_2.PNG)
+![Alt text](col_2.png)
 
 Copy the QR code.
 
