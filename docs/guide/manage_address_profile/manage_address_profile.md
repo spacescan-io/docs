@@ -66,12 +66,12 @@ Hit the confirm button
 ### 7)  "Edit profile" to customize the profile
 After address claimed the user will land on the address edit page
 
-![Alt text](address_claim_14.PNG)
+![Alt text](address_claim_14.png)
 ![Alt text](address_claim_14.0.PNG)
 
 ### 8) To view the public profile
 After edit ,you can see the claimed address.
 
-![Alt text](address_claim_15.PNG)
-![Alt text](address_claim_16.PNG)
-![Alt text](address_claim_17.PNG)
+![Alt text](address_claim_15.png)
+![Alt text](address_claim_16.png)
+![Alt text](address_claim_17.png)
