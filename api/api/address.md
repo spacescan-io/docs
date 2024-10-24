@@ -21,14 +21,17 @@ https://api.spacescan.io/address/balance
 <Tabs>
   <TabItem value="Request" label="Request" default>
     <table border="0">
-        <tr><th colspan="10">Params</th><th>Details</th></tr>
-        <tr><td colspan="10">address</td><td>The XCH address in string format. It can also accept multiple address with comma separation. Max of 10 address allowed in sigle call.
+      <tr><th colspan="10">Params</th><th>Details</th></tr>
+      <tr>
+        <td colspan="10">address</td>
+        <td>The XCH address in string format. It can also accept multiple address with comma separation. Max of 10 address allowed in sigle call.
         <br/>
         Possible values:
         xch address | .xch name service names
         <br/>
         Example:<br/> address=xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8,<br/>xch18rv9snq2vxl4f9mt8j7zffattqqac80ajcvpe2h6j3t9w8y53l3s8970ya
-      </td></tr>
+        </td>
+      </tr>
       <tr><td colspan="10">network</td><td>Its optional <br/>
       Possible values:
       mainnet|testnet10</td></tr>
@@ -37,11 +40,11 @@ https://api.spacescan.io/address/balance
     </table>
   </TabItem>
   <TabItem value="Response" label="Response">
-  <CodeBlock language="jsx">
-  {`{
-    "status": "SUCCESS"
-}`}
-  </CodeBlock>
+    <CodeBlock language="jsx">
+    {`{
+      "status": "SUCCESS"
+    }`}
+    </CodeBlock>
   </TabItem>
 </Tabs>
 
