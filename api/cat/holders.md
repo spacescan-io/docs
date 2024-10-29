@@ -1,14 +1,14 @@
 ---
-sidebar_position: 7
+sidebar_position: 2
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Coin Information
+# Get CAT Holders
 
-This endpoint allows you to fetch detailed information about a specific coin (transaction) using its unique identifier.
+This endpoint allows you to fetch the list of holders for a specific CAT (Chia Asset Token).
 
 ### Endpoint
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch detailed information about a specific coin (tr
   <TabItem value="mainnet" label="Mainnet">
 
 ```
-GET https://api.spacescan.io/coin/info/{coin_id}
+GET https://api.spacescan.io/cat/holders/{asset_id}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```
-GET https://api-testnet11.spacescan.io/coin/info/{coin_id}
+GET https://api-testnet11.spacescan.io/cat/holders/{asset_id}
 ```
 
   </TabItem>
@@ -33,7 +33,7 @@ GET https://api-testnet11.spacescan.io/coin/info/{coin_id}
 
 | Parameter | Type   | Description                                     |
 |-----------|--------|-------------------------------------------------|
-| coin_id   | string | The unique identifier of the coin (transaction) |
+| asset_id  | string | The unique identifier of the CAT                |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -43,7 +43,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
+curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -52,12 +52,12 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -70,12 +70,12 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789"
+        curl -X GET "https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789"
+        curl -X GET "https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -86,8 +86,8 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
         <CodeBlock language="python">
         import requests
 
-        coin_id = "0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789"
-        url = f"https://api.spacescan.io/coin/info/{coin_id}"
+        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        url = f"https://api.spacescan.io/cat/holders/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -98,8 +98,8 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
         <CodeBlock language="python">
         import requests
 
-        coin_id = "0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789"
-        url = f"https://api-testnet11.spacescan.io/coin/info/{coin_id}"
+        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        url = f"https://api-testnet11.spacescan.io/cat/holders/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -112,8 +112,8 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">
-        const coinId = "0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789";
-        const url = `https://api.spacescan.io/coin/info/${coinId}`;
+        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
+        const url = `https://api.spacescan.io/cat/holders/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -123,8 +123,8 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="javascript">
-        const coinId = "0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789";
-        const url = `https://api-testnet11.spacescan.io/coin/info/${coinId}`;
+        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
+        const url = `https://api-testnet11.spacescan.io/cat/holders/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -140,10 +140,10 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789" />
+    <ApiCallExample endpoint="https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/coin/info/0x554c7cdc91269736fca8216dfbfa01841185bad4d1097ec899d2b18f2e558789" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
   </TabItem>
 </Tabs>
 
@@ -152,25 +152,27 @@ curl -X GET "https://pro-api.spacescan.io/coin/info/{coin_id}" \
 | Field            | Type    | Description                                           |
 |------------------|---------|-------------------------------------------------------|
 | status           | string  | The status of the API request                         |
-| coin             | object  | Detailed information about the requested coin         |
-| coin.coin_name   | string  | The unique identifier of the coin                     |
-| coin.coinbase    | boolean | Indicates if this is a coinbase transaction           |
-| coin.confirmed_block | string | The block number where this coin was confirmed     |
-| coin.spent_block | string  | The block number where this coin was spent (if applicable) |
-| coin.amount      | string  | The amount of the coin in XCH                         |
-| coin.amount_mojo | string  | The amount of the coin in mojo (smallest unit)        |
-| coin.confirmed_time | string | The timestamp when the coin was confirmed           |
-| coin.sender      | object  | Information about the sender of the coin              |
-| coin.receiver    | object  | Information about the receiver of the coin            |
-| coin.type        | string  | The type of the coin (e.g., "STND" for standard)      |
-| coin.timestamp   | number  | Unix timestamp of the transaction                     |
+| holders          | array   | List of CAT holders                                   |
+| total_holders    | number  | Total number of unique holders                        |
+| total_supply     | string  | Total supply of the CAT                              |
+
+#### Holder Object
+
+Each holder in the `holders` array contains:
+
+| Field            | Type    | Description                                           |
+|------------------|---------|-------------------------------------------------------|
+| address          | string  | The holder's address                                  |
+| balance          | string  | The amount of CAT tokens held                         |
+| percentage       | number  | Percentage of total supply held by this address       |
+| last_updated     | string  | Timestamp of last balance update                      |
 
 ### Error Responses
 
 | HTTP Status Code | Meaning                                                                                   |
 |------------------|-------------------------------------------------------------------------------------------|
 | 400              | Bad Request -- Your request is invalid.                                                   |
-| 404              | Not Found -- The specified coin could not be found.                                       |
-| 429              | Too Many Requests -- You're requesting too many coins! Slow down!                         |
+| 404              | Not Found -- The specified CAT could not be found.                                        |
+| 429              | Too Many Requests -- You're requesting too many times! Slow down!                         |
 | 500              | Internal Server Error -- We had a problem with our server. Try again later.               |
 | 503              | Service Unavailable -- We're temporarily offline for maintenance. Please try again later. |
