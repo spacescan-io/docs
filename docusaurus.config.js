@@ -91,7 +91,7 @@ const config = {
             position: 'right',
           },
           {
-            to: '/api/get-started', // Assuming you have a get-started.md file in your api folder
+            to: '/api/address/balance',
             position: 'left',
             label: 'API',
           },

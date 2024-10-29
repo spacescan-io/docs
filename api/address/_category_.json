@@ -1,0 +1,8 @@
+{
+  "label": "Address",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "API endpoints related to address information and balances."
+  }
+}
