@@ -25,8 +25,6 @@ const sidebars = {
       items: [
         'address/balance',
         'address/transactions',
-        'address/xch-balance',
-        'address/cat-balance',
       ],
     },
     'coins',
