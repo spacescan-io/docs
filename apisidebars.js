@@ -18,7 +18,7 @@ const sidebars = {
 
   // But you can create a sidebar manually
   apiSidebar: [
-    'address', // This replaces 'get-started'
+    'address',
     {
       type: 'category',
       label: 'Address',
@@ -27,13 +27,35 @@ const sidebars = {
         'address/transactions',
       ],
     },
-    'coins',
-    'block',
-    'cat',
+   
+    {
+      type: 'category',
+      label: 'CAT',
+      items: [
+        'cat/info',
+        'cat/holders',
+      ],
+    },
+   
+    {
+      type: 'category',
+      label: 'NFT',
+      items: [
+        'nft/info',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Collection',
+      items: [
+        'collection/info',
+      ],
+    },
     'data_layer',
     'did',
     'mempool',
-    'nft',
+    'coins',
+    'block',
     'offers',
     'stats',
   ],

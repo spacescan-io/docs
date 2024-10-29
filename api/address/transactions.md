@@ -12,9 +12,22 @@ This endpoint allows you to fetch the transaction history for a given XCH addres
 
 ### Endpoint
 
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+
 ```
 GET https://api.spacescan.io/address/transactions/{address}
 ```
+
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+
+```
+GET https://api-testnet11.spacescan.io/address/transactions/{address}
+```
+
+  </TabItem>
+</Tabs>
 
 ### Parameters
 
@@ -22,48 +35,117 @@ GET https://api.spacescan.io/address/transactions/{address}
 |-----------|--------|-------------------------------------------------|
 | address   | string | The XCH address to fetch transactions for       |
 
+:::info Free API
+Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
+:::
+
+:::tip Pro API
+Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
+
+```bash
+curl -X GET "https://pro-api.spacescan.io/address/transactions/{address}" \
+     -H "x-api-key: YOUR_API_KEY"
+```
+:::
+
 ### Live API Test
 
-<a href="https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
-  🚀 Test API in Browser
-</a>
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+    <a href="https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
+      🚀 Test API in Browser
+    </a>
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+    <a href="https://api-testnet11.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
+      🚀 Test API in Browser
+    </a>
+  </TabItem>
+</Tabs>
 
 ### Request Example
 
 <Tabs>
   <TabItem value="curl" label="cURL">
-    <CodeBlock language="bash">
-    curl -X GET "https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
-    </CodeBlock>
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="bash">
+        curl -X GET "https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="bash">
+        curl -X GET "https://api-testnet11.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
   <TabItem value="python" label="Python">
-    <CodeBlock language="python">
-    import requests
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="python">
+        import requests
 
-    address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
-    url = f"https://api.spacescan.io/address/transactions/{address}"
+        address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        url = f"https://api.spacescan.io/address/transactions/{address}"
 
-    response = requests.get(url)
-    data = response.json()
-    print(data)
-    </CodeBlock>
+        response = requests.get(url)
+        data = response.json()
+        print(data)
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="python">
+        import requests
+
+        address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        url = f"https://api-testnet11.spacescan.io/address/transactions/{address}"
+
+        response = requests.get(url)
+        data = response.json()
+        print(data)
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
-    <CodeBlock language="javascript">
-    const address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9";
-    const url = `https://api.spacescan.io/address/transactions/${address}`;
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="javascript">
+        const address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9";
+        const url = `https://api.spacescan.io/address/transactions/${address}`;
 
-    fetch(url)
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error:', error));
-    </CodeBlock>
+        fetch(url)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="javascript">
+        const address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9";
+        const url = `https://api-testnet11.spacescan.io/address/transactions/${address}`;
+
+        fetch(url)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
 </Tabs>
 
 ### Response
 
-<ApiCallExample endpoint="https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+    <ApiCallExample endpoint="https://api.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/transactions/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
+  </TabItem>
+</Tabs>
 
 ### Response Schema
 
@@ -100,13 +182,3 @@ Each coin in the `data.coins` array contains the following fields:
 | confirmed_txn_id  | string  | ID of the confirmation transaction                    |
 | spend_txn_id      | string  | ID of the spending transaction (null if unspent)      |
 | type              | string  | Type of the transaction (e.g., "NAN" for standard)    |
-
-### Notes
-
-- The API returns the most recent transactions. The total number of transactions is provided in the `rowCount` field.
-- All timestamps are returned in ISO 8601 format: `YYYY-MM-DDTHH:mm:ss.sssZ`
-- Amounts are returned as strings to preserve precision
-- The API does not require authentication for this endpoint
-- CAT balance information is provided in the `cat_balance` object, which is empty in this example
-
-For any additional information or support, please contact our API support team or refer to our comprehensive API documentation.

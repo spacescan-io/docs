@@ -6,9 +6,9 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Get XCH Balance
+# Get CAT Information
 
-This endpoint allows you to fetch the XCH balance for a given address.
+This endpoint allows you to fetch detailed information about a specific CAT (Chia Asset Token).
 
 ### Endpoint
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch the XCH balance for a given address.
   <TabItem value="mainnet" label="Mainnet">
 
 ```
-GET https://api.spacescan.io/address/balance/{address}
+GET https://api.spacescan.io/cat/info/{asset_id}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```
-GET https://api-testnet11.spacescan.io/address/balance/{address}
+GET https://api-testnet11.spacescan.io/cat/info/{asset_id}
 ```
 
   </TabItem>
@@ -33,7 +33,7 @@ GET https://api-testnet11.spacescan.io/address/balance/{address}
 
 | Parameter | Type   | Description                                     |
 |-----------|--------|-------------------------------------------------|
-| address   | string | The XCH address       |
+| asset_id  | string | The unique identifier of the CAT                |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -43,7 +43,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
+curl -X GET "https://pro-api.spacescan.io/cat/info/{asset_id}" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -52,12 +52,12 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -70,12 +70,12 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+        curl -X GET "https://api.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+        curl -X GET "https://api-testnet11.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -86,8 +86,8 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
         <CodeBlock language="python">
         import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        url = f"https://api.spacescan.io/address/balance/{address}"
+        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        url = f"https://api.spacescan.io/cat/info/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -98,8 +98,8 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
         <CodeBlock language="python">
         import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        url = f"https://api-testnet11.spacescan.io/address/balance/{address}"
+        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        url = f"https://api-testnet11.spacescan.io/cat/info/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -112,8 +112,8 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api.spacescan.io/address/balance/${address}`;
+        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
+        const url = `https://api.spacescan.io/cat/info/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -123,8 +123,8 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="javascript">
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api-testnet11.spacescan.io/address/balance/${address}`;
+        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
+        const url = `https://api-testnet11.spacescan.io/cat/info/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -140,18 +140,23 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
+    <ApiCallExample endpoint="https://api.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cat/info/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
   </TabItem>
 </Tabs>
 
 ### Response Schema
 
-| Field           | Type   | Description                      |
-|-----------------|--------|----------------------------------|
-| balance         | object | XCH balance information          |
-| balance.mojo    | number | The XCH balance in mojos         |
-| balance.xch     | number | The XCH balance in XCH           |
-| balance.usd     | number | The USD value of the XCH balance |
+| Field            | Type    | Description                                           |
+|------------------|---------|-------------------------------------------------------|
+| status           | string  | The status of the API request                         |
+| cat              | object  | Detailed information about the CAT                    |
+| cat.asset_id     | string  | The unique identifier of the CAT                      |
+| cat.name         | string  | The name of the CAT                                   |
+| cat.symbol       | string  | The symbol/ticker of the CAT                          |
+| cat.total_supply | string  | The total supply of the CAT                          |
+| cat.description  | string  | Description of the CAT                                |
+| cat.website_url  | string  | Official website URL                                  |
+| cat.logo_url     | string  | URL of the CAT's logo                                | 

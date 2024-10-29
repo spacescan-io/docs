@@ -14,9 +14,22 @@ This endpoint allows you to fetch detailed information about a specific block us
 
 ### Endpoint
 
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+
 ```
 GET https://api.spacescan.io/block/info/{block_identifier}
 ```
+
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+
+```
+GET https://api-testnet11.spacescan.io/block/info/{block_identifier}
+```
+
+  </TabItem>
+</Tabs>
 
 ### Parameters
 
@@ -24,48 +37,117 @@ GET https://api.spacescan.io/block/info/{block_identifier}
 |-----------|--------|-------------------------------------------------|
 | block_identifier | string | The block height or block hash |
 
+:::info Free API
+Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
+:::
+
+:::tip Pro API
+Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
+
+```bash
+curl -X GET "https://pro-api.spacescan.io/block/info/{block_identifier}" \
+     -H "x-api-key: YOUR_API_KEY"
+```
+:::
+
 ### Live API Test
 
-<a href="https://api.spacescan.io/block/info/3000000" target="_blank" rel="noopener noreferrer" className="api-test-button">
-  🚀 Test API in Browser
-</a>
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+    <a href="https://api.spacescan.io/block/info/3000000" target="_blank" rel="noopener noreferrer" className="api-test-button">
+      🚀 Test API in Browser
+    </a>
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+    <a href="https://api-testnet11.spacescan.io/block/info/3000000" target="_blank" rel="noopener noreferrer" className="api-test-button">
+      🚀 Test API in Browser
+    </a>
+  </TabItem>
+</Tabs>
 
 ### Request Example
 
 <Tabs>
   <TabItem value="curl" label="cURL">
-    <CodeBlock language="bash">
-    curl -X GET "https://api.spacescan.io/block/info/3000000"
-    </CodeBlock>
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="bash">
+        curl -X GET "https://api.spacescan.io/block/info/3000000"
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="bash">
+        curl -X GET "https://api-testnet11.spacescan.io/block/info/3000000"
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
   <TabItem value="python" label="Python">
-    <CodeBlock language="python">
-    import requests
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="python">
+        import requests
 
-    block_identifier = "3000000"
-    url = f"https://api.spacescan.io/block/info/{block_identifier}"
+        block_identifier = "3000000"
+        url = f"https://api.spacescan.io/block/info/{block_identifier}"
 
-    response = requests.get(url)
-    data = response.json()
-    print(data)
-    </CodeBlock>
+        response = requests.get(url)
+        data = response.json()
+        print(data)
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="python">
+        import requests
+
+        block_identifier = "3000000"
+        url = f"https://api-testnet11.spacescan.io/block/info/{block_identifier}"
+
+        response = requests.get(url)
+        data = response.json()
+        print(data)
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
-    <CodeBlock language="javascript">
-    const blockIdentifier = "3000000";
-    const url = `https://api.spacescan.io/block/info/${blockIdentifier}`;
+    <Tabs>
+      <TabItem value="mainnet" label="Mainnet">
+        <CodeBlock language="javascript">
+        const blockIdentifier = "3000000";
+        const url = `https://api.spacescan.io/block/info/${blockIdentifier}`;
 
-    fetch(url)
-      .then(response => response.json())
-      .then(data => console.log(data))
-      .catch(error => console.error('Error:', error));
-    </CodeBlock>
+        fetch(url)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+        </CodeBlock>
+      </TabItem>
+      <TabItem value="testnet" label="Testnet">
+        <CodeBlock language="javascript">
+        const blockIdentifier = "3000000";
+        const url = `https://api-testnet11.spacescan.io/block/info/${blockIdentifier}`;
+
+        fetch(url)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+        </CodeBlock>
+      </TabItem>
+    </Tabs>
   </TabItem>
 </Tabs>
 
 ### Response
 
-<ApiCallExample endpoint="https://api.spacescan.io/block/info/3000000" />
+<Tabs>
+  <TabItem value="mainnet" label="Mainnet">
+    <ApiCallExample endpoint="https://api.spacescan.io/block/info/3000000" />
+  </TabItem>
+  <TabItem value="testnet" label="Testnet">
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/block/info/3000000" />
+  </TabItem>
+</Tabs>
 
 ### Response Schema
 
