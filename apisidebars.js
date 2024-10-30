@@ -38,6 +38,8 @@ const sidebars = {
         'cat/transactions',
         'cat/price',
         'cat/update',
+        'cat/total-supply',
+        'cat/circulating-supply',
       ],
     },
    
