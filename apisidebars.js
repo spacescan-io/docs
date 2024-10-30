@@ -34,6 +34,10 @@ const sidebars = {
       items: [
         'cat/info',
         'cat/holders',
+        'cat/list',
+        'cat/transactions',
+        'cat/price',
+        'cat/update',
       ],
     },
    
