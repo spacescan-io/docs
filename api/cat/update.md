@@ -42,9 +42,15 @@ POST https://api-testnet11.spacescan.io/cat/info/updatecat
   "asset_name": "Space Test CAT",
   "description": "tes1t",
   "cat_symbol": "SPACE",
-  "image_url": "https://spacescan.io/images/spacescan-logo-192.png"
+  "image_url": "https://spacescan.io/images/spacescan-logo-192.png",
+  "image_data": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII="
 }
 ```
+
+:::info Base 64 Image Data
+The `image_data` field is optional and can be used to directly provide the image data in base64 format instead of using the `image_url` field.
+:::
+
 
 ### Parameters
 
@@ -60,6 +66,7 @@ POST https://api-testnet11.spacescan.io/cat/info/updatecat
 | description  | string | New description for the CAT                                |
 | cat_symbol   | string | New trading symbol for the CAT                             |
 | image_url    | string | New URL for the CAT's logo/image                          |
+| image_data    | string | Base 64 string for the CAT's logo/image                          |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
