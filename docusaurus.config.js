@@ -11,8 +11,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/spacescan-logo.png',
-  organizationName: 'Spacescan.io', // Usually your GitHub org/user name.
-  projectName: 'Spacescan.io', // Usually your repo name.
+  organizationName: 'Spacescan.io',
+  projectName: 'Spacescan.io',
 
   presets: [
     [
@@ -22,6 +22,8 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/spacescan-io/docs/tree/main/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
@@ -33,6 +35,7 @@ const config = {
       }),
     ],
   ],
+
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
@@ -44,15 +47,24 @@ const config = {
       },
     ],
   ],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'zh'],
-  },
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Navbar config remains the same
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
+      },
+      // Rest of your existing navbar config
       navbar: {
+        hideOnScroll: true,
         title: 'Spacescan.io',
         logo: {
           alt: 'Spacescan.io Logo',
@@ -141,9 +153,9 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['java', 'php', 'bash', 'json', 'scss'],
       },
     }),
-  themes: ['@docusaurus/theme-live-codeblock'],
 };
 
 export default config;

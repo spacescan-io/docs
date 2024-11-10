@@ -57,8 +57,14 @@ const sidebars = {
         'collection/info',
       ],
     },
+    {
+      type: 'category',
+      label: 'DID',
+      items: [
+        'did/info',
+      ],
+    },
     'data_layer',
-    'did',
     'mempool',
     'coins',
     'block',
