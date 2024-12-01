@@ -2,85 +2,163 @@
 sidebar_position: 3
 ---
 
-# Chia Tax Statements
+# Chia Tax Statement
 
-## 1) For Chia farmers / Traders who started with/after Chia version 1.3
+This guide will help you understand how to use Spacescan.io's tax reporting features to track and manage your Chia blockchain transactions for tax purposes.
 
-If you began farming Chia with or after version 1.3, it is likely that you are using observer keys. The new version of the Chia client uses observer keys by default, which allow for public derivation. The main advantage of observer keys is the ability to support read-only wallets.
+## Overview
 
-1. First, visit the  [**Chia Tax page in spacescan.io**](https://www.spacescan.io/statements)
-2. Enter the public key from GUI or Master key from CLI (chia keys show)
-    - **Chia wallet GUI**:
+Spacescan.io provides comprehensive tax reporting tools that help you:
 
-        ![chia tax public key from GUI 1](tax_5.0.png)
+- Track farming income and rewards
+- Monitor capital gains/losses
+- Generate IRS-compatible tax reports
+- Export transaction history in various formats
+- Receive automated tax-related notifications
 
-        ![chia tax public key from GUI 2](tax_5.1.png)
+## Getting Started
 
-    - **Chia CLI**:
-        ![chia tax public key from CLI](tax_5.2.png)
+### Step 1: Access Tax Reports
 
-3. Select the start and end dates, as well as the desired currency, and click on the "calculate" button.
-4. The report will be generated in a few minutes. Please note that the report generation time will depend on the number of transactions associated with the provided address.
-    
-    ![Chia tax report from pub key](tax_6.png)
+Navigate to the Tax Reports section:
 
-    ![Chia tax report files from pub key](tax_7.png)
+1. Log into your Spacescan.io account
+2. Click on "Wallets" in the main navigation
+3. Select the "Tax Reports" tab
 
-    ![Chia tax report summary from pub key](tax_8.png)
+![Accessing Tax Reports](wallets_1.png)
 
-    ![Chia tax report csv from pub key](tax_9.png)
+### Step 2: Configure Your Wallet
 
-## 2) For Chia farmers who started farming before Chia version 1.3
+Add your wallet information to begin tracking:
 
-If you started farming Chia before version 1.3, then it is likely that you are using a hardened key, which requires the use of an XCH address to generate a statement for that key. Prior versions of the Chia client utilized non-observer wallet keys, which although secure, presented a drawback. Namely, a parent public key could not be used to derive a child public key, rendering read-only wallets impossible with Chia's old keys.
+1. Click the "Add Wallet" button
+2. Fill in the required details:
+   ```
+   - Wallet Name: Choose a recognizable name
+   - Master Public Key: Your wallet's public key
+   - Currency: Select your preferred currency (e.g., USD)
+   - Number Format: Choose your preferred format
+   - Non Observer Addresses (optional)
+   ```
 
-To generate your tax statement, please follow these steps:
+![Wallet Configuration](wallets_2.png)
 
-1. First, visit the  [**Chia Tax page in spacescan.io**](https://www.spacescan.io/statements)
-2. Enter the XCH address that you used to receive your farming rewards.
+## Transaction Monitoring
 
-    ![farming reward](farming_reward.png)
+### Viewing Transaction History
 
-3. Select the start and end dates, as well as the desired currency, and click on the "calculate" button.
+Monitor all your transactions in one place:
 
-    ![chia tax enter address](tax_1.png)
+1. Select your wallet from the dropdown menu
+2. View detailed transaction information:
+   - Transaction type and category
+   - Amount and timestamp
+   - Gain/Loss calculations
+   - Transaction status
 
-    ![chia tax select dates](tax_2.png)
+![Transaction History](wallets_3.png)
 
-4. The report will be generated in a few minutes. Please note that the report generation time will depend on the number of transactions associated with the provided address.
-    ![Chia tax report starts](tax_3.png)
+### Understanding Transaction Categories
 
-    ![Chia tax report generated](tax_4.png)
+Transactions are categorized as:
+- **Farming Income**: Rewards from farming
+- **Pooling Income**: Rewards from pool farming
+- **Trading**: Buy/sell transactions
+- **Transfers**: Wallet-to-wallet movements
 
-## 3) To pay in XCH using wallet connect, follow these steps:
+## Tax Report Generation
 
-1. log in to spacescan using your email ID and Select the plan.
+### Available Reports
 
-    ![Chia tax step 1](plan_xch_1.png)
+The platform offers several types of tax reports:
 
-2. A QR code will appear, Click on the "COPY TO CLIPBOARD" link at the bottom of the code.
+![Tax Reports Interface](wallets_4.png)
 
-    ![Chia tax step 2](plan_xch_2.png)
-3. Open your Chia wallet and select the wallet connect option.
+1. **Net Income Reports**
+   - Farming income summary
+   - Pooling income details
+   - Total income calculations
 
-    ![Chia tax step 3](plan_xch_3.png)
-4. Click "Add connection" and paste the wallet connect string as shown below and Click "Continue".
+2. **Capital Gains Reports**
+   - Long-term gains/losses
+   - Short-term gains/losses
+   - Aggregate gain/loss summary
 
-    ![Chia tax step 4](plan_xch_4.png)
-5. Once connected, refresh the price plan page in Spacescan and click on the "Pay" option.
+### Downloading Reports
 
-    ![Chia tax step 5](plan_xch_5.png)
-6. Select the transaction fee and confirm payment.
+Export your tax information in multiple formats:
 
-    ![Chia tax step 6](plan_xch_6.png)
-7. Approve the payment in your Chia wallet.
+1. **IRS Form 1040**
+   - Quick download for official filing
+   - Pre-formatted for tax submission
 
-    ![Chia tax step 6.1](plan_xch_6.1.png)
-8. Wait for confirmation from the blockchain, then click on "Done".
+2. **Transaction Reports**
+   - DEFAULT format for general use
+   - KOINLY compatible format for tax software
 
-    ![Chia tax step 7](plan_xch_7.png)
-9. The page will load with your purchased plan.
+3. **Capital Gains Reports**
+   - DEFAULT format with detailed calculations
+   - TURBO TAX compatible format
 
-    ![Chia tax step 8](plan_xch_8.png)
+## Automated Notifications
 
-    ![Chia tax step 9](plan_xch_9.png)
+Stay updated with automated email notifications:
+
+- Transaction alerts
+- Report generation confirmations
+- Tax deadline reminders
+- Important updates and changes
+
+![Report Download Options](wallets_5.png)
+
+## Best Practices
+
+1. **Regular Updates**
+   - Keep your wallet information current
+   - Monitor transactions frequently
+   - Download reports periodically
+
+2. **Record Keeping**
+   - Store downloaded reports securely
+   - Maintain backup copies
+   - Document any manual adjustments
+
+3. **Compliance**
+   - Verify tax calculations
+   - Consult with tax professionals
+   - Stay informed about regulations
+
+## Tips and Recommendations
+
+:::tip Regular Monitoring
+Check your tax reports monthly to ensure accurate tracking and avoid end-of-year surprises.
+:::
+
+:::tip Professional Consultation
+While our tools provide comprehensive reporting, we recommend consulting with a tax professional for specific advice about your situation.
+:::
+
+:::warning Important Note
+Tax regulations vary by jurisdiction. Ensure you understand your local tax requirements and maintain appropriate records.
+:::
+
+## Support and Resources
+
+If you need assistance with tax reporting:
+
+1. Check our FAQ section
+2. Contact our support team
+3. Review our tax documentation
+4. Consult the Chia Network tax guidelines
+
+## Next Steps
+
+After setting up tax reporting:
+
+1. Configure automated notifications
+2. Schedule regular report downloads
+3. Set up backup procedures
+4. Review transaction categorization
+
+For additional help or feature requests, please contact our support team. 
