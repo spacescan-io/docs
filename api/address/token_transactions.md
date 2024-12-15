@@ -1,14 +1,14 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Get XCH Transactions
+# Get Token Transactions
 
-This endpoint allows you to fetch the transaction history for a given XCH address with flexible filtering options for different transaction types.
+This endpoint allows you to fetch the token (CAT) transaction history for a given address.
 
 ### Endpoint
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch the transaction history for a given XCH addres
   <TabItem value="mainnet" label="Mainnet">
 
 ```bash
-GET https://api.spacescan.io/address/xch-transaction/{address}
+GET https://api.spacescan.io/address/token-transaction/{address}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```bash
-GET https://api-testnet11.spacescan.io/address/xch-transaction/{address}
+GET https://api-testnet11.spacescan.io/address/token-transaction/{address}
 ```
 
   </TabItem>
@@ -33,16 +33,10 @@ GET https://api-testnet11.spacescan.io/address/xch-transaction/{address}
 
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
-| address | string | Yes | - | The XCH address to fetch transactions for |
+| address | string | Yes | - | The XCH address to fetch token transactions for |
 | count | number | No | 100 | Number of transactions to return per type |
-| include_send | boolean | No | true | Include sent transactions |
-| include_received | boolean | No | true | Include received transactions |
-| include_send_dust | boolean | No | false | Include dust sent transactions |
-| include_received_dust | boolean | No | false | Include dust received transactions |
 | send_cursor | number | No | null | Pagination cursor for sent transactions |
 | received_cursor | number | No | null | Pagination cursor for received transactions |
-| send_dust_cursor | number | No | null | Pagination cursor for dust sent transactions |
-| received_dust_cursor | number | No | null | Pagination cursor for dust received transactions |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -52,7 +46,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/address/xch-transaction/{address}" \
+curl -X GET "https://pro-api.spacescan.io/address/token-transaction/{address}" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -61,12 +55,12 @@ curl -X GET "https://pro-api.spacescan.io/address/xch-transaction/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/address/xch-transaction/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/address/token-transaction/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/address/xch-transaction/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/address/token-transaction/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -80,18 +74,18 @@ curl -X GET "https://pro-api.spacescan.io/address/xch-transaction/{address}" \
       <TabItem value="mainnet" label="Mainnet">
 
 ```bash
-# Initial request with dust transactions
-curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_send_dust=true&include_received_dust=true"
+# Initial request
+curl -X GET "https://api.spacescan.io/address/token-transaction/xch1..."
 
 # Paginated request for specific transaction types
-curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?send_cursor=100&received_cursor=50"
+curl -X GET "https://api.spacescan.io/address/token-transaction/xch1...?send_cursor=100&received_cursor=50"
 ```
 
       </TabItem>
       <TabItem value="testnet" label="Testnet">
 
 ```bash
-curl -X GET "https://api-testnet11.spacescan.io/address/xch-transaction/xch1..."
+curl -X GET "https://api-testnet11.spacescan.io/address/token-transaction/xch1..."
 ```
 
       </TabItem>
@@ -105,13 +99,13 @@ curl -X GET "https://api-testnet11.spacescan.io/address/xch-transaction/xch1..."
 import requests
 
 address = "xch1..."
-url = f"https://api.spacescan.io/address/xch-transaction/{address}"
+url = f"https://api.spacescan.io/address/token-transaction/{address}"
 
 # Request with parameters
 params = {
-    "include_send_dust": "true",
-    "include_received_dust": "true",
-    "count": 50
+    "count": 50,
+    "send_cursor": 100,
+    "received_cursor": 50
 }
 
 response = requests.get(url, params=params)
@@ -126,7 +120,7 @@ print(data)
 import requests
 
 address = "xch1..."
-url = f"https://api-testnet11.spacescan.io/address/xch-transaction/{address}"
+url = f"https://api-testnet11.spacescan.io/address/token-transaction/{address}"
 
 response = requests.get(url)
 data = response.json()
@@ -142,7 +136,7 @@ print(data)
 
 ```javascript
 const address = "xch1...";
-const url = `https://api.spacescan.io/address/xch-transaction/${address}`;
+const url = `https://api.spacescan.io/address/token-transaction/${address}`;
 
 fetch(url)
   .then(response => response.json())
@@ -155,7 +149,7 @@ fetch(url)
 
 ```javascript
 const address = "xch1...";
-const url = `https://api-testnet11.spacescan.io/address/xch-transaction/${address}`;
+const url = `https://api-testnet11.spacescan.io/address/token-transaction/${address}`;
 
 fetch(url)
   .then(response => response.json())
@@ -172,10 +166,10 @@ fetch(url)
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/address/xch-transaction/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
+    <ApiCallExample endpoint="https://api.spacescan.io/address/token-transaction/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/xch-transaction/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/token-transaction/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
   </TabItem>
 </Tabs>
 
@@ -184,30 +178,29 @@ fetch(url)
 | Field | Type | Description |
 |-------|------|-------------|
 | status | string | Success or failure status |
-| send_transactions.transactions | array | List of sent transactions |
+| send_transactions.transactions | array | List of sent token transactions |
 | send_transactions.transactions[].coin_id | string | Unique identifier for the coin |
 | send_transactions.transactions[].time | string | ISO timestamp of the transaction |
 | send_transactions.transactions[].height | number | Block height of the transaction |
-| send_transactions.transactions[].amount_xch | number | Amount in XCH |
-| send_transactions.transactions[].amount_mojo | number | Amount in mojo |
+| send_transactions.transactions[].token_amount | number | Amount of tokens transferred |
+| send_transactions.transactions[].asset_id | string | The asset ID of the token |
+| send_transactions.transactions[].token_id | string | The token ID in tkn format |
 | send_transactions.transactions[].to | string | Recipient address |
 | send_transactions.transactions[].memo | string[] | Optional memo array |
 | send_transactions.next_cursor | number | Cursor for next page of sent transactions |
-| send_transactions.total_count | number | Total count (only in initial request) |
-| received_transactions.transactions | array | List of received transactions |
+| send_transactions.total_count | number | Total count of sent transactions |
+| received_transactions.transactions | array | List of received token transactions |
 | received_transactions.transactions[].coin_id | string | Unique identifier for the coin |
 | received_transactions.transactions[].time | string | ISO timestamp of the transaction |
 | received_transactions.transactions[].height | number | Block height of the transaction |
-| received_transactions.transactions[].amount_xch | number | Amount in XCH |
-| received_transactions.transactions[].amount_mojo | number | Amount in mojo |
+| received_transactions.transactions[].token_amount | number | Amount of tokens transferred |
+| received_transactions.transactions[].asset_id | string | The asset ID of the token |
+| received_transactions.transactions[].token_id | string | The token ID in tkn format |
 | received_transactions.transactions[].from | string | Sender address |
 | received_transactions.transactions[].memo | string[] | Optional memo array |
 | received_transactions.next_cursor | number | Cursor for next page of received transactions |
-| received_transactions.total_count | number | Total count (only in initial request) |
-| send_dust_transactions | object | Same structure as send_transactions (only if include_send_dust=true) |
-| received_dust_transactions | object | Same structure as received_transactions (only if include_received_dust=true) |
+| received_transactions.total_count | number | Total count of received transactions |
 
 ### Notes
-- Each transaction type can be paginated independently
-- Dust transactions are excluded by default and must be explicitly requested
-- The response will only include the transaction types that were requested
+- Each transaction type (sent/received) can be paginated independently
+- The token_id is derived from the asset_id using the tkn prefix format 
