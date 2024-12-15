@@ -103,7 +103,7 @@ const config = {
             position: 'right',
           },
           {
-            to: '/api/address/balance',
+            to: '/api/address/xch_balance',
             position: 'left',
             label: 'API',
           },
