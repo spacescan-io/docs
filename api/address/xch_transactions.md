@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Get Address Transactions
+# Get Address XCH Transactions
 
 This endpoint allows you to fetch the transaction history for a given XCH address with flexible filtering options for different transaction types.
 

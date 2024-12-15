@@ -23,8 +23,9 @@ const sidebars = {
       type: 'category',
       label: 'Address',
       items: [
-        'address/balance',
-        'address/transactions',
+        'address/xch_balance',
+        'address/token_balance',
+        'address/xch_transactions',
       ],
     },
    
