@@ -25,6 +25,7 @@ const sidebars = {
       items: [
         'address/xch_balance',
         'address/token_balance',
+        'address/nft_balance',
         'address/xch_transactions',
       ],
     },
