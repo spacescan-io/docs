@@ -15,15 +15,15 @@ This endpoint allows you to fetch the XCH balance for a given address.
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
 
-```
-GET https://api.spacescan.io/address/balance/{address}
+```bash
+GET https://api.spacescan.io/address/xch-balance/{address}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
-```
-GET https://api-testnet11.spacescan.io/address/balance/{address}
+```bash
+GET https://api-testnet11.spacescan.io/address/xch-balance/{address}
 ```
 
   </TabItem>
@@ -31,9 +31,10 @@ GET https://api-testnet11.spacescan.io/address/balance/{address}
 
 ### Parameters
 
-| Parameter | Type   | Description                                     |
-|-----------|--------|-------------------------------------------------|
-| address   | string | The XCH address       |
+| Parameter | Type | Required | Default | Description |
+|-----------|------|----------|---------|-------------|
+| address | string | Yes | - | The XCH address to fetch balance for |
+| include_dust | boolean | No | false | Include dust coins in balance |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -43,7 +44,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
+curl -X GET "https://pro-api.spacescan.io/address/xch-balance/{address}" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -52,85 +53,97 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
 </Tabs>
 
-### Request Example
+### Request Examples
 
 <Tabs>
   <TabItem value="curl" label="cURL">
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
-        <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        </CodeBlock>
+
+```bash
+curl -X GET "https://api.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+```
+
       </TabItem>
       <TabItem value="testnet" label="Testnet">
-        <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        </CodeBlock>
+
+```bash
+curl -X GET "https://api-testnet11.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+```
+
       </TabItem>
     </Tabs>
   </TabItem>
   <TabItem value="python" label="Python">
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
-        <CodeBlock language="python">
-        import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        url = f"https://api.spacescan.io/address/balance/{address}"
+```python
+import requests
 
-        response = requests.get(url)
-        data = response.json()
-        print(data)
-        </CodeBlock>
+address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+url = f"https://api.spacescan.io/address/xch-balance/{address}"
+
+response = requests.get(url)
+data = response.json()
+print(data)
+```
+
       </TabItem>
       <TabItem value="testnet" label="Testnet">
-        <CodeBlock language="python">
-        import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
-        url = f"https://api-testnet11.spacescan.io/address/balance/{address}"
+```python
+import requests
 
-        response = requests.get(url)
-        data = response.json()
-        print(data)
-        </CodeBlock>
+address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+url = f"https://api-testnet11.spacescan.io/address/xch-balance/{address}"
+
+response = requests.get(url)
+data = response.json()
+print(data)
+```
+
       </TabItem>
     </Tabs>
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
-        <CodeBlock language="javascript">
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api.spacescan.io/address/balance/${address}`;
 
-        fetch(url)
-          .then(response => response.json())
-          .then(data => console.log(data))
-          .catch(error => console.error('Error:', error));
-        </CodeBlock>
+```javascript
+const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
+const url = `https://api.spacescan.io/address/xch-balance/${address}`;
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+```
+
       </TabItem>
       <TabItem value="testnet" label="Testnet">
-        <CodeBlock language="javascript">
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api-testnet11.spacescan.io/address/balance/${address}`;
 
-        fetch(url)
-          .then(response => response.json())
-          .then(data => console.log(data))
-          .catch(error => console.error('Error:', error));
-        </CodeBlock>
+```javascript
+const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
+const url = `https://api-testnet11.spacescan.io/address/xch-balance/${address}`;
+
+fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+```
+
       </TabItem>
     </Tabs>
   </TabItem>
@@ -140,18 +153,21 @@ curl -X GET "https://pro-api.spacescan.io/address/balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
+    <ApiCallExample endpoint="https://api.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/xch-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
   </TabItem>
 </Tabs>
 
 ### Response Schema
 
-| Field           | Type   | Description                      |
-|-----------------|--------|----------------------------------|
-| balance         | object | XCH balance information          |
-| balance.mojo    | number | The XCH balance in mojos         |
-| balance.xch     | number | The XCH balance in XCH           |
-| balance.usd     | number | The USD value of the XCH balance |
+| Field | Type | Description |
+|-------|------|-------------|
+| status | string | Success or failure status |
+| xch | number | Balance in XCH |
+| mojo | number | Balance in mojo |
+
+### Notes
+- The balance includes all unspent coins for the address
+- Set include_dust=true to include dust coins in the balance

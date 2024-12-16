@@ -18,7 +18,6 @@ const sidebars = {
 
   // But you can create a sidebar manually
   apiSidebar: [
-    'address',
     {
       type: 'category',
       label: 'Address',
@@ -28,6 +27,7 @@ const sidebars = {
         'address/nft_balance',
         'address/xch_transactions',
         'address/token_transactions',
+        'address/nft_transactions',
       ],
     },
    
