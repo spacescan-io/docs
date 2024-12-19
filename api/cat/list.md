@@ -8,21 +8,21 @@ import ApiCallExample from '@site/src/components/ApiCallExample';
 
 # List All CATs
 
-This endpoint allows you to fetch a comprehensive list of all Chia Asset Tokens (CATs) in the Chia ecosystem. CATs are fungible tokens built on the Chia blockchain that enable users to create and trade custom assets, representing everything from wrapped cryptocurrencies to gaming tokens and platform utilities.
+This endpoint allows you to fetch a comprehensive list of all Chia Asset Tokens (CATs) in the Chia ecosystem.
 
 ### Endpoint
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
 
-```
+```bash
 GET https://api.spacescan.io/cats
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
-```
+```bash
 GET https://api-testnet11.spacescan.io/cats
 ```
 
@@ -31,7 +31,10 @@ GET https://api-testnet11.spacescan.io/cats
 
 ### Parameters
 
-This endpoint doesn't require any parameters.
+| Parameter | Type | Required | Default | Description |
+|-----------|------|----------|---------|-------------|
+| include_price | boolean | No | false | Include price information |
+| currency | string | No | USD | Currency for price conversion (e.g., USD, EUR) |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -41,7 +44,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/cats" \
+curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -143,36 +146,57 @@ curl -X GET "https://pro-api.spacescan.io/cats" \
 
 ### Response Schema
 
-| Field            | Type    | Description                                           |
-|------------------|---------|-------------------------------------------------------|
-| status           | string  | The status of the API request                         |
-| data             | array   | Array of CAT information objects                      |
+| Field | Type | Description |
+|-------|------|-------------|
+| status | string | Success or failure status |
+| cats | array | Array of CAT objects |
 
-#### CAT Information Object
+#### CAT Object Fields
 
-Each object in the data array contains:
+| Field | Type | Description |
+|-------|------|-------------|
+| asset_id | string | The unique identifier of the CAT |
+| token_id | string | Token ID in tkn format |
+| name | string | The name of the CAT |
+| description | string | Description of the CAT |
+| symbol | string | Trading symbol of the CAT |
+| preview_url | string | URL to the CAT's logo image |
+| tags | array | Array of category tags |
+| twitter | string | Twitter profile URL (null if not set) |
+| discord | string | Discord server URL (null if not set) |
+| website | string | Official website URL (null if not set) |
+| price_xch | number | Price in XCH (only if include_price=true) |
+| price_[currency] | number | Price in specified currency (only if include_price=true) |
 
-| Field            | Type    | Description                                           |
-|------------------|---------|-------------------------------------------------------|
-| id               | string  | The unique identifier of the CAT                      |
-| name             | string  | The name of the CAT                                   |
-| symbol           | string  | The trading symbol of the CAT                         |
-| description      | string  | Description of the CAT and its purpose                |
-| type             | string  | Type of the CAT (e.g., "CAT2")                       |
-| created_time     | string  | Timestamp when the CAT was created                    |
-| social           | object  | Social media and website links                        |
-| social.discord   | string  | Discord server link                                   |
-| social.twitter   | string  | Twitter profile link                                  |
-| social.website   | string  | Official website URL                                  |
-| social.verified  | boolean | Verification status of the CAT                        |
-| tags             | string  | Category tags for the CAT                             |
-| preview_url      | string  | URL to the CAT's logo or preview image               |
-| multiplier       | string  | Token multiplier value                                |
+### Example Response
+
+```json
+{
+  "status": "success",
+  "cats": [
+    {
+      "asset_id": "a628c1c2c6fcb74d53746157e438e108eab5c0bb3e5c80ff9b1910b3e4832913",
+      "token_id": "tkn1c2c6fcb74d53746157e438e108eab5c0bb3e5c80ff9b1910b3e4832913",
+      "name": "Example Token",
+      "description": "An example CAT token",
+      "symbol": "EXT",
+      "preview_url": "https://assets.spacescan.io/cat/example-token.png",
+      "tags": ["defi", "gaming"],
+      "twitter": "https://twitter.com/exampletoken",
+      "discord": "https://discord.gg/exampletoken",
+      "website": "https://example.com",
+      "price_xch": 0.5,
+      "price_usd": 25.50
+    }
+  ]
+}
+```
 
 ### Error Responses
 
-| HTTP Status Code | Meaning                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------|
-| 429              | Too Many Requests -- You're requesting too many times! Slow down!                         |
-| 500              | Internal Server Error -- We had a problem with our server. Try again later.               |
-| 503              | Service Unavailable -- We're temporarily offline for maintenance. Please try again later. | 
+| HTTP Status Code | Meaning |
+|-----------------|---------|
+| 400 | Bad Request -- Invalid parameters |
+| 429 | Too Many Requests -- Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable | 
