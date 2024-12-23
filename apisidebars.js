@@ -78,6 +78,7 @@ const sidebars = {
       items: [
         'stats/price',
         'stats/total-supply',
+        'stats/circulating-supply',
       ],
     },
   ],
