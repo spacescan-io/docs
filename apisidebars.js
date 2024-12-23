@@ -77,6 +77,7 @@ const sidebars = {
       label: 'Stats',
       items: [
         'stats/price',
+        'stats/total-supply',
       ],
     },
   ],
