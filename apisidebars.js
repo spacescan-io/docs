@@ -72,7 +72,13 @@ const sidebars = {
     'coins',
     'block',
     'offers',
-    'stats',
+    {
+      type: 'category',
+      label: 'Stats',
+      items: [
+        'stats/price',
+      ],
+    },
   ],
 };
 
