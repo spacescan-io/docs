@@ -51,6 +51,7 @@ const sidebars = {
       label: 'NFT',
       items: [
         'nft/info',
+        'nft/stats',
       ],
     },
     {
