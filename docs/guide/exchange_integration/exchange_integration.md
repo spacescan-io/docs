@@ -79,6 +79,80 @@ The block explorer shows:
 - Transactions in the block
 - Block weight and other metadata
 
+## Token Explorer Integration
+
+To link to token details, you can use either the token symbol or token ID:
+
+```
+https://www.spacescan.io/token/{token_symbol_or_id}
+```
+
+### Examples
+```
+// Using token symbol
+https://www.spacescan.io/token/SBX
+
+// Using token ID
+https://www.spacescan.io/token/a628c1c2c6fcb74d53746157e438e108eab5c0bb3e5c80ff9b1910b3e4832913
+```
+
+![Token Explorer](token-explorer.png)
+
+The token explorer shows:
+- Token name and symbol
+- Market cap and volume
+- Total and circulating supply
+- Number of holders
+- Recent trades and transfers
+- Price charts and market data
+
+### Token API Integration
+
+For exchanges requiring programmatic access to token data, Spacescan.io provides comprehensive APIs:
+
+#### 1. Get Token Information
+```javascript
+// Fetch basic token information, price, and supply
+GET https://api.spacescan.io/token/info/{token_id}
+
+// Example Response
+{
+  "status": "success",
+  "info": {
+    "asset_id": "token_id",
+    "name": "Token Name",
+    "symbol": "SYMBOL",
+    "description": "Token description...",
+    "type": "CAT2"
+  }
+}
+```
+
+#### 2. Get Total Supply
+```javascript
+GET https://api.spacescan.io/token/total-supply/{token_id}
+
+// Example Response
+{
+  "total_supply": 1000000000
+}
+```
+
+#### 3. Get Circulating Supply
+```javascript
+GET https://api.spacescan.io/token/circulating-supply/{token_id}
+
+// Example Response
+{
+  "circulating_supply": 999999999
+}
+```
+
+For detailed API documentation, implementation examples, and advanced usage, please refer to:
+- [Token Info API Documentation](https://docs.spacescan.io/api/cat/info)
+- [Total Supply API Documentation](https://docs.spacescan.io/api/cat/total-supply)
+- [Circulating Supply API Documentation](https://docs.spacescan.io/api/cat/circulating-supply)
+
 ## Implementation Examples
 
 ### HTML Link
