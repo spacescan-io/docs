@@ -164,10 +164,10 @@ curl -X POST "https://pro-api.spacescan.io/cat/info/updatecat" \
 
 ### Response Schema
 
-| Field | Type   | Description          |
-| ----- | ------ | -------------------- | ----------------------------- | --- |
-| <!--  | status | string               | The status of the API request | --> |
-| data  | object | Response data object |
+| Field   | Type    | Description                                      |
+| ------- | ------- | ------------------------------------------------ |
+| status  | string  | The status of the API request                    |
+| data    | object  | Response data object                             |
 
 #### Data Object
 
@@ -186,6 +186,15 @@ curl -X POST "https://pro-api.spacescan.io/cat/info/updatecat" \
   }
 }
 ```
+
+### Error Responses
+
+| HTTP Status Code | Meaning |
+|-----------------|---------|
+| 400 | Bad Request -- Invalid parameters |
+| 429 | Too Many Requests -- Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable | 
 
 ### Important Notes
 

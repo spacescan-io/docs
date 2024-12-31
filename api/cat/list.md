@@ -137,10 +137,10 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/cats" />
+    <ApiCallExample endpoint="https://api.spacescan.io/cats?count=10" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cats" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cats?count=10" />
   </TabItem>
 </Tabs>
 
