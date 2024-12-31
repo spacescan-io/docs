@@ -158,3 +158,13 @@ curl -X GET "https://pro-api.spacescan.io/token/price/{asset_id}?currency=USD" \
 |-------|------|-------------|
 | [currency] | string | Price in specified currency (e.g., "usd": 0.02624364935709997) |
 | xch | string | Price in XCH |
+
+
+### Error Responses
+
+| HTTP Status Code | Meaning |
+|-----------------|---------|
+| 400 | Bad Request -- Invalid parameters |
+| 429 | Too Many Requests -- Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable | 

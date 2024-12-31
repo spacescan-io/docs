@@ -158,3 +158,12 @@ Each holder in the `tokens` array contains:
 |------------------|---------|-------------------------------------------------------|
 | address          | string  | The holder's address                                  |
 | amount           | string  | The amount of CAT tokens held                         |
+
+### Error Responses
+
+| HTTP Status Code | Meaning |
+|-----------------|---------|
+| 400 | Bad Request -- Invalid parameters |
+| 429 | Too Many Requests -- Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable | 

@@ -162,3 +162,13 @@ fetch(url)
 | burned | number | Number of tokens burned |
 | melted | number | Number of tokens melted |
 | circulating_supply | number | Current circulating supply |
+
+
+### Error Responses
+
+| HTTP Status Code | Meaning |
+|-----------------|---------|
+| 400 | Bad Request -- Invalid parameters |
+| 429 | Too Many Requests -- Rate limit exceeded |
+| 500 | Internal Server Error |
+| 503 | Service Unavailable | 
