@@ -6,9 +6,9 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Get CAT Price
+# Get Token Price
 
-This endpoint allows you to fetch real-time price information for Chia Asset Tokens (CATs) in various currencies. Track current market prices, exchange rates, and fiat valuations for any CAT in the Chia ecosystem. This data is essential for portfolio tracking, trading decisions, and financial applications built on the Chia blockchain.
+This endpoint allows you to fetch real-time price information for Chia Asset Tokens (CAT)
 
 ### Endpoint
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch real-time price information for Chia Asset Tok
   <TabItem value="mainnet" label="Mainnet">
 
 ```
-GET https://api.spacescan.io/cat/catprice/{asset_id}?currency={currency_code}
+GET https://api.spacescan.io/token/price/{asset_id}?currency={currency_code}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```
-GET https://api-testnet11.spacescan.io/cat/catprice/{asset_id}?currency={currency_code}
+GET https://api-testnet11.spacescan.io/token/price/{asset_id}?currency={currency_code}
 ```
 
   </TabItem>
@@ -34,7 +34,7 @@ GET https://api-testnet11.spacescan.io/cat/catprice/{asset_id}?currency={currenc
 | Parameter     | Type   | Description                                     | Required |
 |--------------|--------|-------------------------------------------------|----------|
 | asset_id     | string | The unique identifier (TAIL hash) of the CAT    | Yes      |
-| currency     | string | Currency code (e.g., USD, EUR, INR, etc.)       | No       |
+| currency     | string | Currency code (e.g., USD, EUR, USD, etc.)       | No       |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -44,7 +44,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" \
+curl -X GET "https://pro-api.spacescan.io/token/price/{asset_id}?currency=USD" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -53,12 +53,12 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/token/price/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365?currency=USD" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/token/price/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365?currency=USD" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -71,12 +71,12 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR"
+        curl -X GET "https://api.spacescan.io/token/price/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365?currency=USD"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR"
+        curl -X GET "https://api-testnet11.spacescan.io/token/price/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365?currency=USD"
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -87,9 +87,9 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
         <CodeBlock language="python">
         import requests
 
-        asset_id = "db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20"
-        currency = "INR"
-        url = f"https://api.spacescan.io/cat/catprice/{asset_id}?currency={currency}"
+        asset_id = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
+        currency = "USD"
+        url = f"https://api.spacescan.io/token/price/{asset_id}?currency={currency}"
 
         response = requests.get(url)
         data = response.json()
@@ -100,9 +100,9 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
         <CodeBlock language="python">
         import requests
 
-        asset_id = "db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20"
-        currency = "INR"
-        url = f"https://api-testnet11.spacescan.io/cat/catprice/{asset_id}?currency={currency}"
+        asset_id = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
+        currency = "USD"
+        url = f"https://api-testnet11.spacescan.io/token/price/{asset_id}?currency={currency}"
 
         response = requests.get(url)
         data = response.json()
@@ -115,9 +115,9 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">
-        const assetId = "db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20";
-        const currency = "INR";
-        const url = `https://api.spacescan.io/cat/catprice/${assetId}?currency=${currency}`;
+        const assetId = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365";
+        const currency = "USD";
+        const url = `https://api.spacescan.io/token/price/${assetId}?currency=${currency}`;
 
         fetch(url)
           .then(response => response.json())
@@ -127,9 +127,9 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="javascript">
-        const assetId = "db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20";
-        const currency = "INR";
-        const url = `https://api-testnet11.spacescan.io/cat/catprice/${assetId}?currency=${currency}`;
+        const assetId = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365";
+        const currency = "USD";
+        const url = `https://api-testnet11.spacescan.io/token/price/${assetId}?currency=${currency}`;
 
         fetch(url)
           .then(response => response.json())
@@ -143,29 +143,18 @@ curl -X GET "https://pro-api.spacescan.io/cat/catprice/{asset_id}?currency=INR" 
 
 ### Response
 
-<Tabs>
-  <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR" />
-  </TabItem>
-  <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cat/catprice/db1a9020d48d9d4ad22631b66ab4b9ebd3637ef7758ad38881348c5d24c38f20?currency=INR" />
-  </TabItem>
-</Tabs>
+<ApiCallExample endpoint="https://api.spacescan.io/token/price/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365?currency=USD" />
 
 ### Response Schema
 
 | Field         | Type    | Description                                           |
 |--------------|---------|-------------------------------------------------------|
 | status       | string  | The status of the API request                         |
-| amount_price | number  | Current price in the requested currency               |
-| xch_price    | string  | Current price in XCH                                  |
+| price        | object  | Price information for the CAT                         |
 
-### Error Responses
+#### Price Object (if requested)
 
-| HTTP Status Code | Meaning                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------|
-| 400              | Bad Request -- Your request is invalid or unsupported currency.                           |
-| 404              | Not Found -- The specified CAT could not be found.                                        |
-| 429              | Too Many Requests -- You're requesting too many times! Slow down!                         |
-| 500              | Internal Server Error -- We had a problem with our server. Try again later.               |
-| 503              | Service Unavailable -- We're temporarily offline for maintenance. Please try again later. | 
+| Field | Type | Description |
+|-------|------|-------------|
+| [currency] | string | Price in specified currency (e.g., "usd": 0.02624364935709997) |
+| xch | string | Price in XCH |

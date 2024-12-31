@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Get CAT Holders
+# Get Token Holders
 
 This endpoint allows you to fetch the list of holders for a specific CAT (Chia Asset Token).
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch the list of holders for a specific CAT (Chia A
   <TabItem value="mainnet" label="Mainnet">
 
 ```
-GET https://api.spacescan.io/cat/holders/{asset_id}
+GET https://api.spacescan.io/token/holders/{asset_id}
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```
-GET https://api-testnet11.spacescan.io/cat/holders/{asset_id}
+GET https://api-testnet11.spacescan.io/token/holders/{asset_id}
 ```
 
   </TabItem>
@@ -35,6 +35,7 @@ GET https://api-testnet11.spacescan.io/cat/holders/{asset_id}
 |-----------|--------|-------------------------------------------------|
 | asset_id  | string | The unique identifier of the CAT                |
 
+
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
 :::
@@ -43,7 +44,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
+curl -X GET "https://pro-api.spacescan.io/token/holders/{asset_id}" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -52,12 +53,12 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/token/holders/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/token/holders/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -70,12 +71,12 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        curl -X GET "https://api.spacescan.io/token/holders/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
+        curl -X GET "https://api-testnet11.spacescan.io/token/holders/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -86,8 +87,8 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
         <CodeBlock language="python">
         import requests
 
-        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
-        url = f"https://api.spacescan.io/cat/holders/{asset_id}"
+        asset_id = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
+        url = f"https://api.spacescan.io/token/holders/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -98,8 +99,8 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
         <CodeBlock language="python">
         import requests
 
-        asset_id = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589"
-        url = f"https://api-testnet11.spacescan.io/cat/holders/{asset_id}"
+        asset_id = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365"
+        url = f"https://api-testnet11.spacescan.io/token/holders/{asset_id}"
 
         response = requests.get(url)
         data = response.json()
@@ -112,8 +113,8 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">
-        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
-        const url = `https://api.spacescan.io/cat/holders/${assetId}`;
+        const assetId = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365";
+        const url = `https://api.spacescan.io/token/holders/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -123,8 +124,8 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="javascript">
-        const assetId = "6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589";
-        const url = `https://api-testnet11.spacescan.io/cat/holders/${assetId}`;
+        const assetId = "8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365";
+        const url = `https://api-testnet11.spacescan.io/token/holders/${assetId}`;
 
         fetch(url)
           .then(response => response.json())
@@ -138,41 +139,22 @@ curl -X GET "https://pro-api.spacescan.io/cat/holders/{asset_id}" \
 
 ### Response
 
-<Tabs>
-  <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
-  </TabItem>
-  <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cat/holders/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" />
-  </TabItem>
-</Tabs>
+<ApiCallExample endpoint="https://api.spacescan.io/token/holders/8c77de1427156b98fb15cce77d908f79bd69f6b4b8e3a60d8e051dac481b5365" />
 
 ### Response Schema
 
 | Field            | Type    | Description                                           |
 |------------------|---------|-------------------------------------------------------|
 | status           | string  | The status of the API request                         |
-| holders          | array   | List of CAT holders                                   |
-| total_holders    | number  | Total number of unique holders                        |
-| total_supply     | string  | Total supply of the CAT                              |
+| tokens           | array   | List of CAT holders                                   |
+| next_cursor      | number  | Pagination cursor for the next page                   |
+| total_count      | string  | Total holders count                                   |
 
 #### Holder Object
 
-Each holder in the `holders` array contains:
+Each holder in the `tokens` array contains:
 
 | Field            | Type    | Description                                           |
 |------------------|---------|-------------------------------------------------------|
 | address          | string  | The holder's address                                  |
-| balance          | string  | The amount of CAT tokens held                         |
-| percentage       | number  | Percentage of total supply held by this address       |
-| last_updated     | string  | Timestamp of last balance update                      |
-
-### Error Responses
-
-| HTTP Status Code | Meaning                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------|
-| 400              | Bad Request -- Your request is invalid.                                                   |
-| 404              | Not Found -- The specified CAT could not be found.                                        |
-| 429              | Too Many Requests -- You're requesting too many times! Slow down!                         |
-| 500              | Internal Server Error -- We had a problem with our server. Try again later.               |
-| 503              | Service Unavailable -- We're temporarily offline for maintenance. Please try again later. |
+| amount           | string  | The amount of CAT tokens held                         |

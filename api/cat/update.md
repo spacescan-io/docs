@@ -1,12 +1,13 @@
 ---
 sidebar_position: 6
 ---
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# Update CAT Information
+# Update Token Information
 
 This endpoint allows CAT creators and authorized parties to update metadata for their Chia Asset Tokens (CATs). Maintain accurate and up-to-date token information including name, symbol, description, and branding assets. The endpoint requires cryptographic proof of ownership through Chia wallet signatures to ensure secure and authenticated updates.
 
@@ -51,22 +52,27 @@ POST https://api-testnet11.spacescan.io/cat/info/updatecat
 The `image_data` field is optional and can be used to directly provide the image data in base64 format instead of using the `image_url` field.
 :::
 
-
 ### Parameters
 
-| Parameter     | Type   | Description                                                |
-|--------------|--------|------------------------------------------------------------|
-| pubkey       | string | Public key used for signing                                |
-| signature    | string | BLS signature of the message                               |
-| signing_mode | string | Signature scheme used (typically BLS)                      |
-| message      | string | Message that was signed                                    |
-| address      | string | EVE coin puzzle hash/minter address                        |
-| asset_id     | string | The unique identifier (TAIL hash) of the CAT               |
-| asset_name   | string | New name for the CAT                                       |
-| description  | string | New description for the CAT                                |
-| cat_symbol   | string | New trading symbol for the CAT                             |
-| image_url    | string | New URL for the CAT's logo/image                          |
-| image_data    | string | Base 64 string for the CAT's logo/image                          |
+| Parameter     | Type   | Required | Description                                                                    |
+| ------------- | ------ | -------- | ------------------------------------------------------------------------------ |
+| pubkey        | string | Yes      | Public key used for signing                                                    |
+| signature     | string | Yes      | BLS signature of the message                                                   |
+| signing_mode  | string | Yes      | Signature scheme (BLS*SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG:CHIP-0002*)       |
+| message       | string | Yes      | Message that was signed ("Confirm Sign in to import Tokens from spacescan.io") |
+| address       | string | Yes      | EVE coin puzzle hash/minter address                                            |
+| asset_id      | string | Yes      | The unique identifier (TAIL hash) of the CAT                                   |
+| asset_name    | string | Yes      | Name for the CAT                                                               |
+| description   | string | No       | Description for the CAT                                                        |
+| cat_symbol    | string | Yes      | Trading symbol for the CAT                                                     |
+| image_url     | string | No       | URL for the CAT's logo/image                                                   |
+| image_data    | string | No       | Base64 encoded image data                                                      |
+| issuance_type | string | No       | Type of issuance                                                               |
+| tags          | string | No       | Category tags for the CAT                                                      |
+| multiplier    | string | No       | Token multiplier                                                               |
+| clvm          | string | No       | CLVM code                                                                      |
+| lisp          | string | No       | LISP code                                                                      |
+| extra         | string | No       | Additional information                                                         |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -74,17 +80,35 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 
 :::tip Pro API
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
+
+```bash
+curl -X POST "https://pro-api.spacescan.io/cat/info/updatecat" \
+     -H "x-api-key: YOUR_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{"asset_id": "YOUR_ASSET_ID", ...}'
+```
+
 :::
 
-### Request Example
+### Request Examples
 
 <Tabs>
   <TabItem value="curl" label="cURL">
-    <CodeBlock language="bash">
-    curl -X POST "https://api.spacescan.io/cat/info/updatecat" \
-         -H "Content-Type: application/json" \
-         -d "@request.json"
-    </CodeBlock>
+        <CodeBlock language="bash">
+        curl -X POST "https://api.spacescan.io/cat/info/updatecat" \
+             -H "Content-Type: application/json" \
+             -d  &#123;
+               "pubkey": "YOUR_PUBLIC_KEY",
+               "signature": "YOUR_SIGNATURE",
+               "signing_mode": "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG:CHIP-0002_",
+               "message": "Confirm Sign in to import Tokens from spacescan.io",
+               "address": "YOUR_ADDRESS",
+               "asset_id": "YOUR_ASSET_ID",
+               "asset_name": "Your CAT Name",
+               "cat_symbol": "SYMBOL",
+               "description": "Your description"
+             &#125;
+        </CodeBlock>
   </TabItem>
   <TabItem value="python" label="Python">
     <CodeBlock language="python">
@@ -93,54 +117,81 @@ Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our 
 
     url = "https://api.spacescan.io/cat/info/updatecat"
 
-    with open('request.json') as f:
-        data = json.load(f)
-
-    response = requests.post(url, headers=headers, json=data)
+    data =  &#123;
+               "pubkey": "YOUR_PUBLIC_KEY",
+               "signature": "YOUR_SIGNATURE",
+               "signing_mode": "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG:CHIP-0002_",
+               "message": "Confirm Sign in to import Tokens from spacescan.io",
+               "address": "YOUR_ADDRESS",
+               "asset_id": "YOUR_ASSET_ID",
+               "asset_name": "Your CAT Name",
+               "cat_symbol": "SYMBOL",
+               "description": "Your description"
+             &#125;
+    response = requests.post(url, json=data)
     print(response.json())
     </CodeBlock>
+
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
     <CodeBlock language="javascript">
-    const fs = require('fs');
     const url = "https://api.spacescan.io/cat/info/updatecat";
-    const headers = &#123; "Content-Type": "application/json"&#125;;
+    
+    const data =  &#123;
+               "pubkey": "YOUR_PUBLIC_KEY",
+               "signature": "YOUR_SIGNATURE",
+               "signing_mode": "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG:CHIP-0002_",
+               "message": "Confirm Sign in to import Tokens from spacescan.io",
+               "address": "YOUR_ADDRESS",
+               "asset_id": "YOUR_ASSET_ID",
+               "asset_name": "Your CAT Name",
+               "cat_symbol": "SYMBOL",
+               "description": "Your description"
+             &#125;
 
-    const data = JSON.parse(fs.readFileSync('request.json'));
-
-    fetch(url,  &#123;
-        method: "POST",
-        headers: headers,
+    fetch(url, &#123;
+        method: 'POST',
+        headers: &#123;'Content-Type': 'application/json'&#125;,
         body: JSON.stringify(data)
     &#125;)
     .then(response => response.json())
     .then(data => console.log(data))
-    .catch(error => console.error("Error:", error));
+    .catch(error => console.error('Error:', error));
     </CodeBlock>
+
   </TabItem>
 </Tabs>
 
 ### Response Schema
 
-| Field   | Type    | Description                                     |
-|---------|---------|------------------------------------------------|
-| status  | string  | The status of the API request                   |
-| message | string  | Success or error message                        |
+| Field | Type   | Description          |
+| ----- | ------ | -------------------- | ----------------------------- | --- |
+| <!--  | status | string               | The status of the API request | --> |
+| data  | object | Response data object |
 
-### Error Responses
+#### Data Object
 
-| HTTP Status Code | Meaning                                                                                   |
-|------------------|-------------------------------------------------------------------------------------------|
-| 400              | Bad Request -- Invalid request body or signature                                          |
-| 401              | Unauthorized -- Invalid signature or address doesn't match CAT minter                      |
-| 404              | Not Found -- The specified CAT could not be found                                         |
-| 429              | Too Many Requests -- You're requesting too many times! Slow down!                         |
-| 500              | Internal Server Error -- We had a problem with our server. Try again later                |
-| 503              | Service Unavailable -- We're temporarily offline for maintenance. Please try again later   |
+| Field   | Type    | Description                                      |
+| ------- | ------- | ------------------------------------------------ |
+| claimed | boolean | Whether the update was successful                |
+| message | string  | Additional information about the update (if any) |
 
-### Notes
+### Example Response
+
+```json
+{
+  "status": "success",
+  "data": {
+    "claimed": true
+  }
+}
+```
+
+### Important Notes
 
 - The signature must be generated using the Chia wallet
 - The address must match the EVE coin puzzle hash or minter address of the CAT
 - The message must be exactly "Confirm Sign in to import Tokens from spacescan.io"
 - Image URLs should be publicly accessible and contain appropriate image formats (PNG, JPG, etc.)
+- Base64 image data can be provided instead of image URL
+- Updates are limited to 5 times per CAT owner

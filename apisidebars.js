@@ -33,12 +33,11 @@ const sidebars = {
    
     {
       type: 'category',
-      label: 'CAT',
+      label: 'Token',
       items: [
         'cat/info',
         'cat/holders',
         'cat/list',
-        'cat/transactions',
         'cat/price',
         'cat/update',
         'cat/total-supply',
