@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 import ApiCallExample from '@site/src/components/ApiCallExample';
 
-# List All CATs
+# List All Tokens
 
 This endpoint allows you to fetch a comprehensive list of all Chia Asset Tokens (CATs) in the Chia ecosystem.
 
@@ -16,14 +16,14 @@ This endpoint allows you to fetch a comprehensive list of all Chia Asset Tokens 
   <TabItem value="mainnet" label="Mainnet">
 
 ```bash
-GET https://api.spacescan.io/cats
+GET https://api.spacescan.io/tokens
 ```
 
   </TabItem>
   <TabItem value="testnet" label="Testnet">
 
 ```bash
-GET https://api-testnet11.spacescan.io/cats
+GET https://api-testnet11.spacescan.io/tokens
 ```
 
   </TabItem>
@@ -44,7 +44,7 @@ Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacesc
 Use `pro-api.spacescan.io` with your API key in the `x-api-key` header. See our [API Plans](https://spacescan.io/apis#plans) for details.
 
 ```bash
-curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" \
+curl -X GET "https://pro-api.spacescan.io/tokens?include_price=true&currency=USD" \
      -H "x-api-key: YOUR_API_KEY"
 ```
 :::
@@ -53,12 +53,12 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/cats" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/tokens" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <a href="https://api-testnet11.spacescan.io/cats" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api-testnet11.spacescan.io/tokens" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -71,12 +71,12 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/cats"
+        curl -X GET "https://api.spacescan.io/tokens"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api-testnet11.spacescan.io/cats"
+        curl -X GET "https://api-testnet11.spacescan.io/tokens"
         </CodeBlock>
       </TabItem>
     </Tabs>
@@ -87,7 +87,7 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
         <CodeBlock language="python">
         import requests
 
-        url = "https://api.spacescan.io/cats"
+        url = "https://api.spacescan.io/tokens"
 
         response = requests.get(url)
         data = response.json()
@@ -98,7 +98,7 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
         <CodeBlock language="python">
         import requests
 
-        url = "https://api-testnet11.spacescan.io/cats"
+        url = "https://api-testnet11.spacescan.io/tokens"
 
         response = requests.get(url)
         data = response.json()
@@ -111,7 +111,7 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">
-        const url = "https://api.spacescan.io/cats";
+        const url = "https://api.spacescan.io/tokens";
 
         fetch(url)
           .then(response => response.json())
@@ -121,7 +121,7 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
       </TabItem>
       <TabItem value="testnet" label="Testnet">
         <CodeBlock language="javascript">
-        const url = "https://api-testnet11.spacescan.io/cats";
+        const url = "https://api-testnet11.spacescan.io/tokens";
 
         fetch(url)
           .then(response => response.json())
@@ -137,10 +137,10 @@ curl -X GET "https://pro-api.spacescan.io/cats?include_price=true&currency=USD" 
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/cats?count=10" />
+    <ApiCallExample endpoint="https://api.spacescan.io/tokens?count=10" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
-    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/cats?count=10" />
+    <ApiCallExample endpoint="https://api-testnet11.spacescan.io/tokens?count=10" />
   </TabItem>
 </Tabs>
 
