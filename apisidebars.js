@@ -35,13 +35,14 @@ const sidebars = {
       type: 'category',
       label: 'Token',
       items: [
-        'cat/info',
-        'cat/holders',
         'cat/list',
-        'cat/price',
-        'cat/update',
+        'cat/info',
         'cat/total-supply',
         'cat/circulating-supply',
+        'cat/holders',
+        'cat/price',
+        'cat/activity',
+        'cat/update',
       ],
     },
    
