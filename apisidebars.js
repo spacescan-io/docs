@@ -87,6 +87,19 @@ const sidebars = {
         'stats/circulating-supply',
       ],
     },
+    {
+      type: 'category',
+      label: 'Tools',
+      items: [
+        'tools/convert_to_address',
+        'tools/convert_from_address',
+        'tools/convert_to_nft',
+        'tools/convert_from_nft',
+        'tools/convert_to_did',
+        'tools/convert_from_did',
+        'tools/get_coin_id',
+      ],
+    },
   ],
 };
 
