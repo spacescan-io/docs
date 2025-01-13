@@ -63,8 +63,11 @@ const sidebars = {
       type: 'category',
       label: 'Collection',
       items: [
-        'collection/info',
-      ],
+        'collections/list',
+        'collections/info',
+        'collections/nfts',
+        'collections/activities',   
+         ],
     },
     {
       type: 'category',
