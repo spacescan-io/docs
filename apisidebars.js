@@ -56,6 +56,7 @@ const sidebars = {
         'nft/metadata',
         'nft/events',
         'nft/offers',
+        'nft/license_info'
 
       ],
     },
