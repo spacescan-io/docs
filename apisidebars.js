@@ -77,10 +77,18 @@ const sidebars = {
         'did/info',
       ],
     },
+    {
+      type: 'category',
+      label: 'Block',
+      items: [
+        'block/peak',
+        'block/info'
+      ],
+    },
     'data_layer',
     'mempool',
     'coins',
-    'block',
+
     'offers',
     {
       type: 'category',
