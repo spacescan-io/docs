@@ -88,8 +88,17 @@ const sidebars = {
     'data_layer',
     'mempool',
     'coins',
-
-    'offers',
+    'block',
+    {
+      type: 'category',
+      label: 'Offer',
+      items: [
+        'offers/info',
+        'offers/list',
+        'offers/upload',
+        'offers/by-asset',
+      ],
+    },
     {
       type: 'category',
       label: 'Stats',
