@@ -56,6 +56,7 @@ const sidebars = {
         'nft/metadata',
         'nft/events',
         'nft/offers',
+        'nft/license_info'
 
       ],
     },
@@ -74,6 +75,14 @@ const sidebars = {
       label: 'DID',
       items: [
         'did/info',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Block',
+      items: [
+        'block/peak',
+        'block/info'
       ],
     },
     'data_layer',
