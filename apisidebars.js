@@ -80,7 +80,16 @@ const sidebars = {
     'mempool',
     'coins',
     'block',
-    'offers',
+    {
+      type: 'category',
+      label: 'Offer',
+      items: [
+        'offers/info',
+        'offers/list',
+        'offers/upload',
+        'offers/by-asset',
+      ],
+    },
     {
       type: 'category',
       label: 'Stats',
