@@ -88,7 +88,6 @@ const sidebars = {
     'data_layer',
     'mempool',
     'coins',
-    'block',
     {
       type: 'category',
       label: 'Offer',
