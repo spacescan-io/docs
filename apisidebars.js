@@ -90,7 +90,7 @@ const sidebars = {
         'offers/list',
         'offers/info',
         'offers/upload',
-        'offers/by-asset',
+        'offers/by_asset',
       ],
     },
     {
