@@ -30,7 +30,14 @@ const sidebars = {
         'address/nft_transactions',
       ],
     },
-
+    {
+      type: 'category',
+      label :'Offers',
+      items: [
+        'offers/list',
+        'offers/info',
+      ],
+    },
     {
       type: 'category',
       label: 'Token',
@@ -88,7 +95,6 @@ const sidebars = {
     'data_layer',
     'mempool',
     'coins',
-
     'offers',
     {
       type: 'category',
