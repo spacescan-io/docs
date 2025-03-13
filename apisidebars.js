@@ -30,15 +30,7 @@ const sidebars = {
         'address/nft_transactions',
       ],
     },
-    {
-      type: 'category',
-      label :'Offers',
-      items: [
-        'offers/list',
-        'offers/info',
-      ],
-    },
-    {
+   {
       type: 'category',
       label: 'Token',
       items: [
@@ -91,11 +83,16 @@ const sidebars = {
         'block/peak',
         'block/info'
       ],
+    }, {
+      type: 'category',
+      label :'Offers',
+      items: [
+        'offers/list',
+        'offers/info',
+        'offers/upload',
+        'offers/by-asset',
+      ],
     },
-    'data_layer',
-    'mempool',
-    'coins',
-    'offers',
     {
       type: 'category',
       label: 'Stats',
@@ -118,6 +115,10 @@ const sidebars = {
         'tools/get_coin_id',
       ],
     },
+    'data_layer',
+    'mempool',
+    'coins',
+   
   ],
 };
 
