@@ -89,7 +89,6 @@ const sidebars = {
       items: [
         'offers/list',
         'offers/info',
-        'offers/upload',
         'offers/by_asset',
       ],
     },
