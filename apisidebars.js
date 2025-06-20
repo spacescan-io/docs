@@ -74,6 +74,7 @@ const sidebars = {
       label: 'DID',
       items: [
         'did/info',
+        'did/nfts',
       ],
     },
     {
