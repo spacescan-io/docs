@@ -34,6 +34,9 @@ GET https://api-testnet11.spacescan.io/token/holders/{asset_id}
 | Parameter | Type   | Description                                     |
 |-----------|--------|-------------------------------------------------|
 | asset_id  | string | The unique identifier of the CAT                |
+| start_block | number | Optional starting block height to fetch holders from |
+| end_block   | number | Optional ending block height to fetch holders to   |
+| profile     | boolean | Optional flag to include profile information       |
 
 
 :::info Free API
@@ -166,4 +169,4 @@ Each holder in the `tokens` array contains:
 | 400 | Bad Request -- Invalid parameters |
 | 429 | Too Many Requests -- Rate limit exceeded |
 | 500 | Internal Server Error |
-| 503 | Service Unavailable | 
+| 503 | Service Unavailable |

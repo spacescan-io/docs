@@ -35,6 +35,8 @@ GET https://api-testnet11.spacescan.io/address/xch-balance/{address}
 |-----------|------|----------|---------|-------------|
 | address | string | Yes | - | The XCH address to fetch balance for |
 | include_dust | boolean | No | false | Include dust coins in balance |
+| start_block | number | No | - | Starting block height to fetch balance from |
+| end_block | number | No | - | Ending block height to fetch balance to |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
