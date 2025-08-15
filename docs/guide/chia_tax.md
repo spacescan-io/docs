@@ -86,6 +86,15 @@ The platform offers several types of tax reports:
    - Aggregate gain/loss summary
 
 ### Downloading Reports
+You can download tax reports in two ways:
+
+1. **All Wallets Single Report**
+   - Download a consolidated tax report for all wallets.
+   - ![All Wallets Report](wallets-download.png)
+
+2. **Individual Wallet Report**
+   - Select a specific wallet from the dropdown to download its tax report.
+   - ![Individual Wallet Report](wallets-individual.png)
 
 Export your tax information in multiple formats:
 
@@ -161,4 +170,4 @@ After setting up tax reporting:
 3. Set up backup procedures
 4. Review transaction categorization
 
-For additional help or feature requests, please contact our support team. 
+For additional help or feature requests, please contact our support team.
