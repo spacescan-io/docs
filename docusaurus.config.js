@@ -51,6 +51,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/spacescan-logo.png',
+      metadata: [
+        {name: 'og:image', content: 'https://docs.spacescan.io/img/spacescan-logo.png'},
+        {name: 'twitter:image', content: 'https://docs.spacescan.io/img/spacescan-logo.png'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+      ],
       colorMode: {
         defaultMode: 'light',
         disableSwitch: false,
