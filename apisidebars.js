@@ -88,6 +88,7 @@ const sidebars = {
       type: 'category',
       label :'Offers',
       items: [
+        'offers/upload',
         'offers/list',
         'offers/info',
         'offers/by_asset',
