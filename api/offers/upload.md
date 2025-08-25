@@ -52,9 +52,6 @@ The request body should be sent as JSON with the following field:
 | offer | string | Yes | Raw offer string |
 
 
-:::info Size Limit
-Maximum offer string size is 10MB (10485760 bytes). Larger payloads will be rejected.
-:::
 
 ### Request Examples
 
