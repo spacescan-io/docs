@@ -39,10 +39,14 @@ GET https://api-testnet11.spacescan.io/address/xch-transaction/{address}
 | include_received | boolean | No | true | Include received transactions |
 | include_send_dust | boolean | No | false | Include dust sent transactions |
 | include_received_dust | boolean | No | false | Include dust received transactions |
+| include_owned | boolean | No | false | Include unspent coins (is_spend = false) |
+| include_spend | boolean | No | false | Include spent coins (is_spend = true) |
 | send_cursor | number | No | null | Pagination cursor for sent transactions |
 | received_cursor | number | No | null | Pagination cursor for received transactions |
 | send_dust_cursor | number | No | null | Pagination cursor for dust sent transactions |
 | received_dust_cursor | number | No | null | Pagination cursor for dust received transactions |
+| owned_cursor | number | No | null | Pagination cursor for owned (unspent) coins |
+| spent_cursor | number | No | null | Pagination cursor for spent coins |
 
 :::info Free API
 Use `api.spacescan.io` for free tier access. See our [API Plans](https://spacescan.io/apis#plans) for rate limits and features.
@@ -85,6 +89,18 @@ curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_se
 
 # Paginated request for specific transaction types
 curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?send_cursor=100&received_cursor=50"
+
+# Request to get owned (unspent) coins
+curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_owned=true"
+
+# Request to get spent coins
+curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_spend=true"
+
+# Request to get both owned and spent coins with pagination
+curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_owned=true&include_spend=true&owned_cursor=25&spent_cursor=50"
+
+# Request with UNIX timestamps 
+curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?start_timestamp=1756217142&end_timestamp=1758809142"
 ```
 
       </TabItem>
@@ -117,6 +133,17 @@ params = {
 response = requests.get(url, params=params)
 data = response.json()
 print(data)
+
+# Request to get owned (unspent) and spent coins
+params_coins = {
+    "include_owned": "true",
+    "include_spend": "true",
+    "count": 50
+}
+
+response_coins = requests.get(url, params=params_coins)
+data_coins = response_coins.json()
+print(data_coins)
 ```
 
       </TabItem>
@@ -144,7 +171,20 @@ print(data)
 const address = "xch1...";
 const url = `https://api.spacescan.io/address/xch-transaction/${address}`;
 
+// Basic request
 fetch(url)
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+
+// Request with parameters for owned and spent coins
+const paramsObj = {
+  include_owned: true,
+  include_spend: true,
+  count: 50
+};
+const params = new URLSearchParams(paramsObj);
+fetch(`${url}?${params}`)
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error('Error:', error));
@@ -206,8 +246,36 @@ fetch(url)
 | received_transactions.total_count | number | Total count (only in initial request) |
 | send_dust_transactions | object | Same structure as send_transactions (only if include_send_dust=true) |
 | received_dust_transactions | object | Same structure as received_transactions (only if include_received_dust=true) |
+| owned_transactions | object | List of owned (unspent) coins (only if include_owned=true) |
+| owned_transactions.transactions | array | List of owned (unspent) coins |
+| owned_transactions.transactions[].coin_id | string | Unique identifier for the coin |
+| owned_transactions.transactions[].time | string | ISO timestamp of the transaction |
+| owned_transactions.transactions[].height | number | Block height of the transaction |
+| owned_transactions.transactions[].amount_xch | number | Amount in XCH |
+| owned_transactions.transactions[].amount_mojo | number | Amount in mojo |
+| owned_transactions.transactions[].from | string | Sender address |
+| owned_transactions.transactions[].to | string | Recipient address (this address) |
+| owned_transactions.next_cursor | number | Cursor for next page of owned coins |
+| owned_transactions.total_count | number | Total count of owned coins |
+| spent_transactions | object | List of spent coins (only if include_spend=true) |
+| spent_transactions.transactions | array | List of spent coins |
+| spent_transactions.transactions[].coin_id | string | Unique identifier for the coin |
+| spent_transactions.transactions[].time | string | ISO timestamp of the transaction |
+| spent_transactions.transactions[].height | number | Block height of the transaction |
+| spent_transactions.transactions[].amount_xch | number | Amount in XCH |
+| spent_transactions.transactions[].amount_mojo | number | Amount in mojo |
+| spent_transactions.transactions[].from | string | Sender address |
+| spent_transactions.transactions[].to | string | Recipient address (this address) |
+| spent_transactions.transactions[].spend_time | string | ISO timestamp when the coin was spent |
+| spent_transactions.next_cursor | number | Cursor for next page of spent coins |
+| spent_transactions.total_count | number | Total count of spent coins |
 
 ### Notes
 - Each transaction type can be paginated independently
 - Dust transactions are excluded by default and must be explicitly requested
+- Owned (unspent) coins and spent coins are excluded by default and must be explicitly requested
+- Owned coins represent coins where is_spend = false (current balance)
+- Spent coins represent coins where is_spend = true (previously owned)
 - The response will only include the transaction types that were requested
+- Use include_owned=true to get the current balance in individual coins
+- Timestamps can be provided as UNIX timestamps (in seconds) using start_timestamp and end_timestamp parameters
