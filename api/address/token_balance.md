@@ -34,10 +34,10 @@ GET https://api-testnet11.spacescan.io/address/token-balance/{address}
 | Parameter | Type   | Description                                     |
 |-----------|--------|-------------------------------------------------|
 | address   | string | The XCH address to fetch token balances for     |
-| start_block | number | **(Pro only)** Start block height for filtering balances (optional) |
-| end_block | number | **(Pro only)** End block height for filtering balances (optional) |
-| start_timestamp | number | **(Pro only)** Start timestamp (in seconds) for filtering balances (optional) |
-| end_timestamp | number | **(Pro only)** End timestamp (in seconds) for filtering balances (optional) |
+| start_block | number |  Start block height for filtering balances (optional) |
+| end_block | number |  End block height for filtering balances (optional) |
+| start_timestamp | number |  Start timestamp (in seconds) for filtering balances (optional) |
+| end_timestamp | number |  End timestamp (in seconds) for filtering balances (optional) |
 
 
 
@@ -86,7 +86,7 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
       </TabItem>
       <TabItem value="pro-filtered" label="Pro (With Filtering)">
         <CodeBlock language="bash">
-        curl -X GET "https://pro-api.spacescan.io/address/token-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8?start_block=7309188&end_block=7428612&is_pro=true" \
+        curl -X GET "https://pro-api.spacescan.io/address/token-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8?start_block=7309188&end_block=7428612" \
              -H "x-api-key: YOUR_API_KEY"
         </CodeBlock>
       </TabItem>
@@ -126,8 +126,7 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
         api_key = "YOUR_API_KEY"
         params = {
             "start_block": 7309188,
-            "end_block": 7428612,
-            "is_pro": True
+            "end_block": 7428612
         }
         
         url = f"https://pro-api.spacescan.io/address/token-balance/{address}"
@@ -171,8 +170,7 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
         const apiKey = "YOUR_API_KEY";
         const params = new URLSearchParams({
           start_block: "7309188",
-          end_block: "7428612",
-          is_pro: "true"
+          end_block: "7428612"
         });
         
         const url = \`https://pro-api.spacescan.io/address/token-balance/\${address}?\${params}\`;
