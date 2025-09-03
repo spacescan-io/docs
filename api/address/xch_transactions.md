@@ -99,8 +99,6 @@ curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_sp
 # Request to get both owned and spent coins with pagination
 curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?include_owned=true&include_spend=true&owned_cursor=25&spent_cursor=50"
 
-# Request with UNIX timestamps 
-curl -X GET "https://api.spacescan.io/address/xch-transaction/xch1...?start_timestamp=1756217142&end_timestamp=1758809142"
 ```
 
       </TabItem>
