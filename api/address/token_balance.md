@@ -95,7 +95,7 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
   <TabItem value="python" label="Python">
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
-        <CodeBlock language="python">
+        <CodeBlock language="python">{`
         import requests
 
         address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
@@ -104,10 +104,10 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
         response = requests.get(url)
         data = response.json()
         print(data)
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
-        <CodeBlock language="python">
+        <CodeBlock language="python">{`
         import requests
 
         address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
@@ -116,10 +116,10 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
         response = requests.get(url)
         data = response.json()
         print(data)
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
       <TabItem value="pro-filtered" label="Pro (With Filtering)">
-        <CodeBlock language="python">
+        <CodeBlock language="python">{`
         import requests
 
         address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
@@ -136,36 +136,37 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
         response = requests.get(url, params=params, headers=headers)
         data = response.json()
         print(data)
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
+ 
     </Tabs>
   </TabItem>
   <TabItem value="javascript" label="JavaScript">
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
-        <CodeBlock language="javascript">
+        <CodeBlock language="javascript">{`
         const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api.spacescan.io/address/token-balance/${address}`;
+        const url = \`https://api.spacescan.io/address/token-balance/\${address}\`;
 
         fetch(url)
           .then(response => response.json())
           .then(data => console.log(data))
           .catch(error => console.error('Error:', error));
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
-        <CodeBlock language="javascript">
+        <CodeBlock language="javascript">{`
         const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
-        const url = `https://api-testnet11.spacescan.io/address/token-balance/${address}`;
+        const url = \`https://api-testnet11.spacescan.io/address/token-balance/\${address}\`;
 
         fetch(url)
           .then(response => response.json())
           .then(data => console.log(data))
           .catch(error => console.error('Error:', error));
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
       <TabItem value="pro-filtered" label="Pro (With Filtering)">
-        <CodeBlock language="javascript">
+        <CodeBlock language="javascript">{`
         const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
         const apiKey = "YOUR_API_KEY";
         const params = new URLSearchParams({
@@ -174,7 +175,7 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
           is_pro: "true"
         });
         
-        const url = `https://pro-api.spacescan.io/address/token-balance/${address}?${params}`;
+        const url = \`https://pro-api.spacescan.io/address/token-balance/\${address}?\${params}\`;
         
         fetch(url, {
           headers: {
@@ -184,8 +185,9 @@ curl -X GET "https://pro-api.spacescan.io/address/token-balance/{address}" \
           .then(response => response.json())
           .then(data => console.log(data))
           .catch(error => console.error('Error:', error));
-        </CodeBlock>
+        `}</CodeBlock>
       </TabItem>
+
     </Tabs>
   </TabItem>
 </Tabs>
