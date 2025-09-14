@@ -31,13 +31,15 @@ GET https://api-testnet11.spacescan.io/address/nft-balance/{address}
 
 ### Parameters
 
-| Parameter | Type   | Description                                     |
-|-----------|--------|-------------------------------------------------|
-| address   | string | The XCH address to fetch NFT balances for       |
-| start_block | number |  Start block height for filtering balances (optional) |
-| end_block | number |  End block height for filtering balances (optional) |
-| start_timestamp | number |  Start timestamp (in seconds) for filtering balances (optional) |
-| end_timestamp | number |  End timestamp (in seconds) for filtering balances (optional) |
+| Parameter | Type | Required | Default | Description |
+|-----------|------|----------|---------|-------------|
+| address | string | Yes | - | The XCH address to fetch NFT balances for |
+| start_block | number | No* | - | Starting block height to fetch balances from |
+| end_block | number | No* | - | Ending block height to fetch balances to |
+| start_timestamp | number | No* | - | Starting timestamp (Unix timestamp) to fetch balances from |
+| end_timestamp | number | No* | - | Ending timestamp (Unix timestamp) to fetch balances to |
+
+*When using block or timestamp filters, both start and end parameters are mandatory. Use either block parameters (start_block & end_block) OR timestamp parameters (start_timestamp & end_timestamp), not both.
 
 
 :::info Free API
@@ -57,7 +59,7 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <a href="https://api.spacescan.io/address/nft-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" className="api-test-button">
+    <a href="https://api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" target="_blank" rel="noopener noreferrer" className="api-test-button">
       🚀 Test API in Browser
     </a>
   </TabItem>
@@ -75,7 +77,11 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="bash">
-        curl -X GET "https://api.spacescan.io/address/nft-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+        curl -X GET "https://api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        
+       curl -X GET "https://api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9?start_timestamp=1756203572&end_timestamp=1756309813"
+        
+        curl -X GET "https://api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9?start_block=7508362&end_block=7495133"
         </CodeBlock>
       </TabItem>
       <TabItem value="testnet" label="Testnet">
@@ -85,7 +91,7 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
       </TabItem>
       <TabItem value="pro-filtered" label="Pro (With Filtering)">
         <CodeBlock language="bash">
-        curl -X GET "https://pro-api.spacescan.io/address/nft-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8?start_block=7309188&end_block=7428612" \
+        curl -X GET "https://pro-api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9?start_block=7508362&end_block=7495133" \
              -H "x-api-key: YOUR_API_KEY"
         </CodeBlock>
       </TabItem>
@@ -97,10 +103,23 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
         <CodeBlock language="python">{`
         import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+        address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
+        
+        # Basic request
         url = f"https://api.spacescan.io/address/nft-balance/{address}"
-
         response = requests.get(url)
+        data = response.json()
+        print(data)
+        
+        # With timestamp filter (both start and end required)
+        url_with_timestamp = f"https://api.spacescan.io/address/nft-balance/{address}?start_timestamp=1756203572&end_timestamp=1756309813"
+        response = requests.get(url_with_timestamp)
+        data = response.json()
+        print(data)
+        
+        # With block filter (both start and end required)
+        url_with_blocks = f"https://api.spacescan.io/address/nft-balance/{address}?start_block=7508362&end_block=7495133"
+        response = requests.get(url_with_blocks)
         data = response.json()
         print(data)
         `}</CodeBlock>
@@ -121,11 +140,11 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
         <CodeBlock language="python">{`
         import requests
 
-        address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8"
+        address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9"
         api_key = "YOUR_API_KEY"
         params = {
-            "start_block": 7309188,
-            "end_block": 7428612
+            "start_block": 7508362,
+            "end_block": 7495133
         }
         
         url = f"https://pro-api.spacescan.io/address/nft-balance/{address}"
@@ -142,10 +161,25 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
     <Tabs>
       <TabItem value="mainnet" label="Mainnet">
         <CodeBlock language="javascript">{`
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
+        const address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9";
+        
+        // Basic request
         const url = \`https://api.spacescan.io/address/nft-balance/\${address}\`;
-
         fetch(url)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+          
+        // With timestamp filter (both start and end required)
+        const urlWithTimestamp = \`https://api.spacescan.io/address/nft-balance/\${address}?start_timestamp=1756203572&end_timestamp=1756309813\`;
+        fetch(urlWithTimestamp)
+          .then(response => response.json())
+          .then(data => console.log(data))
+          .catch(error => console.error('Error:', error));
+          
+        // With block filter (both start and end required)
+        const urlWithBlocks = \`https://api.spacescan.io/address/nft-balance/\${address}?start_block=7508362&end_block=7495133\`;
+        fetch(urlWithBlocks)
           .then(response => response.json())
           .then(data => console.log(data))
           .catch(error => console.error('Error:', error));
@@ -164,11 +198,11 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
       </TabItem>
       <TabItem value="pro-filtered" label="Pro (With Filtering)">
         <CodeBlock language="javascript">{`
-        const address = "xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8";
+        const address = "xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9";
         const apiKey = "YOUR_API_KEY";
         const params = new URLSearchParams({
-          start_block: "7309188",
-          end_block: "7428612""
+          start_block: "7508362",
+          end_block: "7495133"
         });
         
         const url = \`https://pro-api.spacescan.io/address/nft-balance/\${address}?\${params}\`;
@@ -191,7 +225,7 @@ curl -X GET "https://pro-api.spacescan.io/address/nft-balance/{address}" \
 
 <Tabs>
   <TabItem value="mainnet" label="Mainnet">
-    <ApiCallExample endpoint="https://api.spacescan.io/address/nft-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
+    <ApiCallExample endpoint="https://api.spacescan.io/address/nft-balance/xch1raq84pknzte375kze2z3lapscwet5g3q9qqkse8cmnmp5yr40zcsntdcm9" />
   </TabItem>
   <TabItem value="testnet" label="Testnet">
     <ApiCallExample endpoint="https://api-testnet11.spacescan.io/address/nft-balance/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" />
