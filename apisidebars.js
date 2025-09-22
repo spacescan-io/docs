@@ -82,7 +82,9 @@ const sidebars = {
       label: 'Block',
       items: [
         'block/peak',
-        'block/info'
+        'block/info',
+        'block/timestamp',
+        'block/transactions'
       ],
     }, {
       type: 'category',
