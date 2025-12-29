@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Spacescan.io Docs Blog</title>
+        <link>https://docs.spacescan.io/blog</link>
+        <description>Spacescan.io Docs Blog</description>
+        <lastBuildDate>Sun, 27 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Update - 19]]></title>
+            <link>https://docs.spacescan.io/blog/Update_19</link>
+            <guid>https://docs.spacescan.io/blog/Update_19</guid>
+            <pubDate>Sun, 27 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-audiovideo-nft-support">1. Audio/Video NFT support<a href="https://docs.spacescan.io/blog/Update_19#1-audiovideo-nft-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now audio and video NFTs are supported now. ensure your NFTs have proper content-type for the data URL.</li>
+</ul>
+<p><a href="https://www.spacescan.io/collection/col1ztkm6d2ryqan0dery5jde78gdt0jlxu508vkx32ykdv0cuht7r6spfurdc" target="_blank" rel="noopener noreferrer" class="">Check the TЯS - New Beginnings album here</a></p>
+<p><img decoding="async" loading="lazy" alt="video" src="https://docs.spacescan.io/assets/images/video-b23c55d55d7134e9fe77826f4eb24f8f.png" width="1777" height="921" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/ <a href="https://twitter.com/natsabari" target="_blank" rel="noopener noreferrer" class="">Sabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-get-the-bids-asks-and-sold-offers-for-a-collection">2. Get the Bids, Asks and sold offers for a collection<a href="https://docs.spacescan.io/blog/Update_19#2-get-the-bids-asks-and-sold-offers-for-a-collection" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<p><a href="https://www.spacescan.io/collection/Chia_Friends/trades" target="_blank" rel="noopener noreferrer" class="">Check out the Bids and Ask for chia friends here</a></p>
+<p><img decoding="async" loading="lazy" alt="col_offers" src="https://docs.spacescan.io/assets/images/col_offers-137b053461c9c7a286410786e2bb542b.png" width="1853" height="710" class="img_ev3q"></p>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+            <category>DID</category>
+            <category>Data Layer</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 18]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_18</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_18</guid>
+            <pubDate>Sat, 29 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_18#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-nft-trade-trends">1. NFT trade trends<a href="https://docs.spacescan.io/blog/weekly_update_18#1-nft-trade-trends" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>Get deep insights on NFT trade counts, volume and royalty from both private and public offers settled across market places.
+<a href="https://www.spacescan.io/xch/insight/nft-volume" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/insight/nft-volume</a>
+<img decoding="async" loading="lazy" alt="nftvolume" src="https://docs.spacescan.io/assets/images/nft_volume-e1b518d01aa317e7ba92db2fff1aa4b6.png" width="1438" height="635" class="img_ev3q">
+<a href="https://www.spacescan.io/xch/insight/nft-trade" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/insight/nft-trade</a>
+<img decoding="async" loading="lazy" alt="nfttrade" src="https://docs.spacescan.io/assets/images/nft_trades-29e6869ac3310dc52c7d4847a92ec26b.png" width="1443" height="631" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-cat-trade-trends">2. CAT trade trends<a href="https://docs.spacescan.io/blog/weekly_update_18#2-cat-trade-trends" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>Get deep insights on CAT trade counts, volume from both private and public offers settled across market places.
+<a href="https://www.spacescan.io/xch/insight/cat-volume" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/insight/cat-volume</a>
+<img decoding="async" loading="lazy" alt="cattrades" src="https://docs.spacescan.io/assets/images/cat_volume-15f45be1fb71fe64828fa9abae5b5875.png" width="1447" height="615" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-offers">4. Offers<a href="https://docs.spacescan.io/blog/weekly_update_18#4-offers" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>Our attempt to bring one more option to chia community to discover and trade NFT/CAT assets.</p>
+</li>
+<li class="">
+<p>This is in very early development stage, and we will work on this offers in upcoming weeks based on your feedbacks.</p>
+<p><img decoding="async" loading="lazy" alt="offers" src="https://docs.spacescan.io/assets/images/offers-ecddbf339f9663afe046d51cfcad56e2.png" width="1823" height="665" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-coins-filter">5. Coins filter<a href="https://docs.spacescan.io/blog/weekly_update_18#5-coins-filter" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now you could filter recent coins based on coins type like CAT, NFT and DID</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="coins_filter" src="https://docs.spacescan.io/assets/images/coins_filter-2db912a8f6fdaacb07525a170d479a34.png" width="1872" height="498" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-top-nft-collections-in-home">6. Top NFT collections in home<a href="https://docs.spacescan.io/blog/weekly_update_18#6-top-nft-collections-in-home" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">The list of top 5 NFT collections tarded in past 24 hours would be shown in home page</li>
+<li class="">The Netspace and price charts could be accessed from Charts tab menu</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="home" src="https://docs.spacescan.io/assets/images/home-82f4bd34c7e4cf7d6f78f05d9cf1570b.png" width="1857" height="883" class="img_ev3q"></p>
+<blockquote>
+<p>Developer -<a href="https://twitter.com/@AjayBenadict" target="_blank" rel="noopener noreferrer" class="">ajayZorro</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+            <category>DID</category>
+            <category>Data Layer</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 17]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_17</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_17</guid>
+            <pubDate>Sun, 16 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_17#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-top-chia-nft-collections">1. Top chia NFT collections<a href="https://docs.spacescan.io/blog/weekly_update_17#1-top-chia-nft-collections" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>The top collections generated from both private and the public offers settled on chain across nft market places.</p>
+<p><img decoding="async" loading="lazy" alt="nftrank" src="https://docs.spacescan.io/assets/images/nftrank-ce91b8bf8e858f48bff5abec03f70f92.jpg" width="1894" height="872" class="img_ev3q"></p>
+<blockquote>
+<p>Developer -<a href="https://twitter.com/@AjayBenadict" target="_blank" rel="noopener noreferrer" class="">ajayZorro</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-nft-collection-details">2. Nft collection details<a href="https://docs.spacescan.io/blog/weekly_update_17#2-nft-collection-details" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now the collections page has enhanced to provide trades, total volume , royality, high and low settled offers on chain.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="collection" src="https://docs.spacescan.io/assets/images/collection-43a1a65c6101c92d2c8f76375e737aee.jpg" width="1898" height="878" class="img_ev3q"></p>
+<blockquote>
+<p>Developer -<a href="https://twitter.com/@AjayBenadict" target="_blank" rel="noopener noreferrer" class="">ajayZorro</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-it-is-easy-to-read-mojo">3. It is easy to read Mojo<a href="https://docs.spacescan.io/blog/weekly_update_17#3-it-is-easy-to-read-mojo" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">
+<p>To enhance readability lower denominated xch will be automatically shown in mojos.</p>
+<p><img decoding="async" loading="lazy" alt="mojo" src="https://docs.spacescan.io/assets/images/mojo_pic-f17dddb30dd34ae2513f68cff585476b.jpg" width="1896" height="876" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/flamingxod" target="_blank" rel="noopener noreferrer" class="">aaron</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-fixes-for-confirmed-and-spend-block">4. Fixes for confirmed and spend block<a href="https://docs.spacescan.io/blog/weekly_update_17#4-fixes-for-confirmed-and-spend-block" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now parent, sibiling, child shows confirmed and spent block numbers.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="block" src="https://docs.spacescan.io/assets/images/block-f481f531e37b93deb7637ddd01473506.png" width="1599" height="689" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Gautham14764017?t=0YfoLc9jDvxT-fuVmRBJzA&amp;s=09" target="_blank" rel="noopener noreferrer" class="">gautham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 16]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_16</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_16</guid>
+            <pubDate>Sat, 10 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_16#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1verifydid">1.VerifyDID<a href="https://docs.spacescan.io/blog/weekly_update_16#1verifydid" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Unverified NFT collections are provided with verifyDID guide link option, so that user can follow the guide and easily verify their did.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="verifydid" src="https://docs.spacescan.io/assets/images/verify_did-d885db195401e2e4181a3e484977b683.jpg" width="633" height="385" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_16#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_16#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Rank for NFT</li>
+<li class="">NFT price details from settled offers</li>
+<li class="">Rarity calculator</li>
+<li class="">NFT price and trade details from</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-user-guide">2. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_16#2-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 15]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_15</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_15</guid>
+            <pubDate>Sun, 04 Sep 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_15#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-personalized-collection-urls">1. Personalized collection urls<a href="https://docs.spacescan.io/blog/weekly_update_15#1-personalized-collection-urls" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Based on creator's feedbacks, now you can set personalized collection urls.
+This will be collections home page and more exciting features coming soon.
+Creators could get those new features and choose custom urls for donation of 3XCH towards our dev funds.
+<a href="https://www.spacescan.io/collection/Chia_Friends" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/collection/Chia_Friends</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-new-insight-charts">2. New Insight Charts<a href="https://docs.spacescan.io/blog/weekly_update_15#2-new-insight-charts" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">NFT Mint-Trend chart is added.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="minttrend" src="https://docs.spacescan.io/assets/images/nft_mint_trend-8fbf91a1718bc8a73b6e27db29700162.jpg" width="1786" height="832" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>
+<ul>
+<li class="">Existing CAT charts are moved to insights.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="cats" src="https://docs.spacescan.io/assets/images/cats-081dd3375a5e7a53b886c72353d5c550.png" width="1788" height="812" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_15#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_15#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Rank for NFT</li>
+<li class="">NFT price details from settled offers</li>
+<li class="">Rarity calculator</li>
+<li class="">NFT price and trade details from</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-user-guide">2. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_15#2-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 14]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_14</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_14</guid>
+            <pubDate>Sat, 27 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_14#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-enhancements">1. Chia NFT enhancements<a href="https://docs.spacescan.io/blog/weekly_update_14#1-chia-nft-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Ability to filter NFT based on traits</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="traits" src="https://docs.spacescan.io/assets/images/traits_filter-68fc948fd97f4100f4ea9c5c95925ed2.png" width="1817" height="660" class="img_ev3q"></p>
+<ul>
+<li class="">View the collections as list</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="list" src="https://docs.spacescan.io/assets/images/list_view-a71edeec045bd73a93e8482a13472758.png" width="1818" height="647" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_14#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_14#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Rank for NFT</li>
+<li class="">NFT price details from settled offers</li>
+<li class="">Rarity calculator</li>
+<li class="">NFT price and trade details from chain</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-user-guide">2. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_14#2-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 13]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_13</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_13</guid>
+            <pubDate>Mon, 15 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p><p>We are looking for UI/UX designer for Spacescan as unpaid volunteers. Support us to redesign spacescan explorer for most decentralized crypto in the world!</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_13#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_13#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Rank for NFT</li>
+<li class="">NFT price details from settled offers</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+<li class="">NFT price and trade details from chain</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-user-guide">2. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_13#2-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 12]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_12</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_12</guid>
+            <pubDate>Sun, 14 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p><p>We are looking for UI/UX designer for Spacescan as unpaid volunteers. Support us to redesign spacescan explorer for most decentralized crypto in the world!</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_12#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-blockchain-insights">1. Blockchain insights<a href="https://docs.spacescan.io/blog/weekly_update_12#1-blockchain-insights" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">Github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a>  for Rich list and we have added first set of the chart and more charts soon.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="nft" src="https://docs.spacescan.io/assets/images/rich-2e2049adb0584ca96411af2fc46a22b9.png" width="1797" height="543" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-claim-your-nft-creator-did-to-avoid-scams">2. Claim your NFT Creator DID to avoid scams<a href="https://docs.spacescan.io/blog/weekly_update_12#2-claim-your-nft-creator-did-to-avoid-scams" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">If you are Chia NFT creator, claim your DID to avoid any scammers impersonating your collections.</li>
+</ul>
+<blockquote>
+<p><a href="https://docs.spacescan.io/docs/guide/verifyDID" target="_blank" rel="noopener noreferrer" class="">https://docs.spacescan.io/docs/guide/verifyDID</a></p>
+</blockquote>
+<ul>
+<li class="">Impersonation is becoming a problem in Chia NFT echo system. CHIA DID is offering solution to link NFT collections to DID. DID owner can link it to social accounts to prove the ownership.
+The DID1 is in draft and not ready for two-way link.</li>
+<li class="">As interim option, created twitter bot which links Minter DID to NFT meta data so the DID could be claimed via twitter.</li>
+<li class="">Check out DID page of <a href="https://www.spacescan.io/xch/did/3461dc504bea934aa500f5635ecbd713fc00c84e2d9ba704af120d983a827212" target="_blank" rel="noopener noreferrer" class="">Space RatZ NFT</a>
+<img decoding="async" loading="lazy" alt="did" src="https://docs.spacescan.io/assets/images/DID-aaebbe7f83b984033a91e878ddd70448.png" width="942" height="807" class="img_ev3q"></li>
+<li class="">Checkout <a href="https://www.spacescan.io/xch/nft/collection/col1jvfuzwe963gdgchl8vhgz0fjjq5gm6dcrujwrxz9nd30ew7xppvskt5upq" target="_blank" rel="noopener noreferrer" class="">Space RatZ NFT collection page</a> with DID linked
+<img decoding="async" loading="lazy" alt="col" src="https://docs.spacescan.io/assets/images/collection_mark-a3c08be038e28cd4b15b3a7954d95829.png" width="952" height="876" class="img_ev3q"></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-uiux-enhancements">3. UI/UX enhancements<a href="https://docs.spacescan.io/blog/weekly_update_12#3-uiux-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Added minor enhancements suggested by <a href="https://twitter.com/sethjenks" target="_blank" rel="noopener noreferrer" class="">sethjenks</a> and <a href="https://twitter.com/neuro_tarun" target="_blank" rel="noopener noreferrer" class="">Tarun</a></li>
+<li class="">New UI/UX enhancements are done in the mobile view same as on the web.</li>
+<li class="">Infinity scroll for NFT collection and NFT pages</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a>/<a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_12#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_12#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Rank for NFT</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+<li class="">NFT price and trade details from chain</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-user-guide">2. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_12#2-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 11]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_11</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_11</guid>
+            <pubDate>Sat, 06 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Join Us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_11#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-blockchain-insights">1. Blockchain insights<a href="https://docs.spacescan.io/blog/weekly_update_11#1-blockchain-insights" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">The insights section is created with all of the existing charts to get insights on the chia block chain</li>
+<li class="">The blockchain dropdown in the home page is restructured with insights, Blocks, and Coins details</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> / <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/Rasith38434749" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<p><img decoding="async" loading="lazy" alt="nft" src="https://docs.spacescan.io/assets/images/Insights-ea6f2f527ab886aad0e6e3aca9382dd5.png" width="1886" height="885" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-uiux-enhancements">2. UI/UX enhancements<a href="https://docs.spacescan.io/blog/weekly_update_11#2-uiux-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Added minor enhancements suggested by <a href="https://twitter.com/sethjenks" target="_blank" rel="noopener noreferrer" class="">sethjenks</a> and <a href="https://twitter.com/neuro_tarun" target="_blank" rel="noopener noreferrer" class="">Tarun</a></li>
+<li class="">New UI/UX enhancements are done in the mobile view same as on the web.</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_11#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_11#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">DID auto verification, display of Twitter  and website links for verified collections</li>
+<li class="">Filter out impersonated collections and NFT from the search bar</li>
+<li class="">Rank for NFT</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-did">2. DID<a href="https://docs.spacescan.io/blog/weekly_update_11#2-did" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Stats and list pages to know all DID created in blockchain</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-blockchain-insights">3. Blockchain insights<a href="https://docs.spacescan.io/blog/weekly_update_11#3-blockchain-insights" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">Github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> / <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/Rasith38434749" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_11#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating a User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 10]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_10</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_10</guid>
+            <pubDate>Sat, 30 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github. Show your love by sending XCH, NFT and CAT to dev fund support us page.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>. Show your love by sending XCH, NFT and CAT to dev fund <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_10#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-cat2-enhancements">1. CAT2 enhancements<a href="https://docs.spacescan.io/blog/weekly_update_10#1-cat2-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Supports CAT2 along with CAT1 in address and coin pages.
+<a href="https://www.spacescan.io/xch/address/xch1p3sv32v4ptf7ltvnh2vf6m8qzu92l2z3mmyfctdxl2uflghpfgtqad4skv" target="_blank" rel="noopener noreferrer" class="">Check USDS treasury!</a>
+<img decoding="async" loading="lazy" alt="USDS" src="https://docs.spacescan.io/assets/images/USDS_CAT1_CAT2-60738c74dea5c59fde475059e2d07921.png" width="1767" height="506" class="img_ev3q"></li>
+<li class="">Explore CAT2 collections and stats from top menu</li>
+<li class="">Find CAT2 with asset id from enhanced search bar
+<img decoding="async" loading="lazy" alt="CAT2" src="https://docs.spacescan.io/assets/images/CAT2-420141936cdd5bbeb964fb9d26cdec74.png" width="1883" height="772" class="img_ev3q"></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-nft-optimization">2. NFT optimization<a href="https://docs.spacescan.io/blog/weekly_update_10#2-nft-optimization" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">If a collection doesn't have icon or banner in meta data as per CHIP-0007 then any one NFT image will be used as icon and banner! we suggest to use Meta data icon and Banner attribute for better branding!
+<a href="https://www.spacescan.io/xch/nft/collection/col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl" target="_blank" rel="noopener noreferrer" class="">Chia friends</a>
+<img decoding="async" loading="lazy" alt="chia_friends" src="https://docs.spacescan.io/assets/images/Chia_friends-7fea3c54c539a791978b5b5e39051802.png" width="662" height="686" class="img_ev3q"></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-uiux-enhancements">3. UI/UX enhancements<a href="https://docs.spacescan.io/blog/weekly_update_10#3-uiux-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Added minor enhancments suggested by <a href="https://twitter.com/sethjenks" target="_blank" rel="noopener noreferrer" class="">sethjenks</a> and <a href="https://twitter.com/neuro_tarun" target="_blank" rel="noopener noreferrer" class="">Tarun</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_10#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_10#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">DID auto verification, display of twitter and website links for verified collections</li>
+<li class="">Filter out impersonated collections and NFT from search bar</li>
+<li class="">Rank for NFT</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-did">2. DID<a href="https://docs.spacescan.io/blog/weekly_update_10#2-did" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Stats and list pages to know all DID created in blockchain</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-blockchain-insights">3. Blockchain insights<a href="https://docs.spacescan.io/blog/weekly_update_10#3-blockchain-insights" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a></li>
+<li class="">The insights section will be created with a lot of charts and list to get deeper insights from chia block chain</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> / <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/Rasith38434749" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_10#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/Logeshn1812" target="_blank" rel="noopener noreferrer" class="">Logesh</a> / <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 9]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_9</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_9</guid>
+            <pubDate>Sat, 23 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github. Show your love by sending XCH, NFT and CAT to dev fund support us page.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>. Show your love by sending XCH, NFT and CAT to dev fund <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_9#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-features">1. Chia NFT 1 features<a href="https://docs.spacescan.io/blog/weekly_update_9#1-chia-nft-1-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Spacescan now host optimized images for all NFT to improve user experience. We noticed creators have issues in hosting images and  resulted in not so good experience for Mobile users. This would provide equal space for all creators and users.</li>
+<li class="">Shows NFT with valid hash match for preventing scam projects</li>
+<li class="">Validates Meta json with CHIA <a href="https://github.com/Chia-Network/chips/blob/metadata-schema/CHIPs/chip-will-riches-metadata.md" target="_blank" rel="noopener noreferrer" class="">CHIP-0007 scehma</a></li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="nft" src="https://docs.spacescan.io/assets/images/NFT-83682aa51f5f43bd46f6acdb149f4b79.png" width="1766" height="891" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a>/<a href="https://twitter.com/natsaba" target="_blank" rel="noopener noreferrer" class="">natsabari</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-nft-coins">2. NFT coins<a href="https://docs.spacescan.io/blog/weekly_update_9#2-nft-coins" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhancement in Coin page is done to show details like name, id, collections, description along with coin basic information</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="nft_coin" src="https://docs.spacescan.io/assets/images/nft_coin-893c42ed5a44b6de49deca0f43de04d9.png" width="1477" height="743" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_9#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_9#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards<!-- -->
+<ul>
+<li class="">Rank for NFTs</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-xch-rich-list">2. XCH rich list<a href="https://docs.spacescan.io/blog/weekly_update_9#2-xch-rich-list" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-cat-features">2. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_9#2-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-api">3. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_9#3-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_9#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Internship Program-2022]]></title>
+            <link>https://docs.spacescan.io/blog/intern_program_2022</link>
+            <guid>https://docs.spacescan.io/blog/intern_program_2022</guid>
+            <pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Intern Program is back again]]></description>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="intern-program-is-back-again">Intern Program is back again<a href="https://docs.spacescan.io/blog/intern_program_2022#intern-program-is-back-again" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<p><a href="https://www.spacescan.io/" target="_blank" rel="noopener noreferrer" class="">Spacescan.io</a> team is planning to expand its boundaries by hosting Internship programs. We are welcoming college/University students for a fully remote internship globally.</p>
+<p>Spacescan will provide the students with the knowledge on how to build softwares in a professional working environment. Interns will learn blockchain, Crypto- transactions, Artificial Intelligence and Machine Learning on large datasets. Students working with spacescan will be making a huge impact to the chia community and thousands of spacscan users.</p>
+<p>Spacesan provides different tasks, projects and meaningful mentorship to the students, so that they can learn new stuffs out of their academics. For interns, we exclusively host a hybrid model, where the interns will not join the daily meeting or call, but will be part of the daily tasks and spacescan updates. Tasks will be allocated in the spacescan <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">github portal</a>, Interns can pick and work on the tasks that they like to work on.</p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="apply-here">Apply here<a href="https://docs.spacescan.io/blog/intern_program_2022#apply-here" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<p>Spacescan really appreciate each and every canditate who applies for the internship as they are making a huge forward step in their career.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Apply Here</div><div class="admonitionContent_BuS1"><p><a href="https://forms.gle/dSMFa7rT7u3dERsT7" target="_blank" rel="noopener noreferrer" class="">Application Link!</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="what-interns-will-get-from-spacescanio-internship">What Interns will get from Spacescan.io Internship<a href="https://docs.spacescan.io/blog/intern_program_2022#what-interns-will-get-from-spacescanio-internship" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<ul>
+<li class="">
+<p>Working with Founding team of software engineers and Architects from fortune 100 companies with more than 15 years of experience from USA and Canada.</p>
+</li>
+<li class="">
+<p>Highly motivated team and passionate about the blockchain technologies.​</p>
+</li>
+<li class="">
+<p>Leading chia blockchain explorer in the market with exclusive features.</p>
+</li>
+<li class="">
+<p>The only analytical platform that provides in-depth on-chain metrics, interactive charts, and APIs for enterprises in chia blockchain.​</p>
+</li>
+<li class="">
+<p>On completion of 6-months intern period, experience certificate will be provided from spacescan.io. ​</p>
+</li>
+</ul>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="eligible-criteria">Eligible Criteria<a href="https://docs.spacescan.io/blog/intern_program_2022#eligible-criteria" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<p>There are few criterion, that we follow for the interning with spacescan.</p>
+<ul>
+<li class="">
+<p>Should be an active&nbsp;student in college/University.</p>
+</li>
+<li class="">
+<p>Should commit weekly 10 hours for learning and contributions</p>
+</li>
+<li class="">
+<p>Must have knowledge in node.js &amp;&nbsp;React.js.</p>
+</li>
+<li class="">
+<p>Having knowledge in blockchain, chialisp, python is an advantage.</p>
+</li>
+<li class="">
+<p>Self-motivated and passionate about learning&nbsp;new technologies.</p>
+</li>
+<li class="">
+<p>Interns might have initial screening via zoom.</p>
+</li>
+</ul>
+<p>Interns will have an opportunity to work with spacescan.io team after the completion of intern period based on the performance and interest towards the chia community.</p>
+<p><img decoding="async" loading="lazy" alt="background_non_footer" src="https://docs.spacescan.io/assets/images/background_non_footer-670fee0c5746fd1141cb339a6a2dbfe6.jpg" width="3126" height="1043" class="img_ev3q"></p>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>charts</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 8]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_8</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_8</guid>
+            <pubDate>Sat, 16 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions, Join us Discord  Twitter Github. Show your love by sending XCH, NFT and CAT to dev fund support us page.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions, Join us <a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a>. Show your love by sending XCH, NFT and CAT to dev fund <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_8#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-features">1. Chia NFT 1 features<a href="https://docs.spacescan.io/blog/weekly_update_8#1-chia-nft-1-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Search bar will show only verified nfts based on name in search results</li>
+<li class="">Check your NFT collections along with CAT and XCH balance for your address</li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/address/xch12ev9hpaaeqvdk0p8gy9mmfz295cqxu439pjksftldq4lk7g320msxvwqcj" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/address/xch12ev9hpaaeqvdk0p8gy9mmfz295cqxu439pjksftldq4lk7g320msxvwqcj</a>
+<img decoding="async" loading="lazy" alt="NFT in Address" src="https://docs.spacescan.io/assets/images/NFT_in_address-e9d9ff9aa24ca0a4cfb545614fb6f1f7.png" width="1473" height="886" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<ul>
+<li class="">Offer Trade integration with NFT market <a href="https://dexie.space/" target="_blank" rel="noopener noreferrer" class="">dexie.space</a></li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/nft/nft1k9c4cwmyctwzf57xzfaaghm20erdz23wzz3jsg0uwyft7qx5eeeqq4n93s" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/nft/nft1k9c4cwmyctwzf57xzfaaghm20erdz23wzz3jsg0uwyft7qx5eeeqq4n93s</a></p>
+<p><img decoding="async" loading="lazy" alt="Dexie" src="https://docs.spacescan.io/assets/images/dexie_integration-9d7bfd7b7e324907ff248f2ca28a717a.png" width="1436" height="788" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-coins-traceability">2. Coins Traceability<a href="https://docs.spacescan.io/blog/weekly_update_8#2-coins-traceability" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Ability to trace the Coins Parent, Child and Sibling information</li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/coin/0xf187ed71c3643a29fa52f0bbb6b25da09d5ad0f576fdcf5938307b2657841a2d" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/coin/0xf187ed71c3643a29fa52f0bbb6b25da09d5ad0f576fdcf5938307b2657841a2d</a></p>
+<p><img decoding="async" loading="lazy" alt="parent" src="https://docs.spacescan.io/assets/images/parent-92fdfd1d9def6a83633a6274db85bce4.png" width="1592" height="342" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_8#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_8#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Creation of Ranks for NFT in both Mainnet and Testnet</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+<li class="">DID profiles and ownership of assets</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-xch-rich-list">2. XCH rich list<a href="https://docs.spacescan.io/blog/weekly_update_8#2-xch-rich-list" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-cat-features">2. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_8#2-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-api">3. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_8#3-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_8#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 7]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_7</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_7</guid>
+            <pubDate>Sat, 09 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -> support us page.   Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -&gt; <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.   Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_7#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-features">1. Chia NFT 1 features<a href="https://docs.spacescan.io/blog/weekly_update_7#1-chia-nft-1-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<h4 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="fighting--the-nft-scams">Fighting  the NFT scams<a href="https://docs.spacescan.io/blog/weekly_update_7#fighting--the-nft-scams" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h4>
+<ul>
+<li class="">
+<p>DID based authenticity mark to avoid impersonation scams in NFT. Spacescan.io verifies the Minter DID and social handle which promotes the collection matches</p>
+</li>
+<li class="">
+<p>Verified  collection will show at the top of collections page</p>
+</li>
+<li class="">
+<p>Search bar will show only verified nfts/collections in search results</p>
+<p><a href="https://www.spacescan.io/xch/nft/collection/col1z0ef7w5n4vq9qkue67y8jnwumd9799sm50t8fyle73c70ly4z0ws0p2rhl" target="_blank" rel="noopener noreferrer" class="">Verified Chia friends</a></p>
+<p><img decoding="async" loading="lazy" alt="Verified" src="https://docs.spacescan.io/assets/images/verified-5254b709d669379831fc20dfb50efa38.png" width="557" height="418" class="img_ev3q"></p>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<ul>
+<li class="">Created Transfers page for NFT in both Mainnet and Testnet to view the transferred NFT</li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/nft/transfers" target="_blank" rel="noopener noreferrer" class="">NFT transfers</a>
+<img decoding="async" loading="lazy" alt="nft-transfers" src="https://docs.spacescan.io/assets/images/NFT_transfers-c5886bba915104796f167c10d7ac4b6e.png" width="1817" height="697" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/AjayBenadict" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_7#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_7#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Creation of Ranks for NFT in both Mainnet and Testnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+<li class="">DID profiles and ownership of assets</li>
+<li class="">Price details of NFT and collections from Dexie</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-xch-rich-list">2. XCH rich list<a href="https://docs.spacescan.io/blog/weekly_update_7#2-xch-rich-list" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Jon from <a href="https://chialinks.com/" target="_blank" rel="noopener noreferrer" class="">chialinks.com</a> created a feature bounty in <a href="https://github.com/spacescan-io/web/issues/54" target="_blank" rel="noopener noreferrer" class="">github</a> with <a href="https://www.spacescan.io/xch/coin/0x771cde950b235e9513c66a3542865cf70587417adf529be8c42485040e4d4191" target="_blank" rel="noopener noreferrer" class="">3.14 XCH</a></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> / <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-cat-features">2. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_7#2-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-api">3. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_7#3-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_7#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-read-only-mobile-app">5. Read Only Mobile App<a href="https://docs.spacescan.io/blog/weekly_update_7#5-read-only-mobile-app" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating Read Only Mobile App to View Chia Tokens and Transactions</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-coins-traceability">6. Coins Traceability<a href="https://docs.spacescan.io/blog/weekly_update_7#6-coins-traceability" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Ability to trace the Coins Parent, Child and Sibling information</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 6]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_6</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_6</guid>
+            <pubDate>Sat, 02 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -> support us page.   Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -&gt; <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.   Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a></p><p>Happy 4th of July and Canada Day!
+Due to long holidays expect slow responses from team!</p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_6#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-cat-holders-info">1. CAT Holders Info<a href="https://docs.spacescan.io/blog/weekly_update_6#1-cat-holders-info" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Added unique holders numbers and top CAT holders page</li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/cat1/509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f" target="_blank" rel="noopener noreferrer" class="">Chia Holiday 2021 Holders</a></p>
+<p><img decoding="async" loading="lazy" alt="cat-holders" src="https://docs.spacescan.io/assets/images/holders-5e7f4d6a4e311645d9a7897dfa2f8c06.png" width="1702" height="717" class="img_ev3q"></p>
+<p><a href="https://www.spacescan.io/xch/cat1/holders/509deafe3cd8bbfbb9ccce1d930e3d7b57b40c964fa33379b18d628175eb7a8f" target="_blank" rel="noopener noreferrer" class="">Chia Holiday 2021 Top Holders</a></p>
+<p><img decoding="async" loading="lazy" alt="cat-top-holders" src="https://docs.spacescan.io/assets/images/cat_top_holders-f4ae3b0afd1af61f501df3ef53a6f3d8.png" width="1685" height="871" class="img_ev3q">
+Note:
+The navigation at the bottom have issues and will be fixed in next release.</p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_6#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_6#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Creation of Ranks and Transfers page for NFT in both Mainnet and Testnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">DID based authenticity mark to avoid impersonation scams in NFT</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-cat-features">2. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_6#2-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">DID based authenticity mark to avoid impersonation scams in CAT</li>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-api">3. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_6#3-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_6#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-read-only-mobile-app">5. Read Only Mobile App<a href="https://docs.spacescan.io/blog/weekly_update_6#5-read-only-mobile-app" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating Read Only Moile App to View Chia Tokens and Transactions</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-coins-traceability">6. Coins Traceability<a href="https://docs.spacescan.io/blog/weekly_update_6#6-coins-traceability" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Ability to trace the Coins Parent,Child and Sibling information</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 5]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_5</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_5</guid>
+            <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -> support us page.   Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -&gt; <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.   Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_5#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-enhance-search-box">1. Enhance Search box<a href="https://docs.spacescan.io/blog/weekly_update_5#1-enhance-search-box" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Improved search bar with ability to lookup search XCH, CAT and NFT with below attributes<!-- -->
+<ul>
+<li class="">NFT ID, Name, Collection ID and Collection Name</li>
+<li class="">CAT Asset ID, Name and Symbol</li>
+<li class="">Address, Header Hash, Coin ID and Blocks</li>
+</ul>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="search-cat" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAvUAAAF0CAYAAACjRsZtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAB34SURBVHhe7d1fjJRlvifwH0QNNIh9BLFhRI8HBmE84+ig4+kQZnaZQzAbZgczOboxXEB0c7IXmL0g3shkMxm8MX2xO53NZrMSuDAkzsnGTMYLCRlO1Bh2Rj3OOBnFFtd1dKAV8DQIjVEjW89bb3VVdVfTdFPV9COfT/Lq+6+r3re4+b5P/Z5fzVp40/LzAQAAZGt2+X8AACBTQj0AAGRu3PKbGxbdEDcuujHmdc2L2bNlfwAAuNy++uqrODt8Nj468VEcP3G83Nsi1KcAf9uK22Le3Hlx9dVXl3sBAICZ4osvvoiz587G20feLoL+mCH4FOjnd80X6AEAYIZKWT1l9pTdk6aR+lRyc8s3bmkK9F9++WV8dPyjGDw+GJ9//nm5FwAAmE7XXHNN9NzQEzfecGNcddVVxb40Yv/+X95vDvV/u+pv49r515ZbUdTrvPHmG+UWAAAwE9zxrTuKua/Jp2c+bS6/qR1I0gi9QA8AADNPyukprydFY5tirdTY5SaV3AAAADNTLa+nDD9ur8pUQw8AAMxMjXl93FBvUiwAAMxcjXl93FAPAADkQagHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADLXgVC/Jfa89M+xZ0u52WjL/4j/8/tX482R5Z/i5+Whmp8/23i89TkAAEBde0N9Edr/c9x7bbndKB3bsSre6rs7vnVnWv5r/PbTW+MnTaH9p3FX/Ko8Pt45AABAozaF+p/Gc2lUfcc9saDcM9bROND3b2Pb0+VmPB3b/ucrcTpujbt+Vu6qRPdN9zfG91bnAAAAjdoT6rcsjUXxafw2jcL3pRDewtM/j5+OBPrS00fjROV/i5a2qtUplecAAACttSfUP/2f4u/ubByFb6PygeH4O+U2AADQpAMTZSfhZ3fE31QC+1svjPc08NN4bsc9Ea/s7swDAwAAfA1cvlCfJs7++NY4PTqwN3XIWR/H++6Ov/uPEj0AAIznsoT6rf/rn6uTat/71djAXpTy1Lrf7I74xxTux2mRCQAATH+oT33oH7vn2vi/v6qE9qZON608HdvWpbaW18a9P/lpuQ8AAGg0jaE+/SjVq/GTW6tdcjb9l3L3hJ6OD6stcmJrdQcAANBg+kL9z34c916bAv1ku+RsiZsWVf534mjsre4AAAAaTFuo//kdt0a8d/CCgT7V2j836kemfv5s+oXa9+J/T1iqAwAAV6bpram/9cdlV5vRyz9Fiux7Xzgci37cfOwni16JJ+/8h1BRDwAArc1aeNPy8+V69N7dW65FHHr1ULkGAADMRLX8Pu3dbwAAgPYS6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZG7cUH/NNdeUawAAwEzTmNebQv1XX31VrkX03NBTrgEAADNNLa+nDN8U6s8Ony3XIm684cZyDQAAmGlqeT1l+KZQ/9GJj+KLL74o1q+66qq441t3FOsAAMDMkXJ6yuspu6cMP2vhTcvPl8cKq1eujvld84uTki+//DI+Ov5RDB4fjM8//7zYBwAATK9UQ59KbtIIfcrqKaefGT4Tbw28NTbUz549O25bcVvMmzsvrr766nIvAAAwU6QR+rPnzsbbR94uaurHhPqaGxbdEDcuujHmdc0rgj4AAHB5pQCfauhTyc3xE8fLvdEc6hcvXByLFy2OefMEeQAAmGmKUH/2bHx84uP4+OTH5d4y1M+qBPhVRclNV1x9tf70AAAwk33xxedx9txwHD7ydpyvtbRMgT5NjhXoAQBg5ku5PeX3lOOT2UW5zdyukW43AADAzJfye8rxKc/P+jd/v/n8h4Mfxr8O/Wt5GAAAyMFfdf9V3NRzU8z6d//+ofMmxQIAQJ7S5NlKnhfoAQAgVynPS/QAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOZmbdq85Xy5Pi3mr7w3vrtsTrE+dPiFeOMvxWrbdPr1p2Z+rFi7Jpamy/rk7Xjx9cHq7ov1je/E91d1F6ufffBa/G7gTLEOAABJW0bqU5D+/g9/0HpZ+81KpM1Dz1216743ViwodzaY6Pi4FiyJ66vPGRHX3xg95SoAALRD58tv5iyN7/7wO1d2kD19LD75rFz/5KOY5Dj9FPTEHenh4y6PDwAAV4K2h/pU8vLib9LyWhytBdnojsXfKFevSGfiyMvl5zLZ0pvJWvDN+N4Pb6t84gAAXCk6OFJ/JgaPj6R6AACgQ9oyUbb15NRUAlKOGH92NP7l5XcqMf/CE1lTzfrK68uNUuvJrg2vXVO+R7R6/YaJppUT4+grv40jp8vNBvX3b33OhY6PufamCbGtP4uk8fNIhg6/HbFq1LmjJsq+Gbc3/E39Wlp9foWpTM4FACAbbR+p715Vm0xaDaYphL7YEGJbq9aAtwqkxes11oangDup8pLKa19EoG82J5beU7uP+tIyMI937dffNuEk4RTCGwN90l0L9OOYs2zNqL9J13qFz1kAALjCdXyibAqhE4fbepAtHgKKmvwXYuCTcmclIN+RavJTvXhTQK/V71fOPV7uHqXxtYcOX0ygn5z66w/FQHktL75ytHJ1FXOWxt+MN5egci83jzwI1P/2Xz6YqGSpdu7YOQuDrze8d5JG6NO5RukBAL7WOjhRtiGUpw4443Zi6YnFtXD72dF4s6EH++C79YDavbgn5vdcHyNFJx/8qSmgDw60+DZgXkNwrgTci+9Z3/zAMOZ+RjRceyVYr6yN6t+zdOQ658xr/TjTeC9Dh/8w0hHnzMD7ldg+vs8+eLc815wFAACqOjpS3xjKo+vatvar/+zshQt6ku5l9XA99PHlGa0eL9QDAEC7dLz85nJKk05ro97dqzpcd54mtY4a2S8WpS8AAHRYR0N9z/L6SHkMfzrOZNnB+LihTKexBr3x79NI+5nBT+rlOKsaf9V1fqy4q1Xd/mC8cXgk1sfKtv8YU/O1f2tl4xWMd01VZ87WS2e6/7p+XuMcgEvW5m9HAACYmdoe6uvdbxo7wnwWR98df8R68PXGEfUWf1+rhz/9Trw5MpG0sUPNmljaVe4e7S/v1ieUXn9bfK8peF+6xhKjYlJwee0XvKak8bqKX90ddc9TdfrTeslT7XX9siwAwNda58tvirKUibrODMYbv2k1EbWceNtQwnJm4LfNHV5qxv0m4Ewc+WNz8C466bRL5UHjd02daOqG/t+FWnmmX5kd/Xdpgm79AWdqKp9lq88HAICvrbb8+BRtlNp21rrn+NEoAAAuwtd6ouxM13NX47yApCfuaGiHebk69gAAkBcj9ZdR+kXZ8Wro049w/a6hZz8AAIzHSP2MU/3FWIEeAICLZaQeAAAyZ6QeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQuVmbNm85f+jVQ+UmAACQk967e6uhvtwGAAAypPwGAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHOzNm3ecr5cb5utu/pjxbvbY+eeckfNhu3R/+DK6Co3IwbjpUeeiL3lVmHb47F7bU+5UXXs5RavBQAAFNo8Uv9Q7HqqP9Y1Z/KqItAvi/ef2R4PP5KWZ+Ot4Z5Y99TjsbU8Jdm6PCpBv3bO9vjl4XOxZG1/7NpWngAAADRpU6hfHzt+0R+7n+qNJeWesU7Ga888Fn0Hys04GH2/Hojh6IkVDYF9787mkfv9fc9Xwn/EkuUPlXsAAIBGbQr1PdHdVS2TefiRQ3Gs3NvkwL7YOxLoSwdOxqnK/65buL663dLBOHG6XAUAAMZoU6jfFzsf6VTd+/pYtCBieGiw3AYAABpd3u43226NJXEu3v/DwXLHWFt33R+rYyCe6xv/HAAAuJJdvlCfJs6u7Ynhw8831Nkntfr86rJm6Nl4+NH+2F8eBQAAml2WUL9xx5OxO7W2HDwU28eMwB+Mvkfr3W+ei/uKcN+/40J19wAAcOWa9lCfetg/sGpudVLtzn3l3vHt73usaGvZtaq3qfUlAABQNY2hvlpWs67nXLz1zOQm1e4/WfTIiUUbqtsAAEDd9IX6bb2xuisF+sZe9Rdn48LrKv89FScm+XcAAHAlmLZQv3V5T8Tg7y8c6NPk2V2jfmRq2+NluU7zj1IBAABVszZt3nK+XG+Th2LXU70RLzeX2KRa+nWVXN/aYLz0SArtqUTn/ljdVe4uTG10HwAArhQdCPUAAMB0uiwtLQEAgPYR6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQuVmbNm85f+jVQ+UmAACQk967e6uhvtwGAAAypPwGAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHNCPQAAZE6oBwCAzAn1AACQOaEeAAAyJ9QDAEDmhHoAAMicUA8AAJkT6gEAIHOzNm3ecr5cn7L5K++N7y6bU24NxcBv/hCD5VbV/Fixdk0sLU6pH++56wex8vq0r4VP3o6BuG384w2GDr8Qb/yl3AAAgCtMB0bqu+PmlfPLdQAAoNM6MFKffBZHX/ltHDldbk44Uj/6/BYWfDO+d8/SKF7ik7fjxdebvwsAAIArVYdq6ufE0m9/sxLlAQCATmtzqP8sjn4wVF2dszS+pQwHAAA6rv0j9YPvxtHPqqtzli2PnuoqAADQIW0O9XOi69ozceSPR6Oa67tj5V0XE+vnxNJ7fhDf/2FtuTdWLCgPAQAAF9SZmvrT78SbH5TD9dffFnd8o7oKAAC0X4cmykacGfjTSBlO918vj67q6jhS95sX4sXf1JYJOuEAAAAjOhbqK7G+XoYzpzu6GzteAgAAbdPBUF9x+p348yflOgAA0BGdDfUVg6+/HWWTSwAAoAM6HuorsT7eOCzWAwBAp8zatHnL+XIdAADI0DSM1AMAAJ0k1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmZu1afOW84dePVRuAgAAOem9u7ca6sttAAAgQ8pvAAAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADI3a9PmLefL9anb9njsXttTbjQajJceeSL2llszVu36hwfil4/2x/5yd6Otu/pj3YLG4w/Frqd6Y0mx3uzYy8/G0F33x+quckcrF3ivuvQed8bQM49F34HqNax4d3vs3FMeHmX846Ov9Vy8Vb7miBb/hsdeHv+9AACYOdoY6q8bGxRz0RBohw8/G9v7DhbrjcYL9deNc36TDduj/8GVcWqyITn93Y8iniveszngN6uH9rFBvHosGvYX99LTHOy37no8Ymf9AWzjjifjgVVzBXsAgAwovxlxLo4NnouuVffFjg3lrsvtpgXRdfpk9SFiw8K4Lk7FiaZAvz52/KI/do/zjUHNkVHBfO/OQ3Es5sYt31lf7kn7mr9R2d/3fLw1HLFk+UPlHgAAZiqhvsHQC78vwu7qH8yMILt1eU8MDw1WN1LAHz5dub5GPdHdVR2df/iRFNRb2Rd7x4y0D8ZQJbB3dbcqmao5GCdOl6sAAMxo0xTqayPKDcsvtsfG8miSSkJ276qE6VRy0nBe/476aHJdKimpn1M97x+r75FeY7TyNXdtK7fHtS92vlwJ0T29F3FuhzTc/7pK5u5adX/1HlN5UNfKeKA49nhsLU6uXO8jnSqPWR+LFkT9oQIAgBlrekL9tt645c/PxsOVAFpdDsWxFFBHB/BKmN6dashr51UCdgq1TQG7CL29sWTwUP31nhmIU/FO/PHP5yqvcWsZeOu2/mBldA0PxEsXE373PBEvVXLskrW14DzNDvTH9tpnVExord5juqbqiHxaLnHy8Ybb45Y0wv/uvnLHWFt33R+rYyCem2i+AAAAl10bQ/3cWP1gdYR5ZKmF9kpQbp5Mui9eOlwJ4AsWNo3WF91yGjvC7Dk0qq57fez4USWgp0C/syGQVoLwzsrr7+9L5TM9saZpdP+hWNETMfznP03QaaauWnPeE+tajfqPMjKSPrK06WEg1dAPfxB/LGro06j5uRj6sDhyiR6KXQ9WP8PmEf7mb1PWDFUewibszgMAwEzQxlBfH1UeWRqDd0VRYlOGxtRZJboWNE/wHHxv1Ah0WdddC/8TjjDviyODlZe9+fb6w8K2WyvvMRivTWrEuXzo6LlzwkmzqVtO0z1f0ih6Q7BOwXuk3Ca1x6w/NE25NCh1+UnfcqR2mqP+bdJn3fdo/T6ei/uK92pd/gQAwEwyLeU3qT1iCojrol4y88sUmicrTRatPDxcaMR677sp1S+Lb5dhPE02HfuwMLFq95dKkP5Rc+1/Z9WDdfp8Rh4YUp1/CuLlZzeVGvri32BtT/U1L2IEfn/fY8U1dK3qvTxlSAAAXLTOh/oN22NT2e989Mj9pH14OobL1XEVJTu1do3V0psL1Y6PrxKwfz0Qw10rY9O0j1avj2/fPDdOnax+u7Bx4XWTKh8aLX1DUus5P2FP/Qb7T56q/Pe6WDRTWnwCANDS9EyUHaMaWiftwMk4Naq/+lgHiwmzqQRn6447i1KTi5og28qB/niuGK2+L9YsKPdNi9Sqsv6NxJLuesCftMpD1Zr0YFMJ9JMd4U8PEzGmNz4AADNN50N9EcSbf8Ro4477YnVXuTEp1ZaTaXJqU613Jbjuatje/4cPYrhrWaypPDhcygh3UivD6ZrS9U5R0yTZ9G3D1CfJbvzOsok7/6SOQqMnBW97vBzdv8ROOwAAdNw0jNRXgvgzAzGc2lUWkz77Y1M8P7Wa+mTPE0ULy2jsOvPgshj6Q8NI9oH+eG0wBfFz8X7j/ik5GH2vD5br0yS1tRype0+96B+LvksZLR+ZcDt6ebI6EfjAn+L9BfV/n2JZe10x8bkzPfABAGinWZs2bzlfrn+tpDryYmLupdbxAwDADHeZauo7rFZHPqUJsgAAkJevZaif1C/IAgBA5r5W5TdFyU1PZSX1dPdrqAAAXCG+tjX1AABwpfh61tQDAMAVRKgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkbtamzVvOH3r1ULkJAADkpPfu3mqoL7cBAIAMKb8BAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOaEegAAyJxQDwAAmRPqAQAgc0I9AABkTqgHAIDMCfUAAJA5oR4AADIn1AMAQOZmTKjfuqs/du96qNwCAAAu1qxNm7ecL9enbtvjsXttT7nRaDBeeuSJ2FtuXUgK9eviUDy8c1+5p13Wx45f3B+ruyKOvbw9du4pdzfasD36H1wZp0aO1/9mtOHDz8Zr3ffHula3O+Ji7rv6Ht2vV99z444nY1M8H9v7DpbHR0mf8fL3Wn4+xWfXcD3pGptfp8X9DA/ELx/tj/3lJgAA+WrjSP25eOuZ7fHwI43LxQX66bJk7eOxtVy/KIOVh4ym+9lehOW9Oxv3HYpjlVNTkK7vu5j77onursE4Uj5EfPvmuXHqZOtAX3yL0fKhqeFhqPbeLw9G16r7o3/H+vKMig23R/efG6+vcs1dK+OBX2yPjeUpAADk68qpqR8crITvnlg3U0p8NiyM64ZPFw8E1YB/LoY+LDZGpNH73U81j8KP8e6obzf2PBEvDUZ03Xx7PbAf6I+dTSP3+2JnJfxH17L49oZyFwAA2bqCJsq+Fy8dPlfJz3fGjhkQZDd+Z1l0nT5ZLX9JAT9OxYkDxaERS7rnjnxbkIJ6K3v3jC3HOTZUuc+uBbGk3G7pw9MxXK4CAJC3aQr1qaa7vxh1HlkmLP2o/82ubeWuitrodW1pKjOZwP6+5+Ot4bmx+keXq+zkodhVXvcDqyqBvae3eh8Proyu9C1CcezJkYeOosyn7XMMSjctqLzn2AcJAADyMz2hfltv3NKqpnvcUpjaxM404bQ+uTXVjz+w6lSxr3idZwYiRtePX9DB6Pv1QAxX3nvTJB4G2mdf7Cyu/dnKw0V14m66j18ePtdQk/9Y9F1S0K7W58fge+PX9aeJwWt7Ku8/s+Y8AAAwNW0M9XNj9YP1EfRiqYX2PU+M6sayr1oKs2BhixHzxkDfEDorQXRNTwrCDfsO9MdzldfpWtV78RNgR/7mvonLcGoj6SNLfRT90jROkq2W2Yw3SXaytu4qP7vRI/ype07tPh5cEK9VHiBadgICACA7bQz1LbrfjAqWRReXMlgW5Sct6r5HQumoDjJFDfrwQLw0KojuP3mq8t/rYtEkwvb+vt/HsfQQ8oMJJs2O6X5zaaPo9fvvrdx3rdymOhF2ydrq+mTKiZpVS3vW9aR/hxYj8JUHq/p9vBcriveeZDcgAABmpGkpvxnp4tLQejGVnIzR01sE3FZlIcWk0VSyU4TRhmWcVo8XVnZ/qbxfY71+p420wkzvXXtgeGYghou+9tVj4/apv5BUTpMeFFLv+Yt68EhlQKkVZ0+suSxlSAAAtFPnQ30lcG5aNbdaPz7RpM9K0E1hP41ajw7bRUeXIrSWwbhpmcIIetn6cdK969tg6/KeGB4q29mkCasXqn+fSCqrSRNt00PCpH5MajCGhivPSd1TeSgCAGAmmZ6JsmOUkzlb2N/3WMtgX5TZtLmv+t6d1dHqdT9aVu6ZDutj0YIYqaHfuPC6esCftPWx465KKE+BftJdclJdf+U5acrvDQDATNH5UH/gZKSq9yXL6/XrG3fcF6srgXI8KdhXR9Ebgv2eQ9V2lA+OGlnfsD12TbmEpPYjTHPjApfTZhf/S7IT2nB73NJ1Lt564cKBfuuu0RN802TkarnOc1Mp9wEAYEaZhpH6SnBOdeMNnWQ2xfOta+obpPrzWrCvdtE5GH2Ppn31CabF8uCCOHIpwbR4WCjXp0WqZ6/NGaje06V1oWnRdahcapNu9757atQ598fq05Mt1wEAYKaatWnzlvPlOgAAkKHLVFMPAAC0i1APAACZE+oBACBzQj0AAGROqAcAgMwJ9QAAkDmhHgAAMifUAwBA5oR6AADInFAPAACZE+oBACBzQj0AAGROqAcAgMwJ9QAAkDmhHgAAMifUAwBA5oR6AADInFAPAACZE+oBACBzQj0AAGROqAcAgMwJ9QAAkDmhHgAAMifUAwBA5oR6AADInFAPAACZE+oBACBzQj0AAGROqAcAgMwJ9QAAkDmhHgAAMifUAwBA5oR6AADInFAPAACZE+oBACBzQj0AAGROqAcAgMwJ9QAAkLnZX331VbkKAADkJuX52WfPni03AQCA3KQ8P/vjEx/HF198Xu4CAABykXJ8yvOzPz75cZw9NxxffvlleQgAAJjpUn5POT7l+WKi7OEjb8eZ4TNG7AEAIAMpt6f8nnJ8MmvhTcvPF2sVixcujsWLFse8efNi9myNcQAAYCZJk2JTDX0quUkj9DVNoR4AAHK35T/8Q/TcuDj6/tt/L/d83UX8f1bt0NIxLG3UAAAAAElFTkSuQmCC6H5eOO2IbdjCep883DqoRUAIagn+3gr12tSB7ly5JDYUZ3ZadodlxwW3Tw/HA3lu/Swtc82e2Yq2kWwPvb1YTpd3fByr7SFUIXSdfu0fp9xZ3XAHBwHroTWkoyCM5wa7dLgKWleBCqcVvnylbVxQO1KjOrfZtE6n3Un7242gde46Bzzrf987Z9X8uqEzIe1G7e12W/m2EV5X2+yyl52JsXdZyx4ERLfgtdNuf6c54963Uh5Xz02vejf77ITAssrT1VlsoDM1BXzXUz+4LLUDdxf6uI3CNBSZzyim8pdxjUhZb5+ZVvuI3wyn8N3Ky532LGZPB7eYRjt1D/FQQb0w6dPPtrcney9j9zl35X7uei1lA1b7DgDROlY7geBeWMsOE/DoumGzByGLlmdPr5uhMRm+8knWQ7/0RWnh3xtcr0PrT+60dP3Jjh22D9sjbS+Oc0H20ei+zUXXWgSWeXSdR+4fgkmPS3YP10NoL1JMBYvKdSNeRhXWg0+qbOxOOnsbO1PWrYDR+faR3bbLphW+fLltXEtYO9K58G2nkKvjxUM2Opx2UPubXo4qOmm7c87qKLY9dXc4K203JqHdjinfNjrYFs3+t/PhOZkx8+5hzribg3kX3rvYZyeHvgWWlVdUPp3UK6BztQ3RsePtB2V9bJyjPWWvQoEb/2YvbFOfSVxIZU+1pW0eSfb2+S4a2rD92WSvgD4FqacVH4++a8yOjUzc4UVtcLo3w70yXA9PvCEwPX/uubVHDprTcZuyF/qNtMefjnjudpK5IFG9N5IYGqOmoccvqwYlfkcBM2azb6VsjH3Wzlf7c/71qmx5tjWfm0eyPSjm++KnHF2jW3i7saihi4dQtSz6Ij8fuxOo0HOeoXYeb6tWezB7N6O8P3net+rHiWW1dSe+XKqMUuNxs58J/97weq1CsLt4KzHNTF1Ibkfeeh3A7HhU+RbeuSiozF05Vvz+MsV1I6SMwtgeyHgA9pRN6+K4WDthylp9XzTsIHBdBW3bodMKsUtfUK/buOQ2Hm8fQ9qRMIHbjr6IUQ8bTHy2/btBbbdX2bTV/yHtb9By5AgpXyVknZuLXFOf0dM37WkrEJa0G5PQbieEbBsVlYdixSxXt8NaQvbZulxSZxfV8ukzn/ELgMPKKjstW6+qDF0E6tEzsHj5zaG1Q+5lt3RDpyuze6kasuTdADTVsCbGv+nP6As+h8ztCKNTZnpoQSJIeXon9Nji9Dhzf29ler5Uw/TKGyKPqfeuxqarNmo9Vjmip3VyuZoPffvD+GnP1Oe0+Pdm5l3JzJdqGEbd8IWW3B6Y1DrTPRS+U/qJZVTin/PMc+b7fPMUo3tibPmkvkt/z2siG9Xv6luRtZfTfS6+jguY8tS3cfOdYk7Pv553ffHcurntXmUz/3qc9VGZ90S6jsXrYboOKt51qoR8rxFWr43Metb10U7L1B0Zk1cvPyDxut1e93ns98e/y7d9tLnvlLAy99XpNt927rhlTdYLraxuVCijhOx60JLzn182yc+1y8UI3T58n+t4W0vzL5+WKe/M+kqt08L1aT+rbxucLLcq5ZL9bNQOhrbd9nPpu8po+dMOan9Dl8NXf0PKtyX1Pd51lb8sCZnvrbYNh7Xbdl589atw2/AqmVZ6v5pm2t50O1ssd7qV99l5y1deVplp5dYNYHKMHR4z/9cc8AEAAADcDlHAr/c2mQAAAABuKwI+AAAA0CAEfAAAAKBBCPgAAABAgxDwAQAAgAYh4AMAAAANQsAHAAAAGoSADwAAADQIAR8AAABoEAI+AAAA0CAEfAAAAKBBCPgAAABAgxDwAQAAgAYh4AMAAAANQsAHAAAAGoSADwAAADQIAR8AAABoEAI+AAAA0CAEfAAAAKBBCPgAAABAgxDwAQAAgAYh4AMAAAANQsAHAAAAGoSADwAAADQIAR8AAABoEAI+AAAA0CAEfAAAAKBBCPgAAABAgxDwAQAAgAYh4AMAAAANQsAHAAAAGoSADwAAADQIAR8AAABoEAI+AAAA0CAEfAAAAKBBCPgAAABAgxDwAQAAgAYh4AMAAAANYgL+jRs3zAsAAAAA0087z4v8Lw1dt6YuQiEnAAAAAElFTkSuQmCC" width="757" height="372" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Developer</div><div class="admonitionContent_BuS1"><ul>
+<li class=""><a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></li>
+<li class=""><a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> received 0.5 XCH from Dev Fund</li>
+</ul></div></div>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-timescale-extension">2. Timescale Extension<a href="https://docs.spacescan.io/blog/weekly_update_5#2-timescale-extension" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Extended Timescale for all charts to view data from the begining of mainnet launch.</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="netspace" src="https://docs.spacescan.io/assets/images/netspace-all-4676bd0ab98f92a59521b1b37d2c43bd.png" width="1346" height="703" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Developer</div><div class="admonitionContent_BuS1"><ul>
+<li class=""><a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> received 0.25 XCH from Dev Fund</li>
+</ul></div></div>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-cat-features">3. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_5#3-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhanced top menu with Stats, Ranks, explore and transfers features for CAT
+<img decoding="async" loading="lazy" alt="cat-ranks" src="https://docs.spacescan.io/assets/images/cat-ranks-edb9eeb628dbdc0aacbbc129e0095efc.png" width="1400" height="653" class="img_ev3q"></li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-tools">4. Tools<a href="https://docs.spacescan.io/blog/weekly_update_5#4-tools" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Added support for Puzzle hash Converter for XCH, Txch, NFT and DID -&gt; <a href="https://www.spacescan.io/xch/tools/puzzlehashconvertor" target="_blank" rel="noopener noreferrer" class="">Tools</a></li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="tools" src="https://docs.spacescan.io/assets/images/converter-2c998a6696b9897c67dffab3e73c3e98.png" width="1775" height="863" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Developer</div><div class="admonitionContent_BuS1"><ul>
+<li class=""><a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> received 0.25 XCH from Dev Fund</li>
+</ul></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_5#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_5#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Creation of Ranks and Transfers page for NFT in both Mainnet and Testnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">DID based authenticity mark to avoid impersonation scams in NFT</li>
+<li class="">Rarity calculator</li>
+<li class="">Ability to search NFT based on traits</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-cat-features">2. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_5#2-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">DID based authenticity mark to avoid impersonation scams in CAT</li>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-api">3. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_5#3-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-user-guide">4. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_5#4-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-read-only-mobile-app">5. Read Only Mobile App<a href="https://docs.spacescan.io/blog/weekly_update_5#5-read-only-mobile-app" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating Read Only Moile App to View Chia Tokens and Transactions</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">Ibrahim</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-coins-traceability">6. Coins Traceability<a href="https://docs.spacescan.io/blog/weekly_update_5#6-coins-traceability" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Ability to trace the Coins Parent,Child and Sibling information</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="7-cat-holders-info">7. CAT Holders Info<a href="https://docs.spacescan.io/blog/weekly_update_5#7-cat-holders-info" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Provide  Unique Holders of CAT in CAT/summarypage</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" class="">AjayZorro</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 4]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_4</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_4</guid>
+            <pubDate>Sat, 18 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -> support us page.   Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Support us</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Please donate XCH/CAT towards our dev funds and it will be used as a feature bounty -&gt; <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.   Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a> <a href="https://github.com/spacescan-io" target="_blank" rel="noopener noreferrer" class="">Github</a></p><p>Dev fund details : 10.03 XCH - 0.5XCH = <a href="https://www.spacescan.io/xch/address/xch1a6cd558gqsz2hch5pt0l8mx7zhavf32q5lyde09zjtqcmkelr9ns59k0j8" target="_blank" rel="noopener noreferrer" class="">9.53 XCH balance</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_4#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-enhancements">1. Chia NFT 1 enhancements<a href="https://docs.spacescan.io/blog/weekly_update_4#1-chia-nft-1-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<p>We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.</p>
+<ul>
+<li class="">Added Stats Informations for NFT in both testnet 10 and Mainnet</li>
+<li class="">Created NFT API for community developers, <a href="https://docs.spacescan.io/docs/for-developers/nft_api" target="_blank" rel="noopener noreferrer" class="">Read more</a></li>
+<li class="">Added Support for other NFT types like base64 encoded images</li>
+</ul>
+<p>Check out the NFT collections in Testnet 10 <!-- -->🔗<!-- --> <a href="https://www.spacescan.io/txch10/nft/collections" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/txch10/nft/collections</a></p>
+<p>Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.</p>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Developer</div><div class="admonitionContent_BuS1"><ul>
+<li class=""><a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></li>
+<li class=""><a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a> received 0.5 XCH and Its sponsored by <a href="https://twitter.com/TheHonestFarm" target="_blank" rel="noopener noreferrer" class="">Ultimate Farmers Club</a></li>
+</ul></div></div>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhanced-cat-features">2. Enhanced CAT features<a href="https://docs.spacescan.io/blog/weekly_update_4#2-enhanced-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhanced Top menu with Stats, Ranks, explore and Transfers features for CAT in both Mainnet and testnet 10<!-- -->
+<ul>
+<li class="">Integrated Price info from <a href="https://dexie.space/markets" target="_blank" rel="noopener noreferrer" class="">Dexie</a> and <a href="https://hash.green/dex/XCH-USDS" target="_blank" rel="noopener noreferrer" class="">hash.green</a></li>
+</ul>
+</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="cat_chia_rank" src="https://docs.spacescan.io/assets/images/chia_cat_rank-8b8c2e1f6abefed1a44778595d490c1c.jpg" width="1735" height="859" class="img_ev3q"></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_4#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_4#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Creation of Ranks and Transfers page for NFT in both Mainnet and Testnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Enhance top search option to support NFT</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">DID based authenticity mark to avoid impersonation scams in NFT</li>
+<li class="">Rarity calculator</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-search-box">2. Enhance Search box<a href="https://docs.spacescan.io/blog/weekly_update_4#2-enhance-search-box" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhancing search with option to search xch, CAT and NFT with below attributes<!-- -->
+<ul>
+<li class="">NFT1</li>
+<li class="">Collection id</li>
+<li class="">NFT name</li>
+<li class="">NFT collection  name</li>
+<li class="">NFT traits</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a> and <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-cat-features">3. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_4#3-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">DID based authenticity mark to avoid impersonation scams in CAT</li>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="4-enhance-api">4. Enhance API<a href="https://docs.spacescan.io/blog/weekly_update_4#4-enhance-api" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Enhance public API with time frame for Netspace and price</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="5-tools">5. Tools<a href="https://docs.spacescan.io/blog/weekly_update_4#5-tools" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are Addding support for Puzzle hash Converter for both Mainnet  and Testnet 10</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="6-user-guide">6. User Guide<a href="https://docs.spacescan.io/blog/weekly_update_4#6-user-guide" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Creating User Guide for various Chia features and functionalities</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/shamhiruthik" target="_blank" rel="noopener noreferrer" class="">Sham</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 3]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_3</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_3</guid>
+            <pubDate>Sat, 11 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Now, We are at a point that needs your support to continue our journey. Please donate XCH/CAT towards our dev funds in support us page.   Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>For feedback</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Now, We are at a point that needs your support to continue our journey. Please donate XCH/CAT towards our dev funds in <a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">support us page</a>.   Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_3#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-enhancements">1. Chia NFT 1 enhancements<a href="https://docs.spacescan.io/blog/weekly_update_3#1-chia-nft-1-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<p>We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.</p>
+<ul>
+<li class="">Group Chia NFT by collection name</li>
+<li class="">Support NFT 1 in Testnet 10</li>
+</ul>
+<p>Check out the NFT collections in Testnet 10 <!-- -->🔗<!-- --> <a href="https://www.spacescan.io/txch10/nft/collections" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/txch10/nft/collections</a></p>
+<p><img decoding="async" loading="lazy" alt="properties" src="https://docs.spacescan.io/assets/images/nft_collections-c0ac737231518bf4aa976ed8aa6a4603.png" width="1782" height="862" class="img_ev3q"></p>
+<p>Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Read more</div><div class="admonitionContent_BuS1"><p><a href="https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html" target="_blank" rel="noopener noreferrer" class="">Chia vision for NFT</a> and Chia has nice  <a href="https://docs.chia.net/docs/15resources/nft_dev_guide/" target="_blank" rel="noopener noreferrer" class="">developer guide to mint</a> the NFT using the command line.</p></div></div>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-added-support-us-page-to-accept-donations-for-dev-funds">2. Added support us page to accept donations for dev funds<a href="https://docs.spacescan.io/blog/weekly_update_3#2-added-support-us-page-to-accept-donations-for-dev-funds" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are at a point that needs our community support so we can continuously build tools and avoid plastering with a lot of ads.
+We have added a support us page with an option to accept funds with Goby wallet.
+Please support us with XCH and CAT tokens towards our dev funds.</li>
+</ul>
+<p><a href="https://www.spacescan.io/xch/support-us" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/xch/support-us</a></p>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_3#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_3#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Top menu to view Stats, Ranks and Transfers of NFT in both testnet 10 and Mainnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Enhance top search option to support NFT</li>
+<li class="">Create NFT API for community developers to build tools</li>
+<li class="">Support for other NFT types like base64 encoded images</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">DID based authenticity mark to avoid impersonation scams in NFT</li>
+<li class="">Rarity calculator</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-search-box">2. Enhance Search box<a href="https://docs.spacescan.io/blog/weekly_update_3#2-enhance-search-box" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now spacescan supports multiple wallet types like xch, CAT and NFT. so we need to enhance our search box to support these new asset types.</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-cat-features">3. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_3#3-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">Top menu to view Stats, Ranks, explore and Transfers of CAT in both testnet 10 and Mainnet</li>
+<li class="">Price info integration from <a href="https://dexie.space/markets" target="_blank" rel="noopener noreferrer" class="">Dexie</a> and <a href="https://hash.green/dex/XCH-USDS" target="_blank" rel="noopener noreferrer" class="">hash.green</a></li>
+<li class="">DID based authenticity mark to avoid impersonation scams in CAT</li>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 2]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_2</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_2</guid>
+            <pubDate>Sun, 05 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedbacks and suggestions. Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia ->]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>For feedback</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedbacks and suggestions. Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia -&gt;
+<a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a>  <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_2#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-enhancements">1. Chia NFT enhancements<a href="https://docs.spacescan.io/blog/weekly_update_2#1-chia-nft-enhancements" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<p>We have enhanced support for NFT with below informations inorder to support the upcoming Chia NFT 1 standard.</p>
+<ul>
+<li class="">collection  name</li>
+<li class="">description</li>
+<li class="">properties</li>
+<li class="">IPFS hosted image support</li>
+</ul>
+<p>Chia would release the finalized NFT 1 soon and our current implementation also would be modified to support the finalized NFT1 version.</p>
+<p>You can visit the Testnet chia NFT page of <a href="https://twitter.com/CrewOfEight_" target="_blank" rel="noopener noreferrer" class="">Crew of Eight</a> to check out new NFT enhancements,
+<a href="https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98ctks3t5udeulstyr0jv" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/txch10/nft/nft17l5k2ly7cafvp8qdtn9cm8ly4ulnsp82lrm4d98ctks3t5udeulstyr0jv</a></p>
+<p><img decoding="async" loading="lazy" alt="properties" src="https://docs.spacescan.io/assets/images/properties_1-6e6522489b9b2976238d1e7c13e6bf1f.png" width="1701" height="906" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Read more</div><div class="admonitionContent_BuS1"><p><a href="https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html" target="_blank" rel="noopener noreferrer" class="">Chia vision for NFT</a> and Chia has nice  <a href="https://docs.chia.net/docs/15resources/nft_dev_guide/" target="_blank" rel="noopener noreferrer" class="">developer guide to mint</a> the NFT using the command line.</p></div></div>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-improved-stability-of-parser-engine">2. Improved Stability of parser engine<a href="https://docs.spacescan.io/blog/weekly_update_2#2-improved-stability-of-parser-engine" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We have re-written our parser engine for the third time to bring more stability in our sync process and to support future wallets like NFT, DID and RL. There are multiple bug reports in our discord channel on the difference of wallet balance. We have fixed most of those changes and it would bring stable balances across our supported wallet types.</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/chiatothemoon" target="_blank" rel="noopener noreferrer" class="">Sabari</a></p>
+</blockquote>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_2#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_2#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Top menu to view Stats, Ranks, explore and Transfers of NFT in both testnet 10 and Mainnet</li>
+<li class="">Trade integration with NFT market places and exchanges like Dexie.space and Mintgarden.io</li>
+<li class="">Ability to view NFT based on collections</li>
+<li class="">Enhance top search option to support NFT</li>
+<li class="">Create NFT API for community developers to build tools</li>
+<li class="">Support for other NFT types like audio, video and other image hosting services</li>
+<li class="">Enhancing the assets load time by storing images in spacescan.io</li>
+<li class="">DID based authenticity mark to avoid impersonation scams in NFT</li>
+<li class="">Rarity calculator</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-enhance-search-box">2. Enhance Search box<a href="https://docs.spacescan.io/blog/weekly_update_2#2-enhance-search-box" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now spacescan supports multiple wallet types like xch, CAT and NFT. so we need to enhance our search box to support these new asset types.</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhance-cat-features">3. Enhance CAT features<a href="https://docs.spacescan.io/blog/weekly_update_2#3-enhance-cat-features" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items for CAT1 standard to provide better discoverability of CATs<!-- -->
+<ul>
+<li class="">Top menu to view Stats, Ranks, explore and Transfers of CAT in both testnet 10 and Mainnet</li>
+<li class="">Price info integration from <a href="https://dexie.space/markets" target="_blank" rel="noopener noreferrer" class="">Dexie</a> and <a href="https://hash.green/dex/XCH-USDS" target="_blank" rel="noopener noreferrer" class="">hash.green</a></li>
+<li class="">DID based authenticity mark to avoid impersonation scams in CAT</li>
+<li class="">Fix the issues in CAT API and make it stable with new routes</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">Ajay</a></p>
+</blockquote>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+        <item>
+            <title><![CDATA[Weekly update - 1]]></title>
+            <link>https://docs.spacescan.io/blog/weekly_update_1</link>
+            <guid>https://docs.spacescan.io/blog/weekly_update_1</guid>
+            <pubDate>Mon, 30 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spacescan.io is built on your feedback and suggestions. We want to provide continuous updates to the community and get feedback, so we can build the features which the community needs.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>For feedback</div><div class="admonitionContent_BuS1"><p>Spacescan.io is built on your feedback and suggestions. We want to provide continuous updates to the community and get feedback, so we can build the features which the community needs.
+Hope you would like these Weekly updates and Join in our journey to build awesome tools for Chia!</p><p><a href="https://discord.gg/Bb4sj3Bg9P" target="_blank" rel="noopener noreferrer" class="">Discord</a> <a href="https://twitter.com/spacescan_io" target="_blank" rel="noopener noreferrer" class="">Twitter</a></p></div></div>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="completed">Completed<a href="https://docs.spacescan.io/blog/weekly_update_1#completed" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-nft0-support-in-testnet-10">1. NFT0 support in Testnet 10<a href="https://docs.spacescan.io/blog/weekly_update_1#1-nft0-support-in-testnet-10" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/JagRudhChia" target="_blank" rel="noopener noreferrer" class="">JagRudh</a></p>
+</blockquote>
+<p>Chia has recently released its <a href="https://www.chia.net/2022/05/11/our-vision-for-chia-nfts.en.html" target="_blank" rel="noopener noreferrer" class="">vision for NFT</a> with <a href="https://docs.chia.net/docs/15resources/nft_dev_guide/" target="_blank" rel="noopener noreferrer" class="">developer guide to mint</a> the NFT using the command line.</p>
+<p>Chia released the NFT0 standard which is the draft testnet version of the full NFT1 version planned to be released soon. This NFT0 is recommended to be minted only in Testnet 10 and a lot of community NFT projects are testing this feature. Within a week of standard release we have added Chia NFT support for testnet 10.</p>
+<p>You can visit the Testnet chia NFT page here
+<a href="https://www.spacescan.io/txch10/nfts" target="_blank" rel="noopener noreferrer" class="">https://www.spacescan.io/txch10/nfts</a></p>
+<p>OR</p>
+<p>Step 1. Select Testnet 10 menu in right top and click NFT to view the NFT minted in Testnet 10.</p>
+<p><img decoding="async" loading="lazy" alt="select test net" src="https://docs.spacescan.io/assets/images/Select_test_net_10-4e40eb5b4d261821399e13c2f6be045f.png" width="771" height="330" class="img_ev3q"></p>
+<p>Step 2.  Click NFT menu at top to view Chia NFT minted on Testnet 10</p>
+<p><img decoding="async" loading="lazy" alt="Click NFT" src="https://docs.spacescan.io/assets/images/TN_NFT-809c1f3f68f1a5ad0df4defcf3e8cf94.png" width="1821" height="861" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-dixie-integration-for-cat-trading">2. Dixie Integration for CAT trading<a href="https://docs.spacescan.io/blog/weekly_update_1#2-dixie-integration-for-cat-trading" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<blockquote>
+<p>Developer - <a href="https://twitter.com/nandhakumar1033" target="_blank" rel="noopener noreferrer" class="">NK</a></p>
+</blockquote>
+<p>Most loved Dexie exchange integration with CAT is up now!
+you can directly click on Dexie icon from CAT summary page to land on Dixie page to Trade CATs!</p>
+<ul>
+<li class="">Link to view -&gt; <a href="https://www.spacescan.io/xch/cat1/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589" target="_blank" rel="noopener noreferrer" class="">Chia Cat token for USDS</a></li>
+<li class="">The link directly would land user in Dexie trading pair for USDS/XCH <a href="https://dexie.space/offers/6d95dae356e32a71db5ddcb42224754a02524c615c5fc35f568c2af04774e589/xch" target="_blank" rel="noopener noreferrer" class="">Dexie page</a></li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="Dexie Integration" src="https://docs.spacescan.io/assets/images/dexie_integration-07ec813ef000be6d7bcd1003e478ac21.png" width="1793" height="757" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="in-progress">In progress<a href="https://docs.spacescan.io/blog/weekly_update_1#in-progress" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="1-chia-nft-1-support">1. Chia NFT 1 support<a href="https://docs.spacescan.io/blog/weekly_update_1#1-chia-nft-1-support" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We are working on below listed items to support NFT1 standards which is going to be released by Chia soon™<!-- -->
+<ul>
+<li class="">Top menu to view Stats, Ranks, explore and Transfers of NFT in both testnet 10 and Mainnet</li>
+<li class="">Ability to view NFT metadata</li>
+<li class="">Ability to view NFT based on collections</li>
+<li class="">Enhance top search option to support NFT</li>
+<li class="">Create NFT API so community developers could use it to build tools</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="2-improve-stability-of-parser-engine">2. Improve Stability of parser engine<a href="https://docs.spacescan.io/blog/weekly_update_1#2-improve-stability-of-parser-engine" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">We have re-written our parser engine for the third time to bring more stability in our sync process and to support new type of wallets like CAT, NFT, DID and RL. There are multiple bug reports in our discord channel on the difference of wallet balance. We would continue working on hardening our parser engine to provide stable wallet balance.</li>
+</ul>
+<h3 class="anchor anchorTargetHideOnScrollNavbar_vjPI" id="3-enhanced-search-box">3. Enhanced Search box<a href="https://docs.spacescan.io/blog/weekly_update_1#3-enhanced-search-box" class="hash-link" aria-label="Direct link to heading" title="Direct link to heading" translate="no">​</a></h3>
+<ul>
+<li class="">Now spacescan supports multiple wallet types like xch, CAT and NFT. so we need to enhance our search box to support these new asset types.</li>
+</ul>
+<p>Note:
+We really love <a href="https://docs.hash.green/blog" target="_blank" rel="noopener noreferrer" class="">Hash.green</a> teams weekly updates. We feel this is a wonderful way to get feedback and commit ourselves to a timeline ( which is really hard <!-- -->😓<!-- --> ) . Thanks to the Hash.green team for the inspiration.</p>]]></content:encoded>
+            <category>Chia</category>
+            <category>spacescan</category>
+            <category>explorer</category>
+            <category>NFT</category>
+            <category>CAT</category>
+            <category>Exchange</category>
+        </item>
+    </channel>
+</rss>
