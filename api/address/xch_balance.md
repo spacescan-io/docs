@@ -216,3 +216,4 @@ fetch(url)
 ### Notes
 - The balance includes all unspent coins for the address
 - Set include_dust=true to include dust coins in the balance
+- **Dust Definition**: Coins with less than 10,000 Mojo (0.00000001 XCH) are considered dust

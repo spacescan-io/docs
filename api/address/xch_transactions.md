@@ -271,6 +271,7 @@ fetch(url)
 ### Notes
 - Each transaction type can be paginated independently
 - Dust transactions are excluded by default and must be explicitly requested
+  - **Dust Definition**: Coins with less than 10,000 Mojo (0.00000001 XCH) are considered dust
 - Owned (unspent) coins and spent coins are excluded by default and must be explicitly requested
 - Owned coins represent coins where is_spend = false (current balance)
 - Spent coins represent coins where is_spend = true (previously owned)

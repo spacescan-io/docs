@@ -249,6 +249,7 @@ fetch(url, {
   - If both are provided, `block` takes priority
 
 - **Dust Coins**: Set `include_dust=true` to include dust coins (small value transactions) in the balance calculation.
+  - **Dust Definition**: Coins with less than 10,000 Mojo (0.00000001 XCH) are considered dust
 
 - **Use Cases**:
   - Tax reporting: Calculate balance at end of tax year

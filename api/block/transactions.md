@@ -34,7 +34,7 @@ GET https://api-testnet11.spacescan.io/block/transactions/{block_height}
 | Parameter | Type | Required | Default | Description |
 |-----------|------|----------|---------|-------------|
 | block_height | number | Yes | - | Block height to fetch |
-| include_dust | boolean | No | false | Include dust standard coins |
+| include_dust | boolean | No | false | Include dust standard coins (coins with less than 10,000 Mojo) |
 | include_token | boolean | No | false | Include CAT token coins |
 | include_nft | boolean | No | false | Include NFT coins |
 | include_did | boolean | No | false | Include DID coins |
@@ -204,6 +204,11 @@ Depending on the block type:
   - Standard subset plus `did_id`
 - DataLayer (DL) coin:
   - Standard subset; owner/from are puzzle hashes; includes `store_id`
+
+### Notes
+
+- **Dust Definition**: Coins with less than 10,000 Mojo (0.00000001 XCH) are considered dust
+- Dust coins are excluded by default and must be explicitly requested with `include_dust=true`
 
 ### Error Responses
 
