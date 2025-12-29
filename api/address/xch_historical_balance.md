@@ -37,7 +37,6 @@ GET https://pro-api-testnet11.spacescan.io/address/xch-historical-balance/{addre
 | block | number | No* | - | Block number to calculate balance at (takes priority over timestamp) |
 | timestamp | number | No* | - | Unix timestamp to calculate balance at |
 | include_dust | boolean | No | false | Include dust coins in balance calculation |
-| network | string | No | "xch" | Network/coin symbol |
 
 *Either `block` or `timestamp` is required (but not both). If both are provided, `block` takes priority.
 
