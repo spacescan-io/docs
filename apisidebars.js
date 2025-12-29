@@ -23,6 +23,7 @@ const sidebars = {
       label: 'Address',
       items: [
         'address/xch_balance',
+        'address/xch_historical_balance',
         'address/token_balance',
         'address/nft_balance',
         'address/xch_transactions',
