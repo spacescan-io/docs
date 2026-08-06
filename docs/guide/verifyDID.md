@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Verify a Chia DID and prove NFT collection authenticity
+sidebar_label: Verify DID
+description: Verify a Chia DID on Spacescan by linking the minter DID to a Twitter handle from off-chain NFT metadata, so collectors can confirm a collection is authentic.
+keywords: [chia DID, verify DID, chia NFT authenticity, minter DID, chia collection verification]
 ---
 
 # Verify DID

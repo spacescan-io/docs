@@ -8,7 +8,9 @@ We are excited to introduce the new Chia DID profile in Spacescan. This guide wi
 
 In the near future, this DID profile has the potential to serve as Provence for various assets on the Chia blockchain, as well as a means of verifying social identities across different platforms.
 
-** This feature still in Beta so expect some glitches. [Reach team here for support](https://www.spacescan.io/contact-us) **
+:::caution Beta feature
+This feature is still in Beta, so expect some rough edges. [Reach the team here for support](https://www.spacescan.io/contact-us).
+:::
 
 ### 1) Create a DID profile from Chia wallet
 

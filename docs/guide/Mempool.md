@@ -1,5 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
+title: The Chia mempool — how pending transactions are confirmed
+sidebar_label: Mempool
+description: How the Chia mempool works — the waiting room for unconfirmed transactions, how nodes propagate them, and how fees affect the order they are picked up.
+keywords: [chia mempool, chia pending transactions, XCH transaction fee, chia unconfirmed transaction]
 ---
 
 # Mempool

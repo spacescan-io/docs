@@ -1,10 +1,18 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
+title: Chia tax reports — track farming income and capital gains
+sidebar_label: Chia Tax Statement
+description: Generate Chia (XCH) tax reports from your wallet history — farming and pooling income, capital gains and losses, IRS-compatible forms and Koinly/TurboTax-compatible exports.
+keywords: [chia tax, XCH tax report, chia farming income tax, chia capital gains, koinly chia]
 ---
 
 # Chia Tax Statement
 
 This guide will help you understand how to use Spacescan.io's tax reporting features to track and manage your Chia blockchain transactions for tax purposes.
+
+:::info Tax reports live at wallets.spacescan.io
+Chia tax reporting is now part of **SpaceScan Wallets** — [wallets.spacescan.io](https://wallets.spacescan.io). Add your wallet with a master public key (view-only), and the same wallet powers both your tax report and [activity alerts](./wallet_security/cold_wallet_alerts.md).
+:::
 
 ## Overview
 

@@ -1,144 +1,643 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * Spacescan docs theme.
+ *
+ * Brand tokens are ported verbatim from spacescan-web
+ * (packages/web/src/app/globals.css) so docs.spacescan.io reads as the same
+ * product as the redesigned explorer. Principle from spacescan-web
+ * docs/06-design-system-ui.md: keep the brand, modernize the execution.
+ *
+ * Containment hierarchy (owner-approved 2026-08-02) is applied here too:
+ *   1. bordered card  — primary data
+ *   2. soft panel     — secondary/metadata (bg-surface, NO border)
+ *   3. bare text      — captions only
  */
 
-/* Override the default Infima variables here. */
+/* ---------------------------------------------------------------- tokens */
+
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  
-  /* Container widths */
-  --ifm-container-width: 1440px;
-  --ifm-container-width-xl: 1920px;
-  
-  /* Font settings from Facebook Docusaurus */
-  --ifm-font-family-base: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  --ifm-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
-  --ifm-global-spacing: 1rem;
-  --ifm-line-height-base: 1.5;
+  /* brand green ramp */
+  --primary: #007d54;
+  --primary-hover: #339776;
+  --primary-strong: #00724c;
+  --primary-tint: #def8ec;
+  --primary-surface: #e6f2ee;
+  --success: #0a714f;
+  --success-border: #39c596;
+
+  /* content */
+  --content-primary: #080c0f;
+  --content-secondary: #6f7588;
+  --content-tertiary: #b7bac3;
+
+  /* surfaces */
+  --background: #ffffff;
+  --surface: #fafafa;
+  --surface-2: #f1f6f6;
+  --surface-border: #e9eaee;
+  --divider: #eeeff2;
+
+  /* accents */
+  --gold: #ff9f00;
+  --verified: #1877f2;
+  --info: #17a2b8;
+  --error: #ef4444;
+
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  /* ---- Infima mappings ---- */
+  --ifm-color-primary: var(--primary);
+  --ifm-color-primary-dark: var(--primary-strong);
+  --ifm-color-primary-darker: #006a47;
+  --ifm-color-primary-darkest: #00573a;
+  --ifm-color-primary-light: var(--primary-hover);
+  --ifm-color-primary-lighter: #4aa88a;
+  --ifm-color-primary-lightest: #7bc0a9;
+
+  --ifm-background-color: var(--background);
+  --ifm-background-surface-color: var(--background);
+  --ifm-font-color-base: var(--content-primary);
+  --ifm-heading-color: var(--content-primary);
+  --ifm-toc-border-color: var(--divider);
+  --ifm-hr-border-color: var(--divider);
+  --ifm-color-emphasis-300: var(--surface-border);
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto,
+    Ubuntu, Cantarell, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji';
+  --ifm-font-family-monospace: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco,
+    Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  --ifm-global-radius: var(--radius);
+  --ifm-code-font-size: 88%;
+  --ifm-code-background: var(--surface-2);
+  --ifm-code-border-radius: 6px;
+  --ifm-line-height-base: 1.7;
+  --ifm-spacing-horizontal: 1.5rem;
+
+  --ifm-navbar-height: 4rem;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-link-color: var(--content-secondary);
+  --ifm-navbar-link-hover-color: var(--content-primary);
+
+  --ifm-menu-color: var(--content-secondary);
+  --ifm-menu-color-background-active: var(--primary-surface);
+  --ifm-menu-color-active: var(--primary);
+
+  --ifm-link-color: var(--primary);
+  --ifm-link-hover-color: var(--primary-strong);
+  --ifm-link-decoration: none;
+
+  --ifm-blockquote-color: var(--content-secondary);
+  --ifm-blockquote-border-color: var(--surface-border);
+
+  --ifm-table-border-color: var(--divider);
+  --ifm-table-head-background: var(--surface);
+  --ifm-table-stripe-background: transparent;
+
+  --docusaurus-highlighted-code-line-bg: var(--primary-tint);
+
+  /* readable measure — the old theme let prose run to 1920px */
+  --sps-content-measure: 46rem;
+  /* ONE page width everywhere — the header's span (logo → theme toggle) is
+     the reference, and every body container expands to match it. Rails sit at
+     the logo's edge; the content column centers in the remaining space. */
+  --sps-page-max: 88rem;
+  /* navbar padding must equal container padding or the logo sits 8px off */
+  --ifm-navbar-padding-horizontal: 1.5rem;
+
+  /*
+   * ONE type scale for the whole site. Docs, blog and the home reading list
+   * all read from these, so nothing drifts smaller than the article pages —
+   * the blog's comfortable 16px body is the reference everything matches.
+   */
+  --sps-h1: 2.5rem;
+  --sps-h2: 1.6rem;
+  --sps-h3: 1.2rem;
+  --sps-entry-title: 1.375rem;
+  --sps-body: 1rem;
+  --sps-body-sm: 0.9375rem;
+  --sps-meta: 0.75rem;
+  --sps-nav: 0.95rem;
 }
 
-/* Dark mode colors */
 html[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --primary-tint: #0d2e22;
+  --primary-surface: #0d241c;
+
+  --content-primary: #ffffff;
+  --content-secondary: #9096a5;
+  --content-tertiary: #6f7588;
+
+  --background: #080c0f;
+  --surface: #12171b;
+  --surface-2: #1a2026;
+  --surface-border: #222428;
+  --divider: #232a30;
+
+  /* #007D54 lacks contrast on near-black; step up the same ramp for links */
+  --ifm-color-primary: var(--success-border);
+  --ifm-color-primary-dark: #2fb187;
+  --ifm-color-primary-darker: #279e79;
+  --ifm-color-primary-darkest: #1f8463;
+  --ifm-color-primary-light: #55d2a8;
+  --ifm-color-primary-lighter: #6fdab5;
+  --ifm-color-primary-lightest: #94e5c8;
+
+  --ifm-navbar-background-color: rgba(8, 12, 15, 0.85);
+  --ifm-code-background: var(--surface-2);
+  --ifm-table-head-background: var(--surface);
+  --docusaurus-highlighted-code-line-bg: #10352a;
 }
 
-/* Global wrapper styles */
-#__docusaurus {
-  min-height: 100vh;
+/* ------------------------------------------------------------- structure */
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
-/* Navbar styles */
-.navbar {
-  width: 100%;
+body {
+  background-color: var(--background);
+  color: var(--content-primary);
 }
 
-.navbar__inner {
-  max-width: var(--ifm-container-width-xl);
-  margin: 0 auto;
-  padding: 0 var(--ifm-spacing-horizontal);
-  width: 100%;
-}
-
-/* Main content wrapper */
-.main-wrapper {
-  width: 100%;
-}
-
-/* Container styles */
-.container {
-  max-width: var(--ifm-container-width-xl) !important;
-  padding: 0 var(--ifm-spacing-horizontal);
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* Documentation specific styles */
-.docs-wrapper {
-  display: flex;
-  width: 100%;
-}
-
-.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module,
-.docMainContainer_src-theme-DocPage-Layout-Main-styles-module {
-  max-width: var(--ifm-container-width-xl) !important;
-  width: 100%;
-  margin: 0 auto;
-}
-
-.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module,
-.docItemContainer_src-theme-DocItem-Layout-styles-module {
-  max-width: var(--ifm-container-width-xl) !important;
-  margin: 0 auto;
-}
-
-/* Footer styles */
-.footer {
-  width: 100%;
-  padding: calc(var(--ifm-spacing-vertical) * 2) var(--ifm-spacing-horizontal);
-}
-
+/* Wide app chrome, narrow prose. */
+.navbar__inner,
 .footer__inner {
-  max-width: var(--ifm-container-width-xl);
+  max-width: var(--sps-page-max);
   margin: 0 auto;
   width: 100%;
 }
 
-/* Markdown content */
-.markdown {
-  --ifm-h1-font-size: 3rem;
-  --ifm-h2-font-size: 2rem;
-  --ifm-h3-font-size: 1.5rem;
-  --ifm-h4-font-size: 1.25rem;
-  --ifm-h5-font-size: 1rem;
-  --ifm-h6-font-size: 0.875rem;
+.theme-doc-markdown,
+.theme-doc-markdown > .markdown {
+  max-width: var(--sps-content-measure);
 }
 
-/* Code blocks */
-.docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
+/* ---------------------------------------------------------------- navbar */
+
+.navbar {
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
+  border-bottom: 1px solid var(--divider);
+}
+
+.navbar__title {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  font-size: 1.0625rem;
+}
+
+.navbar__logo {
+  height: 1.75rem;
+  margin-right: 0.5rem;
+}
+
+.navbar__link {
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+
+.navbar__link--active {
+  color: var(--content-primary);
+}
+
+.navbar-sidebar {
+  background: var(--background);
+}
+
+/* Icon-only GitHub link (label lives in aria-label). */
+.header-github-link::before {
+  content: '';
   display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+  width: 20px;
+  height: 20px;
+  background-color: var(--content-secondary);
+  transition: background-color 120ms ease;
+  mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.3v3.3c0 .3.1.7.8.6A12 12 0 0012 .3'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 0-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.2-.4-.6-1.6.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.6.2 2.8.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.6-2.8 5.6-5.5 5.9.5.4.9 1.1.9 2.3v3.3c0 .3.1.7.8.6A12 12 0 0012 .3'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+.header-github-link:hover::before {
+  background-color: var(--content-primary);
 }
 
-/* Typography improvements */
-article {
-  max-width: var(--ifm-container-width-xl);
+/* --------------------------------------------------------------- sidebar */
+
+/*
+ * Center the whole docs unit — sidebar + content — inside the same container
+ * width the navbar uses, instead of pinning the sidebar to the viewport edge.
+ * This is what makes /docs and /api read like /blog. Class is hashed in prod.
+ */
+[class*='docRoot'] {
+  max-width: var(--sps-page-max);
   margin: 0 auto;
+  width: 100%;
 }
 
-/* Sidebar improvements */
+/* Blog's aside has no chrome; give the docs sidebar the same quiet treatment
+   now that the layout is centered (a full-height border reads as app chrome). */
 .theme-doc-sidebar-container {
-  border-right: 1px solid var(--ifm-toc-border-color);
+  border-right: none !important;
 }
 
-/* Table of contents */
-.table-of-contents {
+.menu {
+  padding: 1.25rem 0.75rem !important;
+  font-size: var(--sps-nav);
+}
+
+.menu__link {
+  border-radius: var(--radius-sm);
+  padding: 0.4rem 0.65rem;
+  font-weight: 450;
+  line-height: 1.45;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.menu__link:hover {
+  background: var(--surface);
+  color: var(--content-primary);
+}
+
+.menu__link--active:not(.menu__link--sublist) {
+  font-weight: 550;
+}
+
+.menu__list-item-collapsible:hover {
+  background: var(--surface);
+}
+
+/* Top-level category headers read as labels, not links. */
+.menu > .menu__list > .menu__list-item > .menu__list-item-collapsible > .menu__link {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+}
+
+.menu__list .menu__list {
+  border-left: 1px solid var(--divider);
+  margin-left: 0.65rem;
+  padding-left: 0.35rem;
+}
+
+/* ------------------------------------------------------------ typography */
+
+.markdown {
+  font-size: var(--sps-body);
+}
+
+.markdown h1,
+.blog-wrapper article header h1 {
+  font-size: var(--sps-h1);
+  font-weight: 680;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.markdown h2 {
+  font-size: var(--sps-h2);
+  font-weight: 640;
+  letter-spacing: -0.02em;
+  margin-top: 3rem;
+  border-top: none;
+}
+
+.markdown h3 {
+  font-size: var(--sps-h3);
+  font-weight: 620;
+  margin-top: 2rem;
+}
+
+.markdown h4 {
+  font-size: var(--sps-body);
+  font-weight: 600;
+}
+
+.markdown a {
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--ifm-color-primary) 35%, transparent);
+  transition: border-color 120ms ease, color 120ms ease;
+}
+
+.markdown a:hover {
+  border-bottom-color: var(--ifm-color-primary);
+}
+
+/* Heading anchors and admonition links keep their own treatment. */
+.markdown a.hash-link,
+.markdown .card a,
+.markdown .theme-admonition a {
+  border-bottom: none;
+}
+
+.markdown strong {
+  font-weight: 620;
+}
+
+/* ----------------------------------------------------------------- cards */
+
+/* Tier 1 — bordered card: primary data. */
+.markdown table {
+  display: table;
+  width: 100%;
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
   font-size: 0.9rem;
 }
 
-/* Add smooth scrolling */
-html {
-  scroll-behavior: smooth;
+.markdown table th,
+.markdown table td {
+  border: none;
+  border-bottom: 1px solid var(--divider);
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+}
+
+.markdown table th {
+  font-weight: 600;
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--content-secondary);
+}
+
+.markdown table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Tier 2 — soft panel: no border, no dividers. */
+.theme-admonition {
+  border: none;
+  border-left: 3px solid var(--ifm-color-primary);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: none;
+  font-size: 0.94rem;
+}
+
+pre {
+  border-radius: var(--radius) !important;
+  border: 1px solid var(--surface-border);
+  font-size: 0.86rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--surface-border);
+  background: var(--surface);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  padding: 0.9rem 1.1rem;
+}
+
+/* ------------------------------------------------------- pagination / toc */
+
+.pagination-nav__link {
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius);
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+
+.pagination-nav__link:hover {
+  border-color: var(--ifm-color-primary);
+  background: var(--surface);
+}
+
+.pagination-nav__sublabel {
+  color: var(--content-tertiary);
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/*
+ * Two columns everywhere.
+ *
+ * The API reference used to render sidebar + content + TOC while the rest of
+ * the site rendered two columns, so it read as a different product. Every page
+ * is now left rail + one content column. In-page navigation on long reference
+ * pages is the trade; the mobile TOC dropdown still ships.
+ */
+.theme-doc-toc-desktop {
+  display: none;
+}
+
+/* Hiding the TOC div alone leaves its parent col--3 reserving 25% of the row,
+   which pinned doc/API content left with dead space on the right. Reclaim it. */
+.row .col:has(> .theme-doc-toc-desktop) {
+  display: none;
+}
+
+/* Center the article block (breadcrumbs + content + pagination) in its column,
+   the way the blog column reads. Class is hashed in prod — match by substring. */
+.docs-wrapper [class*='docItemContainer'] {
+  max-width: var(--sps-content-measure);
+  margin: 0 auto;
+}
+
+.table-of-contents {
+  font-size: 0.82rem;
+}
+
+.table-of-contents__link:hover,
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 550;
+}
+
+/* ------------------------------------------------------------------ blog */
+
+/* The blog index is a reading list, so it gets the same row treatment as the
+   home page: divider-separated entries, quiet metadata, no tiles.
+   NOTE: the wrapper class is `blog-list-page`, not `theme-blog-list-page`. */
+.blog-list-page article {
+  padding-bottom: 2.25rem;
+  margin-bottom: 2.25rem;
+  border-bottom: 1px solid var(--divider);
+}
+
+.blog-list-page article:last-of-type {
+  border-bottom: none;
+}
+
+/* List titles are list-sized; the giant 3rem treatment belongs on the post
+   itself, where there is only one of them. */
+.blog-list-page article header h2 {
+  font-size: var(--sps-entry-title);
+  font-weight: 620;
+  letter-spacing: -0.022em;
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+}
+
+.blog-list-page article header h2 a {
+  color: var(--content-primary);
+}
+
+.blog-list-page article header h2 a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Date / reading-time strip. */
+.blog-wrapper article header time {
+  font-size: var(--sps-meta);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+}
+
+.blog-list-page .markdown {
+  font-size: var(--sps-body);
+  color: var(--content-secondary);
+}
+
+/* Blog page block spans the same width as the navbar, like docs/home. */
+.blog-wrapper .container {
+  max-width: var(--sps-page-max);
+}
+
+/* Blog rail = docs sidebar width, so the rail edge is identical across tabs. */
+.blog-wrapper aside[class*='col--3'] {
+  flex: 0 0 300px;
+  max-width: 300px;
+}
+
+/* Blog content sits on the same measure as every docs page, centered in the
+   space remaining after the rail — identical to the docs article column. */
+.blog-wrapper main.col {
+  max-width: var(--sps-content-measure);
+  margin: 0 auto;
+}
+
+/* Blog posts rendered a third column (col--2 in-page TOC) while docs render
+   two. Hide it for the same reason as .theme-doc-toc-desktop above — the only
+   col--2 on blog pages is the TOC. */
+.blog-wrapper .col.col--2 {
+  display: none;
+}
+
+/*
+ * Recent-posts rail on blog pages matches the docs sidebar.
+ * CSS-module class names are HASHED in production (sidebarItemTitle_pO2u,
+ * yearGroupHeading_rMGB…) — match by substring, never by full name.
+ */
+.blog-wrapper aside [class*='sidebarItemTitle'],
+.blog-wrapper aside [class*='yearGroupHeading'] {
+  font-size: var(--sps-meta);
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+}
+
+.blog-wrapper aside [class*='yearGroupHeading'] {
+  margin-top: 1.25rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Same pill treatment as .menu__link in the docs sidebar. */
+.blog-wrapper aside nav a {
+  display: block;
+  font-size: var(--sps-nav);
+  line-height: 1.45;
+  color: var(--content-secondary);
+  padding: 0.4rem 0.65rem;
+  margin-left: -0.65rem;
+  border-radius: var(--radius-sm);
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.blog-wrapper aside nav a:hover {
+  background: var(--surface);
+  color: var(--content-primary);
+  text-decoration: none;
+}
+
+/* ---------------------------------------------------------------- footer */
+
+.footer {
+  border-top: 1px solid var(--divider);
+  background: var(--surface);
+  color: var(--content-secondary);
+  padding: 3rem var(--ifm-spacing-horizontal);
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--surface);
+  --ifm-footer-color: var(--content-secondary);
+  --ifm-footer-link-color: var(--content-secondary);
+  --ifm-footer-title-color: var(--content-primary);
+}
+
+.footer__title {
+  font-size: 0.72rem;
+  font-weight: 650;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+}
+
+.footer__link-item {
+  font-size: 0.9rem;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary);
+}
+
+.footer__copyright {
+  font-size: 0.82rem;
+  color: var(--content-tertiary);
+}
+
+/* -------------------------------------------------------- a11y + polish */
+
+:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.button {
+  font-weight: 550;
+  border-radius: var(--radius-sm);
+}
+
+kbd {
+  border-radius: 6px;
+  border-color: var(--surface-border);
+  background: var(--surface);
+}
+
+img {
+  border-radius: var(--radius-sm);
+  max-width: 100%;
+}
+
+/* Screenshots in the walkthrough guides need a frame to read as UI. */
+.markdown p > img {
+  border: 1px solid var(--surface-border);
+}
+
+@media (max-width: 996px) {
+  .markdown h1 {
+    font-size: 1.9rem;
+  }
+  .menu {
+    padding: 1rem 0.5rem !important;
+  }
 }

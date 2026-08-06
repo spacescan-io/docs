@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Spacescan.io documentation — the Chia blockchain explorer
+sidebar_label: Intro
+description: Guides and API documentation for Spacescan.io, the Chia Network blockchain explorer and analytics platform — wallet tracking, tax reports, NFT and CAT tools, DID profiles and developer APIs.
+keywords: [chia, chia blockchain, chia explorer, spacescan, XCH, chia analytics]
 ---
 
 # Welcome to Spacescan.io

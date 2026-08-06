@@ -1,5 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: Chia farming explained — plotting, harvesting and farming terms
+sidebar_label: Farming
+description: What Chia farming actually means, and how plotting, harvesting and farming differ from Bitcoin mining — the core terminology behind proof of space.
+keywords: [chia farming, chia plotting, chia harvester, proof of space, chia vs mining]
 ---
 
 # Farming

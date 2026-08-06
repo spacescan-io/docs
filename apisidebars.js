@@ -19,6 +19,11 @@ const sidebars = {
   // But you can create a sidebar manually
   apiSidebar: [
     {
+      type: 'doc',
+      label: 'Quick start',
+      id: 'getting-started',
+    },
+    {
       type: 'category',
       label: 'Address',
       items: [

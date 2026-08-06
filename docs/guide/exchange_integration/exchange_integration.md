@@ -1,5 +1,9 @@
 ---
-sidebar_position: 10
+sidebar_position: 11
+title: Chia exchange integration — explorer links and APIs
+sidebar_label: Exchange Integration
+description: Integrate Chia (XCH) with Spacescan as your block explorer — transaction and balance lookups, deposit/withdrawal verification and API support for exchanges listing XCH.
+keywords: [chia exchange integration, list XCH, chia block explorer API, XCH deposit verification]
 ---
 
 # Exchange Integration

@@ -1,5 +1,9 @@
 ---
 sidebar_position: 3
+title: Add or update a Chia CAT token listing on Spacescan
+sidebar_label: Update CAT details
+description: Submit or update Chia CAT token details on Spacescan — name, symbol, logo, description and links — so your token displays correctly across the explorer.
+keywords: [chia CAT, add CAT token, update CAT info, chia token listing, CAT2]
 ---
 
 # Update CAT details

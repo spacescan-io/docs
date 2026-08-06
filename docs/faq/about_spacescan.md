@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Spacescan.io FAQ — frequently asked questions
+sidebar_label: About Spacescan.io
+description: Answers to the questions the Chia community asks most about Spacescan.io — what it is, who builds it, how the data is sourced and how to get support.
+keywords: [spacescan faq, what is spacescan, chia explorer faq]
 ---
 
 # About Spacescan.io

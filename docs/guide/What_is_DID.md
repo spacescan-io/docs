@@ -1,5 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
+title: What is a Chia DID? Decentralised identity on Chia explained
+sidebar_label: What is DID?
+description: A plain-English explanation of Chia DIDs — self-owned decentralised identifiers that link wallets, NFT collections and creators without a centralised third party.
+keywords: [chia DID, what is DID, decentralized identity, chia NFT creator identity, DID wallet]
 ---
 
 # What is DID?

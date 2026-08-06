@@ -1,23 +1,234 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
+/*
+ * Reading-list home.
+ *
+ * Same skeleton as every docs page: a quiet left rail and ONE content column.
+ * Nothing sits in a third column anywhere on this site, so the home, the
+ * guides, the blog and the API reference all read as the same product.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  /* Same container as the navbar, docs unit and blog — everything aligns. */
+  max-width: var(--sps-page-max);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--ifm-spacing-horizontal);
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
+@media (min-width: 997px) {
+  .shell {
+    /* 300px = the docs sidebar width, so the home rail and content column
+       start at the same x as every guide page. */
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 3rem;
   }
 }
 
-.buttons {
-  display: flex;
+/* ---------------------------------------------------------------- rail */
+
+.rail {
+  display: none;
+}
+
+@media (min-width: 997px) {
+  .rail {
+    display: block;
+    padding-top: 4.25rem;
+  }
+}
+
+.railNav {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height) + 2rem);
+}
+
+.railLabel {
+  display: block;
+  font-size: var(--sps-meta);
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+  margin-bottom: 0.6rem;
+}
+
+.railList {
+  list-style: none;
+  margin: 0 0 2rem;
+  padding: 0;
+}
+
+.railLink {
+  display: block;
+  font-size: var(--sps-nav);
+  line-height: 1.5;
+  color: var(--content-secondary);
+  padding: 0.3rem 0.55rem;
+  margin-left: -0.55rem;
+  border-radius: 6px;
+  transition: background-color 120ms ease, color 120ms ease;
+}
+
+.railLink:hover {
+  background: var(--surface);
+  color: var(--content-primary);
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------- content */
+
+/* Same measure as every docs and blog page, centered in the space after the
+   rail — identical column position to the guide and blog pages. */
+.content {
+  padding: 4rem 0 5rem;
+  max-width: var(--sps-content-measure);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.masthead {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--divider);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: var(--sps-h1);
+  font-weight: 680;
+  letter-spacing: -0.032em;
+  line-height: 1.15;
+  margin: 0 0 0.7rem;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--content-secondary);
+  margin: 0 0 1.4rem;
+  max-width: 52ch;
+}
+
+.subscribe {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
+  font-size: var(--sps-body-sm);
+  font-weight: 550;
+  color: var(--primary);
+  border-bottom: 1px solid color-mix(in srgb, var(--primary) 35%, transparent);
+  padding-bottom: 1px;
+  transition: border-color 120ms ease;
+}
+
+.subscribe:hover {
+  border-bottom-color: var(--primary);
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------ sections */
+
+.section {
+  padding-top: 3rem;
+  scroll-margin-top: calc(var(--ifm-navbar-height) + 1.5rem);
+}
+
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.sectionTitle {
+  font-size: var(--sps-meta);
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+  margin: 0;
+}
+
+.sectionNote {
+  font-size: var(--sps-body-sm);
+  color: var(--content-tertiary);
+  font-family: var(--ifm-font-family-monospace);
+}
+
+a.sectionNote {
+  font-family: var(--ifm-font-family-base);
+  font-weight: 500;
+  color: var(--content-secondary);
+}
+
+a.sectionNote:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+/* -------------------------------------------------------------- entries */
+
+.entries {
+  display: flex;
+  flex-direction: column;
+}
+
+/* One row per thing to read. Divider-separated, not carded — a list of
+   articles should look like a list, not a grid of tiles. */
+.entry {
+  display: block;
+  padding: 1.15rem 0.75rem 1.15rem 0.75rem;
+  margin: 0 -0.75rem;
+  border-radius: var(--radius-sm);
+  border-bottom: 1px solid var(--divider);
+  transition: background-color 140ms ease;
+}
+
+.entry:last-child {
+  border-bottom: none;
+}
+
+.entry:hover {
+  background: var(--surface);
+  text-decoration: none;
+}
+
+.entryMeta {
+  display: block;
+  font-size: var(--sps-meta);
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--content-tertiary);
+  margin-bottom: 0.35rem;
+}
+
+.entryTitle {
+  display: block;
+  font-size: var(--sps-entry-title);
+  font-weight: 620;
+  line-height: 1.4;
+  letter-spacing: -0.012em;
+  color: var(--content-primary);
+  margin-bottom: 0.25rem;
+}
+
+.entry:hover .entryTitle {
+  color: var(--primary);
+}
+
+.entryText {
+  display: block;
+  font-size: var(--sps-body);
+  line-height: 1.6;
+  color: var(--content-secondary);
+}
+
+@media (max-width: 996px) {
+  .content {
+    padding: 2.75rem 0 3.5rem;
+  }
+  .title {
+    font-size: 1.85rem;
+  }
 }

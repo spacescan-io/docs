@@ -1,5 +1,9 @@
 ---
 sidebar_position: 5
+title: Claim and manage a Chia address profile
+sidebar_label: Chia Address Profile
+description: Claim a Chia address profile on Spacescan with WalletConnect — add a name, avatar and socials so your XCH address shows a verified identity across the explorer.
+keywords: [chia address profile, claim chia address, walletconnect chia, XCH address identity]
 ---
 
 # Chia Address Profile
@@ -8,7 +12,9 @@ We are excited to introduce the new Chia Address profile in Spacescan. This guid
 
 In the near future, this Address profile has the potential to serve as Provence for various assets on the Chia blockchain, as well as a means of verifying social identities across different platforms.
 
-** This feature still in Beta so expect some glitches. [Reach team here for support](https://www.spacescan.io/contact-us) **
+:::caution Beta feature
+This feature is still in Beta, so expect some rough edges. [Reach the team here for support](https://www.spacescan.io/contact-us).
+:::
 
 **The chia wallet should connect with spacescan.io before claim the address.If already connected with spacescan.io , just jump to step:4**
 
@@ -47,7 +53,7 @@ Click "Add connection"
 
 Click "Add address profile" button.
 
-![Alt text](address_claim_10.1.png)
+![In the website click on the profile icon and choose "Address Profile" — screenshot 1](address_claim_10.1.png)
 
 
 ### 5) Copy the address from the chia wallet and paste it in the spacescan website to claim the address
@@ -66,12 +72,12 @@ Hit the confirm button
 ### 7)  "Edit profile" to customize the profile
 After address claimed the user will land on the address edit page
 
-![Alt text](address_claim_14.png)
-![Alt text](address_claim_14.0.PNG)
+!["Edit profile" to customize the profile — screenshot 1](address_claim_14.png)
+!["Edit profile" to customize the profile — screenshot 2](address_claim_14.0.PNG)
 
 ### 8) To view the public profile
 After edit ,you can see the claimed address.
 
-![Alt text](address_claim_15.png)
-![Alt text](address_claim_16.png)
-![Alt text](address_claim_17.png)
+![To view the public profile — screenshot 1](address_claim_15.png)
+![To view the public profile — screenshot 2](address_claim_16.png)
+![To view the public profile — screenshot 3](address_claim_17.png)

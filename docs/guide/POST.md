@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+title: Proof of Space and Time (PoST) — how Chia consensus works
+sidebar_label: Proof of Space and Time
+description: How Chia's Proof of Space and Time consensus replaces Bitcoin's Proof of Work — farming with storage instead of power, and why it uses far less energy.
+keywords: [proof of space and time, PoST, chia consensus, chia vs proof of work, chia energy usage]
 ---
 
 # POST

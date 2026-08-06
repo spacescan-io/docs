@@ -26,10 +26,31 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Chia Basics',
+      items: ['guide/POST','guide/Farming','guide/Mempool','guide/What_is_DID'],
+      collapsible: true,
+      collapsed: true,
+    },
+    {
+      type: 'category',
       label: 'Guide',
       items: ['guide/verifyDID','guide/updatecatinfo','guide/chia_tax','guide/manage_address_profile/manage_address_profile','guide/chia_did_profile/chia_did_profile','guide/manage_asset_monitor/asset_monitor','guide/manage_token_data/token_edit_data','guide/manage_collection/manage_collection','guide/exchange_integration/exchange_integration'],
       collapsible: true,
       collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'Wallet Security',
+      items: ['guide/wallet_security/cold_wallet_alerts','guide/wallet_security/clawback_protection'],
+      collapsible: true,
+      collapsed: false,
+    },
+    {
+      type: 'category',
+      label: 'FAQ',
+      items: ['faq/about_spacescan'],
+      collapsible: true,
+      collapsed: true,
     },
   ],
    

@@ -4,8 +4,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Spacescan.io Docs',
-  tagline: 'Spacescan - Chia explorer',
+  title: 'Spacescan Docs',
+  tagline: 'Guides, API reference and updates for the Chia blockchain explorer',
   url: 'https://docs.spacescan.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -36,6 +36,26 @@ const config = {
     ],
   ],
 
+  // Inter is the Spacescan brand font (see spacescan-web globals.css).
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {rel: 'preconnect', href: 'https://fonts.googleapis.com'},
+    },
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: 'anonymous',
+      },
+    },
+  ],
+
+  stylesheets: [
+    'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
+  ],
+
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
@@ -46,6 +66,8 @@ const config = {
         sidebarPath: './apisidebars.js',
       },
     ],
+    // Feeds the homepage "From the blog" strip at build time.
+    ['./plugins/latest-posts', {blogDir: 'blog', count: 3}],
   ],
 
   themeConfig:
@@ -64,7 +86,7 @@ const config = {
       },
       docs: {
         sidebar: {
-          hideable: true,
+          hideable: false,
           autoCollapseCategories: true,
         },
       },
@@ -81,26 +103,34 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar1',
             position: 'left',
-            label: 'Docs',
+            label: 'Guides',
+          },
+          {
+            to: '/api/getting-started',
+            position: 'left',
+            label: 'API',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://www.spacescan.io/',
-            label: 'Spacescan.io',
-            position: 'left',
-          },
-          {
             type: 'dropdown',
-            label: 'Community',
+            label: 'Products',
             position: 'right',
             items: [
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/spacescan_io',
+                label: 'Explorer — spacescan.io',
+                href: 'https://www.spacescan.io/',
               },
               {
-                label: 'Discord',
-                href: 'https://discord.gg/Bb4sj3Bg9P',
+                label: 'Wallets + Tax',
+                href: 'https://wallets.spacescan.io',
+              },
+              {
+                label: 'Intel',
+                href: 'https://intel.spacescan.io',
+              },
+              {
+                label: 'Developer API plans',
+                href: 'https://www.spacescan.io/apis',
               },
             ],
           },
@@ -109,52 +139,45 @@ const config = {
             position: 'right',
           },
           {
-            to: '/api/address/xch_balance',
-            position: 'left',
-            label: 'API',
+            href: 'https://github.com/spacescan-io',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
-              {
-                label: 'API',
-                to: '/docs/intro',
-              },
+              {label: 'Guides', to: '/docs/intro'},
+              {label: 'Wallet security', to: '/docs/guide/wallet_security/cold_wallet_alerts'},
+              {label: 'API quick start', to: '/api/getting-started'},
+              {label: 'Blog', to: '/blog'},
+            ],
+          },
+          {
+            title: 'Products',
+            items: [
+              {label: 'Explorer', href: 'https://www.spacescan.io/'},
+              {label: 'Wallets + Tax', href: 'https://wallets.spacescan.io'},
+              {label: 'Intel', href: 'https://intel.spacescan.io'},
+              {label: 'API plans', href: 'https://www.spacescan.io/apis'},
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/Bb4sj3Bg9P',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/spacescan_io',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/spacescan-io',
-              },
+              {label: 'Discord', href: 'https://discord.gg/Bb4sj3Bg9P'},
+              {label: 'Twitter', href: 'https://twitter.com/spacescan_io'},
+              {label: 'GitHub', href: 'https://github.com/spacescan-io'},
+              {label: 'Contact us', href: 'https://www.spacescan.io/contact-us'},
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Spacescan.io`,
+        copyright: `© ${new Date().getFullYear()} Spacescan Ltd · Chia blockchain explorer`,
       },
       prism: {
         theme: prismThemes.github,
