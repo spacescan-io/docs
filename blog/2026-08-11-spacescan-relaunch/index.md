@@ -6,7 +6,7 @@ tags: [Chia, spacescan, explorer, wallets, tax, intel, api, nft, cat, pro]
 authors: [natsabari]
 ---
 
-Five years ago, we started SpaceScan with a simple idea: Chia deserved a serious blockchain explorer.
+More than four years ago, we started SpaceScan with a simple idea: Chia deserved a serious blockchain explorer.
 
 Not just a block explorer. One place where you could understand the entire network — blocks, transactions, tokens, NFTs, offers, farming, markets, and the activity happening across the chain.
 
