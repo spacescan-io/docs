@@ -56,6 +56,12 @@ The **[Pro API](/api/getting-started)** puts the same index that powers SpaceSca
 
 It is priced separately from Pro, on its own tiers, because developers building on Chia need something different from someone tracking their wallet. See the [API plans](https://spacescan.io/apis) for what each tier includes.
 
+## Advertising on SpaceScan
+
+If you are building something on Chia and want people to see it, you can [buy a placement](https://spacescan.io/advertise) directly. Pick a size, upload your creative, pay in XCH, and it goes live once reviewed.
+
+It is a flat **1 XCH per day** for every placement, whether it is the home page or a footer banner. No auctions, no impression maths, no sales call. Along with Pro and the API, it is one of the three ways SpaceScan pays for itself, which is why the explorer can stay free.
+
 ## Launch price: 1 XCH for an entire year
 
 One Pro plan, three products, one year, 1 XCH, paid directly on chain. The regular card price for the same plan is $39/year.
@@ -71,6 +77,12 @@ Every feature on this site started as somebody asking for it. Every number we co
 Three friends started this on weekends, out of frustration with the explorers that existed. We are still a small team. The reason there is anything here at all is that a community decided to help us build it, and then kept helping for four years.
 
 Thank you for the bug reports, the feature requests, the arguments about our numbers, and the patience when things broke. This launch is for you.
+
+Thank you also to everyone who has [donated](https://spacescan.io/support-us). SpaceScan has no investors behind it, so those donations paid for real things: servers, storage, and the time to keep going when it would have been easier not to.
+
+Some of what we built simply would not exist without other people's work. [Rigidity](https://x.com/Rigidity16) builds the Chia wallet SDK and the BLS and CLVM libraries we use in both the indexer and the site, which means his code is behind every address we derive and every puzzle we parse. [Dennis](https://x.com/MrDennisV) maintains the dexie.space API that our offer data flows through. [acevail](https://x.com/acevail_) maintains the MintGarden API we use for NFT collection data and moderation. We are three small dependencies away from a much worse product.
+
+And thank you to the people who keep this ecosystem talking to itself. [steppsr](https://x.com/steppsr) and This Week in Chia, [Clyde Wallace](https://x.com/ClydeWallace22), [SlowestTimelord](https://x.com/SlowestTimelord), and many more we have not named here. If you have answered a question in Discord, tested something for us, or told somebody else that Chia is worth a look, you are part of this.
 
 ## Try it, and tell us where we are wrong
 
