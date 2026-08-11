@@ -1,7 +1,7 @@
 ---
 slug: spacescan-relaunch-2026
-title: "SpaceScan, rebuilt: one unified Chia explorer, and one Pro plan for everything else"
-description: The rebuilt SpaceScan is live. Faster, more accurate, and built on a single index of the Chia blockchain. The explorer stays free, and everything else is now one Pro plan at 1 XCH for a year.
+title: "SpaceScan, rebuilt: one unified Chia explorer, and one Pro plan for the tools"
+description: The rebuilt SpaceScan is live. Faster, more accurate, and built on a single index of the Chia blockchain. The explorer stays free, and Wallets, Tax and Intel are now one Pro plan at 1 XCH for a year.
 tags: [Chia, spacescan, explorer, wallets, tax, intel, api, nft, cat, pro]
 authors: [natsabari]
 ---
@@ -40,7 +40,7 @@ We did not just redesign the interface. We went back to the data.
 
 The goal is simple: **one chain, one index, one set of numbers.** Then we built the explorer on top of it.
 
-## One Pro plan, four products
+## One Pro plan, three products
 
 We used to sell several products and subscriptions separately. That made sense while each one evolved independently, and it does not make sense anymore. They are now one **SpaceScan Pro** plan.
 
@@ -50,11 +50,15 @@ We used to sell several products and subscriptions separately. That made sense w
 
 **[Intel](https://intel.spacescan.io)** is market and network intelligence: entity clustering, trading analysis, wash-trade screening, netspace trends and pool concentration.
 
-**[Pro API](/api/getting-started)** puts the same index that powers SpaceScan behind an API key, with documented endpoints and predictable limits.
+## Building on Chia? The API is its own thing
+
+The **[Pro API](/api/getting-started)** puts the same index that powers SpaceScan behind an API key, with documented endpoints and predictable limits.
+
+It is priced separately from Pro, on its own tiers, because developers building on Chia need something different from someone tracking their wallet. See the [API plans](https://spacescan.io/apis) for what each tier includes.
 
 ## Launch price: 1 XCH for an entire year
 
-One Pro plan, four products, one year, 1 XCH, paid directly on chain. The regular card price for the same plan is $39/year.
+One Pro plan, three products, one year, 1 XCH, paid directly on chain. The regular card price for the same plan is $39/year.
 
 The 1 XCH launch price is intentionally temporary, and when it ends, it ends.
 
