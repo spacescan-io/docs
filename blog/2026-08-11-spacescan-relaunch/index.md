@@ -147,6 +147,22 @@ It is our way of saying thank you to the people who have been using SpaceScan, r
 
 When the launch price ends, it ends.
 
+## We are here because of you
+
+We want to be plain about this, because it is easy to say and easy to forget.
+
+SpaceScan exists because of the Chia community.
+
+Every feature on this site started as somebody asking for it. Every number we corrected, we corrected because somebody looked at a page, said "that does not look right", and took the time to tell us. People have sent us wallet addresses to check, screenshots at midnight, patient explanations of what we had misunderstood about their own project, and more than one message that simply said "this is wrong" — which was exactly what we needed to hear.
+
+Three friends started this on weekends, out of frustration with the explorers that existed. We are still a small team. The reason there is anything here at all is that a community decided to help us build it, and then kept helping for four years.
+
+We do not take that lightly.
+
+Thank you — for the bug reports, the feature requests, the arguments about our numbers, the patience when things broke, and for using something we made.
+
+This launch is for you.
+
 ## Try it, and tell us where we are wrong
 
 Open [spacescan.io](https://spacescan.io), look up something you already know well, and see whether we get it right.
