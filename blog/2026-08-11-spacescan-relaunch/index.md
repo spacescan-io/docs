@@ -80,7 +80,7 @@ Thank you for the bug reports, the feature requests, the arguments about our num
 
 Thank you also to everyone who has [donated](https://spacescan.io/support-us). SpaceScan has no investors behind it, so those donations paid for real things: servers, storage, and the time to keep going when it would have been easier not to.
 
-Some of what we built would not exist without other people's work. [Rigidity](https://x.com/Rigidity16) for the Chia wallet SDK, [Dennis](https://x.com/MrDennisV) for the dexie.space API, and [acevail](https://x.com/acevail_) for the MintGarden API. We rely on all three every day.
+Some of what we built would not exist without other people's work. [Rigidity](https://x.com/Rigidity16) for the Chia wallet SDK, [Dennis](https://x.com/MrDennisV) for the dexie.space API, and [acevail](https://x.com/acevail_) for the MintGarden API.
 
 Thank you also to [steppsr](https://x.com/steppsr) and This Week in Chia, [Clyde Wallace](https://x.com/ClydeWallace22), [SlowestTimelord](https://x.com/SlowestTimelord), and many more we have not named. If you have answered a question in Discord or tested something for us, you are part of this.
 
