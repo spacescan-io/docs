@@ -1,170 +1,73 @@
 ---
 slug: spacescan-relaunch-2026
-title: "SpaceScan, rebuilt: one unified Chia explorer — and one Pro plan for everything else"
-description: The rebuilt SpaceScan is live — faster, more accurate, and built on a single index of the Chia blockchain. The explorer stays free. Everything else is now one Pro plan, 1 XCH for a year.
+title: "SpaceScan, rebuilt: one unified Chia explorer, and one Pro plan for everything else"
+description: The rebuilt SpaceScan is live. Faster, more accurate, and built on a single index of the Chia blockchain. The explorer stays free, and everything else is now one Pro plan at 1 XCH for a year.
 tags: [Chia, spacescan, explorer, wallets, tax, intel, api, nft, cat, pro]
 authors: [natsabari]
 ---
 
-More than four years ago, we started SpaceScan with a simple idea: Chia deserved a serious blockchain explorer.
+More than four years ago, we started SpaceScan with a simple idea: Chia deserved a serious blockchain explorer. Not just a block explorer, but one place where you could understand the entire network. Blocks, transactions, tokens, NFTs, offers, farming, markets, and everything happening across the chain.
 
-Not just a block explorer. One place where you could understand the entire network — blocks, transactions, tokens, NFTs, offers, farming, markets, and the activity happening across the chain.
-
-Today, we are launching the rebuilt SpaceScan.
-
-It is faster, cleaner, more accurate, and — most importantly — built around a single index of the Chia blockchain.
+Today we are launching the rebuilt SpaceScan. It is faster, cleaner, more accurate, and built around a single index of the Chia blockchain.
 
 <!-- truncate -->
 
 ## We rebuilt the entire thing
 
-Honestly, we could not have built this version of SpaceScan a year ago.
+Honestly, we could not have built this version a year ago. Indexing a blockchain from block zero is one problem, and building an explorer on top of that data is another. Then come wallets, tax reporting, market analytics, farming intelligence, APIs and alerts, plus everything required to make those systems reliable. Normally that takes a funded team and years of engineering.
 
-Indexing a blockchain from block zero is one problem. Building an explorer on top of that data is another. Then come wallets, tax reporting, market analytics, farming intelligence, APIs, alerts, and everything required to make those systems reliable.
+We are a small team. What changed was the tooling.
 
-Normally, that takes a funded team and years of engineering.
+We built this version with **Claude and Fable** working alongside us, using AI as an engineering multiplier. It let a small team take on problems that previously needed a much larger organisation. That is perhaps the most exciting part of this launch for us: the cost of building ambitious software has changed, and a small team can now attempt things that once seemed unrealistic.
 
-We are a small team.
+## The explorer is free, and it will stay free
 
-What changed was the tooling.
-
-We built this version with **Claude and Fable** working alongside us, using AI as an engineering multiplier. It allowed a small team to take on problems that previously required a much larger organization.
-
-That is perhaps the most exciting part of this launch for us.
-
-The cost of building ambitious software has changed.
-
-And that means a small team can attempt things that once seemed completely unrealistic.
-
-## The explorer is free. And it will stay free.
-
-The core SpaceScan explorer is free — and that is not a trial or a limited version.
-
-You can explore:
-
-- Blocks and transactions
-- Addresses and coins
-- Chia tokens
-- NFTs and provenance
-- Offers
-- DEX activity
-- Farming and pools
-- Network statistics
-- Rich lists
-- Converters and more
+The core SpaceScan explorer is free. Not a trial, not a limited version. Blocks and transactions, addresses and coins, tokens, NFTs and provenance, offers, DEX activity, farming and pools, network statistics, rich lists, converters and more.
 
 No account. No API key. No paywall.
 
-If you are curious about what is happening on Chia, you should be able to look.
+If you are curious about what is happening on Chia, you should be able to look. That is the foundation of SpaceScan.
 
-That is the foundation of SpaceScan.
+## What is different this time
 
-## What is different this time?
+We did not just redesign the interface. We went back to the data.
 
-We did not just redesign the interface.
+**Tokens.** Token pages show actual settled trading activity, priced from executed swaps rather than stale snapshots. You can see which direction the trade went, where it happened, and what settled on chain.
 
-We went back to the data.
+**NFTs.** NFT activity is based on settled sales rather than open offers, so you see what was actually paid and the royalty that went with it, plus full provenance from mint through every transfer and sale.
 
-### Tokens
+**Swaps.** TibetSwap and Dexie activity is derived from what the blockchain actually settled, so prices, volumes and trade counts all come from the same data instead of several disconnected sources.
 
-Token pages now show actual settled trading activity, with prices derived from executed swaps rather than relying on stale snapshots.
+The goal is simple: **one chain, one index, one set of numbers.** Then we built the explorer on top of it.
 
-You can see the direction of the trade, where it happened, and what actually settled on-chain.
+## One Pro plan, four products
 
-### NFTs
+We used to sell several products and subscriptions separately. That made sense while each one evolved independently, and it does not make sense anymore. They are now one **SpaceScan Pro** plan.
 
-NFT activity is based on settled sales, not simply open offers.
+**[Wallets](https://wallets.spacescan.io)** tracks any Chia address and tells you the moment it moves, with email and Discord alerts and no node of your own.
 
-You can see what was actually paid, royalties, and the provenance of an NFT — from its mint through subsequent transfers and sales.
+**[Tax](https://wallets.spacescan.io)** generates Chia tax reports with cost basis and disposal calculations, including offers and NFT/CAT activity, calculated from what actually happened on chain rather than a daily average price.
 
-### Swaps
+**[Intel](https://intel.spacescan.io)** is market and network intelligence: entity clustering, trading analysis, wash-trade screening, netspace trends and pool concentration.
 
-TibetSwap and Dexie activity is derived from what the blockchain actually settled.
-
-That means prices, volumes, trade counts, and market activity are built from the same underlying data rather than several disconnected sources.
-
-The goal is simple:
-
-**One chain. One index. One set of numbers.**
-
-And then we built the explorer on top of it.
-
-## One Pro plan. Four products.
-
-We used to have several products and subscriptions.
-
-That made sense as each product evolved independently.
-
-It does not make sense anymore.
-
-So we are bringing them together under one **SpaceScan Pro** plan.
-
-### Wallets
-
-Track any Chia address and get notified when it moves.
-
-Email and Discord alerts, without running your own node.
-
-[Open SpaceScan Wallets →](https://wallets.spacescan.io)
-
-### Tax
-
-Generate Chia tax reports with cost basis and disposal calculations, including offers and NFT/CAT activity.
-
-The goal is to calculate from what actually happened on-chain — not simply apply a daily average price.
-
-[Try Tax →](https://wallets.spacescan.io)
-
-### Intel
-
-Chia market and network intelligence.
-
-Entity clustering, trading analysis, wash-trade screening, netspace trends, pool concentration, and other analytics designed to help you understand what is actually happening across the network.
-
-[Explore SpaceScan Intel →](https://intel.spacescan.io)
-
-### Pro API
-
-The same blockchain index powering SpaceScan, available through an API.
-
-Documented endpoints, predictable limits, and access to the underlying data developers need to build on Chia.
-
-[Explore the Pro API →](/api/getting-started)
+**[Pro API](/api/getting-started)** puts the same index that powers SpaceScan behind an API key, with documented endpoints and predictable limits.
 
 ## Launch price: 1 XCH for an entire year
 
-For the launch, we wanted to do something simple.
+One Pro plan, four products, one year, 1 XCH, paid directly on chain. The regular card price for the same plan is $39/year.
 
-One Pro plan. Four products. One year. 1 XCH.
-
-Paid directly on-chain.
-
-The regular card price for the same plan is $39/year.
-
-The 1 XCH launch price is intentionally temporary.
-
-It is our way of saying thank you to the people who have been using SpaceScan, reporting bugs, challenging our numbers, and helping us build this thing over the years.
-
-When the launch price ends, it ends.
+The 1 XCH launch price is intentionally temporary, and when it ends, it ends.
 
 ## We are here because of you
 
-We want to be plain about this, because it is easy to say and easy to forget.
+SpaceScan exists because of the Chia community, and we want to say that plainly because it is easy to say and easy to forget.
 
-SpaceScan exists because of the Chia community.
-
-Every feature on this site started as somebody asking for it. Every number we corrected, we corrected because somebody looked at a page, said "that does not look right", and took the time to tell us. People have sent us wallet addresses to check, screenshots at midnight, patient explanations of what we had misunderstood about their own project, and more than one message that simply said "this is wrong" — which was exactly what we needed to hear.
+Every feature on this site started as somebody asking for it. Every number we corrected, we corrected because somebody looked at a page, said "that does not look right", and took the time to tell us. People have sent us addresses to check, screenshots at midnight, patient explanations of what we had misunderstood about their own project, and more than one message that simply said "this is wrong", which was exactly what we needed to hear.
 
 Three friends started this on weekends, out of frustration with the explorers that existed. We are still a small team. The reason there is anything here at all is that a community decided to help us build it, and then kept helping for four years.
 
-We do not take that lightly.
-
-Thank you — for the bug reports, the feature requests, the arguments about our numbers, the patience when things broke, and for using something we made.
-
-This launch is for you.
+Thank you for the bug reports, the feature requests, the arguments about our numbers, and the patience when things broke. This launch is for you.
 
 ## Try it, and tell us where we are wrong
 
-Open [spacescan.io](https://spacescan.io), look up something you already know well, and see whether we get it right.
-
-If we do not, we want to hear about it — on [Discord](https://discord.com/invite/Bb4sj3Bg9P) or through the [feedback form](https://spacescan.io/contact-us).
+Open [spacescan.io](https://spacescan.io), look up something you already know well, and see whether we get it right. If we do not, we want to hear about it on [Discord](https://discord.com/invite/Bb4sj3Bg9P) or through the [feedback form](https://spacescan.io/contact-us).
