@@ -1,14 +1,14 @@
 ---
 slug: advertise-on-spacescan
 title: "Advertise on SpaceScan: reach the Chia community, paid in XCH"
-description: Self-serve banner advertising on SpaceScan, at an introductory 1 XCH per day until September 30. Here is exactly how it works, what the review process checks, and how long each step takes.
+description: Self-serve banner advertising on SpaceScan, at an introductory 1 XCH per day until September 30, or by card. Here is exactly how it works, what the review process checks, and how long each step takes.
 tags: [Chia, spacescan, explorer, advertise, marketing, xch]
 authors: [natsabari]
 ---
 
 If you are building something on Chia, the hardest part is often not the building. It is getting the right people to see it.
 
-SpaceScan now has self-serve banner advertising. Pick a size, upload a banner, pay in XCH, and go live. No sales call, no contract, no minimum spend beyond a single month.
+SpaceScan now has self-serve banner advertising. Pick a size, upload a banner, pay in XCH or by card, and go live. No sales call, no contract, no minimum spend beyond a single month.
 
 <!-- truncate -->
 
@@ -29,7 +29,7 @@ Two banner sizes, one shared slot in each, rotating evenly between advertisers.
 
 **Introductory price: 1 XCH per day, so 30 XCH for 30 days.** Same flat rate for both sizes, and it holds until **September 30, 2026**, the same date as our Pro launch offer. After that, banner slots move to our standard rate of $99 a month.
 
-Payment is in XCH, because Chia projects hold coins rather than dollars. If you buy before September 30, you pay the introductory rate for that full month.
+Most Chia projects hold coins rather than dollars, so XCH is the native rail, and the introductory rate lives there: buy before September 30 and you pay 30 XCH for that full month. Prefer a card? Pay the standard $99 by card today, through Stripe.
 
 ## How to buy it, step by step
 
@@ -39,7 +39,7 @@ The whole thing lives at [spacescan.io/advertise](https://spacescan.io/advertise
 2. **Choose your size.** 320 x 100 or 728 x 90.
 3. **Upload your banner.** PNG, JPG, WebP or GIF, up to 4 MB. You will see a preview at the real size before you commit.
 4. **Set your link.** Where the banner should send people.
-5. **Pay in XCH.** We generate a one-time payment address for your order. Send the coins and the payment is picked up as soon as it is seen on-chain.
+5. **Pay.** In XCH, we generate a one-time payment address for your order, and the payment is picked up as soon as it is seen on-chain. By card, Stripe handles checkout.
 6. **We review it.** Usually within a day.
 7. **It goes live.** Your 30 days start when the banner is approved, not when you paid, so time spent in review does not come out of your slot.
 
