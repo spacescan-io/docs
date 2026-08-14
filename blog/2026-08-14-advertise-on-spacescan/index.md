@@ -1,7 +1,7 @@
 ---
 slug: advertise-on-spacescan
 title: "Advertise on SpaceScan: reach the Chia community, paid in XCH"
-description: Self-serve banner advertising on SpaceScan. Pick a size, upload a banner, pay 1 XCH per day in XCH. Here is exactly how it works, what the review process checks, and how long each step takes.
+description: Self-serve banner advertising on SpaceScan, at an introductory 1 XCH per day until September 30. Here is exactly how it works, what the review process checks, and how long each step takes.
 tags: [Chia, spacescan, explorer, advertise, marketing, xch]
 authors: [natsabari]
 ---
@@ -27,7 +27,9 @@ Two banner sizes, one shared slot in each, rotating evenly between advertisers.
 | **320 x 100** | Beside the search on the homepage, and at the top of pages like blocks, rich list, pre-farm, DataLayer, pools and farmers |
 | **728 x 90** | Full-width at the bottom of every page on the explorer, the widest reach we sell |
 
-**Price: 1 XCH per day, so 30 XCH for 30 days.** Same flat price for both sizes. Payment is in XCH, because Chia projects hold coins rather than dollars.
+**Introductory price: 1 XCH per day, so 30 XCH for 30 days.** Same flat rate for both sizes, and it holds until **September 30, 2026**, the same date as our Pro launch offer. After that, banner slots move to our standard rate of $99 a month.
+
+Payment is in XCH, because Chia projects hold coins rather than dollars. If you buy before September 30, you pay the introductory rate for that full month.
 
 ## How to buy it, step by step
 
@@ -59,17 +61,15 @@ Upload a new creative any time. It goes back through review, and here is the par
 
 ## Being straight with you
 
-A few things we would rather say up front than have you discover later.
+**We sell by the month, not by impressions.** Our traffic measurement is still being corrected after the rebuild, and we will not quote an audience number we cannot stand behind.
 
-**We sell by the month, not by impressions.** We are not going to quote you an audience number we cannot stand behind. Our traffic measurement is still being corrected after the rebuild, and selling views we cannot honestly count is worse than selling nothing. You are buying a slot for a month, on a site whose audience you can judge for yourself.
+**The slot is shared.** Banners rotate evenly between advertisers, and our own house banners take one share of that rotation.
 
-**The slot is shared, not exclusive.** Banners rotate evenly between advertisers, so with two advertisers you each get half the views. Our own house banners also take one share of the rotation, which shrinks as more slots sell.
+**We count campaigns, not people.** No profiles, no targeting to buy.
 
-**We count campaigns, not people.** Views and clicks are counted per campaign. We do not build profiles of readers, and there is no targeting to buy, because we are not collecting the data that would make targeting possible.
+**Refunds are manual.** Email us and we will sort it out properly.
 
-**Refunds are manual and case by case.** We are a small team. If something goes wrong, email us and we will sort it out properly, but there is no automated refund button.
-
-**What we will not run:** anything misleading, adult content, or creatives impersonating another project.
+**We will not run** anything misleading, adult, or impersonating another project.
 
 ## A cheaper option, if you just want to be seen
 
